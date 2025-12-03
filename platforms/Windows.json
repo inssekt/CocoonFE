@@ -1,0 +1,105 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "Windows",
+    "uniqueId": "windows",
+    "shortname": "windows",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=1&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=1&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "windows - Winlator CMod",
+      "uniqueId": "windows.winlator.cmod",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.winlator.cmod/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - Winlator CMod Proot",
+      "uniqueId": "windows.winlator.cmodproot",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - Winlator Cmod (Old)",
+      "uniqueId": "windows.winlator.cmod.old",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.winlator/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - MiceWine",
+      "uniqueId": "windows.micewine.emu",
+      "description": "Supported extensions: lnk",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
+      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games)",
+      "uniqueId": "windows.gamehub.lite.local",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - Antutu)",
+      "uniqueId": "windows.gamehub.lite.local.antutu",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - PUBG)",
+      "uniqueId": "windows.gamehub.lite.local.pubg",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - Ludashi)",
+      "uniqueId": "windows.gamehub.lite.ludashi",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

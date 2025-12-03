@@ -1,0 +1,80 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 8,
+  "platform": {
+    "name": "Sega Naomi",
+    "uniqueId": "naomi",
+    "shortname": "naomi",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin|chd)$",
+    "scraperSourceList": [
+      "LIBRETRO:Sega - Naomi",
+      "ARCADE_ITALIA:MAME",
+      "DSESS:GENRES:TAGS(scraperKeyword):http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=%7BscraperKeyword%7D&arcade_only=0&autosearch=1&dsess_selector=div.colonna_sinistra%3Anth-child%281%29+div.table_row%3Anth-child%286%29+span.dettaglio",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      27
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "naomi - com.flycast.emulator",
+      "uniqueId": "naomi.com.flycast.emulator",
+      "description": "Supported extensions: 7z, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
+      "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "naomi - com.flycast.emulator (dev build)",
+      "uniqueId": "naomi.com.flycast.emulator",
+      "description": "Supported extensions: 7z, chd, dat, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
+      "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "naomi - RetroArch 64 - flycast",
+      "uniqueId": "naomi.ra64.flycast",
+      "description": "Supported extensions: 7z, chd, dat, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "naomi - RetroArch 32 - flycast",
+      "uniqueId": "naomi.ra32.flycast",
+      "description": "Supported extensions: 7z, chd, dat, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "naomi - RetroArch - flycast",
+      "uniqueId": "naomi.ra.flycast",
+      "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
