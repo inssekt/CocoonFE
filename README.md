@@ -74,7 +74,7 @@
 
 ---
 
-## Setups** (Optional but recommended):
+## Setups (Optional but recommended):
    - **SteamGridDB**: Get artwork for your games
      - Visit [steamgriddb.com/profile/preferences/api](https://www.steamgriddb.com/profile/preferences/api)
      - Create an API key
