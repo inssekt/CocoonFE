@@ -43,7 +43,7 @@
 
 ### Advanced Display Features
 
-![Screen Swap](screen_swap.gif)
+![Screen Swap](screen_swap_compressed.mp4)
 
 - **External Display Support**: Display game information and launch games to an external display
 - **Display Management**: 
