@@ -42,6 +42,9 @@
 - **Batch Processing**: Scrape entire libraries with progress tracking
 
 ### Advanced Display Features
+
+![Screen Swap](screen_swap.gif)
+
 - **External Display Support**: Display game information and launch games to an external display
 - **Display Management**: 
   - Automatic external display detection
