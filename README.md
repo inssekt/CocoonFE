@@ -65,7 +65,7 @@
 ## Installation
 
 ### Download
-1. Download the latest APK from [Releases](https://github.com/inssekt/Cocoon/releases)
+1. Download the latest APK from [Releases](https://github.com/inssekt/CocoonFE/releases)
 2. Enable "Install from Unknown Sources" in Android settings
 3. Install the APK
 
@@ -103,7 +103,7 @@ The complete platform list is available in [platforms.json](platforms.json).
 
 ## Support
 
-For bug reports and feature requests, please use [GitHub Issues](https://github.com/inssekt/Cocoon/issues) or [Join our Discord](https://discord.gg/ytWHjRuKdS).
+For bug reports and feature requests, please use [GitHub Issues](https://github.com/inssekt/CocoonFE/issues) or [Join our Discord](https://discord.gg/ytWHjRuKdS).
 
 ---
 
