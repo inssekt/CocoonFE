@@ -26,7 +26,7 @@
   },
   "playerList": [
     {
-      "name": "atomiswave - io.recompiled.redream",
+      "name": "io.recompiled.redream",
       "uniqueId": "atomiswave.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
@@ -36,7 +36,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - com.reicast.emulator",
+      "name": "com.reicast.emulator",
       "uniqueId": "atomiswave.com.reicast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
@@ -46,7 +46,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - com.flycast.emulator",
+      "name": "com.flycast.emulator",
       "uniqueId": "atomiswave.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
@@ -56,7 +56,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - com.flycast.emulator (dev build)",
+      "name": "com.flycast.emulator (dev build)",
       "uniqueId": "atomiswave.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
@@ -66,7 +66,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - RetroArch 64 - flycast",
+      "name": "RetroArch (64 bits) - flycast",
       "uniqueId": "atomiswave.ra64.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
@@ -76,7 +76,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - RetroArch 32 - flycast",
+      "name": "RetroArch (32 bits) - flycast",
       "uniqueId": "atomiswave.ra32.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
@@ -86,7 +86,7 @@
       "extra": ""
     },
     {
-      "name": "atomiswave - RetroArch - flycast",
+      "name": "RetroArch - flycast",
       "uniqueId": "atomiswave.ra.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",

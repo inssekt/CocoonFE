@@ -28,7 +28,7 @@
   },
   "playerList": [
     {
-      "name": "ndsi - MelonDS",
+      "name": "MelonDS",
       "uniqueId": "ndsi.me.magnum.melonds",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
@@ -38,7 +38,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - Drastic",
+      "name": "Drastic",
       "uniqueId": "ndsi.com.dsemu.drastic",
       "description": "Supported extensions: bin, nds, rar, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
@@ -48,7 +48,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - MelonDS Nightly",
+      "name": "MelonDS Nightly",
       "uniqueId": "ndsi.me.magnum.melonds.nightly",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
@@ -58,7 +58,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - MelonDS Dev (Dual Screen Fork)",
+      "name": "MelonDS Dev (Dual Screen Fork)",
       "uniqueId": "ndsi.me.magnum.melonds.dev",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
@@ -68,7 +68,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - NooDS",
+      "name": "NooDS",
       "uniqueId": "ndsi.com.hydra.noods",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds)$",
@@ -78,7 +78,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 64 - melonds",
+      "name": "RetroArch (64 bits) - melonds",
       "uniqueId": "ndsi.ra64.melonds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
@@ -88,7 +88,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 64 - melonds ds",
+      "name": "RetroArch (64 bits) - melonds ds",
       "uniqueId": "ndsi.ra64.melondsds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
@@ -98,7 +98,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 64 - desmume",
+      "name": "RetroArch (64 bits) - desmume",
       "uniqueId": "ndsi.ra64.desmume",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
@@ -108,7 +108,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 64 - desmume2015",
+      "name": "RetroArch (64 bits) - desmume2015",
       "uniqueId": "ndsi.ra64.desmume2015",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
@@ -118,7 +118,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 32 - melonds",
+      "name": "RetroArch (32 bits) - melonds",
       "uniqueId": "ndsi.ra32.melonds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
@@ -128,7 +128,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 32 - desmume",
+      "name": "RetroArch (32 bits) - desmume",
       "uniqueId": "ndsi.ra32.desmume",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
@@ -138,7 +138,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch 32 - desmume2015",
+      "name": "RetroArch (32 bits) - desmume2015",
       "uniqueId": "ndsi.ra32.desmume2015",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
@@ -148,7 +148,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch - melonds",
+      "name": "RetroArch - melonds",
       "uniqueId": "ndsi.ra.melonds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
@@ -158,7 +158,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch - melonds ds",
+      "name": "RetroArch - melonds ds",
       "uniqueId": "ndsi.ra.melondsds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
@@ -168,7 +168,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch - desmume",
+      "name": "RetroArch - desmume",
       "uniqueId": "ndsi.ra.desmume",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
@@ -178,7 +178,7 @@
       "extra": ""
     },
     {
-      "name": "ndsi - RetroArch - desmume2015",
+      "name": "RetroArch - desmume2015",
       "uniqueId": "ndsi.ra.desmume2015",
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",

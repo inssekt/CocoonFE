@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "zx81 - RetroArch 64 - 81",
+      "name": "RetroArch (64 bits) - 81",
       "uniqueId": "zx81.ra64.81",
       "description": "Supported extensions: p, t81, tzx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "zx81 - RetroArch 32 - 81",
+      "name": "RetroArch (32 bits) - 81",
       "uniqueId": "zx81.ra32.81",
       "description": "Supported extensions: p, t81, tzx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "zx81 - RetroArch - 81",
+      "name": "RetroArch - 81",
       "uniqueId": "zx81.ra.81",
       "description": "Supported extensions: p, t81, tzx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",

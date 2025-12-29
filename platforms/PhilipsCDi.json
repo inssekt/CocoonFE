@@ -24,7 +24,7 @@
   },
   "playerList": [
     {
-      "name": "cdi - Retroarch 64 - same_cdi",
+      "name": "Retroarch 64 - same_cdi",
       "uniqueId": "cdi.ra64.same_cdi",
       "description": "Supported extensions: cue, chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",
@@ -34,7 +34,7 @@
       "extra": ""
     },
     {
-      "name": "cdi - Retroarch 32 - same_cdi",
+      "name": "Retroarch 32 - same_cdi",
       "uniqueId": "cdi.ra32.same_cdi",
       "description": "Supported extensions: cue, chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",
@@ -44,7 +44,7 @@
       "extra": ""
     },
     {
-      "name": "cdi - Retroarch - same_cdi",
+      "name": "Retroarch - same_cdi",
       "uniqueId": "cdi.ra.same_cdi",
       "description": "Supported extensions: cue, chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",

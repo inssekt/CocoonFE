@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "switch - Skyline",
+      "name": "Skyline",
       "uniqueId": "switch.skyline.emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Strato (Official)",
+      "name": "Strato (Official)",
       "uniqueId": "switch.org.stratoemu.strato",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -42,7 +42,7 @@
       "extra": ""
     },
     {
-      "name": "switch - eden",
+      "name": "Eden",
       "uniqueId": "switch.dev.eden.eden_emulator",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -52,7 +52,17 @@
       "extra": ""
     },
     {
-      "name": "switch - eden (Legacy/Optimized)",
+      "name": "Eden (Legacy)",
+      "uniqueId": "switch.dev.eden.eden_emulator",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "Eden (Optimized)",
       "uniqueId": "switch.dev.eden.eden_emulator_legacy",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -62,7 +72,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Yuzu",
+      "name": "Yuzu",
       "uniqueId": "switch.org.yuzu.yuzu_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -72,7 +82,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Yuzu (early access)",
+      "name": "Yuzu (Early Access)",
       "uniqueId": "switch.org.yuzu.yuzu_emu.ea",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -82,7 +92,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Suyu",
+      "name": "Suyu",
       "uniqueId": "switch.dev.suyu.suyu_emu.relWithDebInfo",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -92,7 +102,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Sudachi (Mainline)",
+      "name": "Sudachi (Mainline)",
       "uniqueId": "switch.org.sudachi.sudachi_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -102,7 +112,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Sudachi (Early Access)",
+      "name": "Sudachi (Early Access)",
       "uniqueId": "switch.org.sudachi.sudachi_emu.ea",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -112,7 +122,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Citron",
+      "name": "Citron",
       "uniqueId": "switch.org.citron.citron_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -122,7 +132,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Kenji-NX",
+      "name": "Kenji-NX",
       "uniqueId": "switch.org.kenjinx.android",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
@@ -132,7 +142,7 @@
       "extra": ""
     },
     {
-      "name": "switch - Benji-SC",
+      "name": "Benji-SC",
       "uniqueId": "switch.org.benjisc.android",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",

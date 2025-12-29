@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "zxspectrum - RetroArch 64 - fuse",
+      "name": "RetroArch (64 bits) - fuse",
       "uniqueId": "zxspectrum.ra64.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "zxspectrum - RetroArch 32 - fuse",
+      "name": "RetroArch (32 bits) - fuse",
       "uniqueId": "zxspectrum.ra32.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "zxspectrum - RetroArch - fuse",
+      "name": "RetroArch - fuse",
       "uniqueId": "zxspectrum.ra.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",

@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "flashback - RetroArch 64 - reminiscence",
+      "name": "RetroArch (64 bits) - reminiscence",
       "uniqueId": "flashback.ra64.reminiscence",
       "description": "Supported extensions: aba, lev, map, seq.",
       "acceptedFilenameRegex": "^(.*)\\.(?:aba|lev|map|seq)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "flashback - RetroArch 32 - reminiscence",
+      "name": "RetroArch (32 bits) - reminiscence",
       "uniqueId": "flashback.ra32.reminiscence",
       "description": "Supported extensions: aba, lev, map, seq.",
       "acceptedFilenameRegex": "^(.*)\\.(?:aba|lev|map|seq)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "flashback - RetroArch - reminiscence",
+      "name": "RetroArch - reminiscence",
       "uniqueId": "flashback.ra.reminiscence",
       "description": "Supported extensions: aba, lev, map, seq.",
       "acceptedFilenameRegex": "^(.*)\\.(?:aba|lev|map|seq)$",

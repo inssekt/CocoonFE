@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "steam - GameHub Lite",
+      "name": "GameHub Lite",
       "uniqueId": "steam.gamehub.lite",
       "description": "GameHub Lite",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "steam - GameHub Lite (Antutu)",
+      "name": "GameHub Lite (Antutu)",
       "uniqueId": "steam.gamehub.lite.antutu",
       "description": "GameHub Lite",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
@@ -42,7 +42,7 @@
       "extra": ""
     },
     {
-      "name": "steam - GameHub Lite (PUBG)",
+      "name": "GameHub Lite (PUBG)",
       "uniqueId": "steam.gamehub.lite.pubg",
       "description": "GameHub Lite",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
@@ -52,7 +52,7 @@
       "extra": ""
     },
     {
-      "name": "steam - GameHub Lite (Ludashi)",
+      "name": "GameHub Lite (Ludashi)",
       "uniqueId": "steam.gamehub.lite.ludashi",
       "description": "GameHub Lite",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
@@ -62,7 +62,7 @@
       "extra": ""
     },
     {
-      "name": "steam - GameNative",
+      "name": "GameNative",
       "uniqueId": "steam.app.gamenative",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",

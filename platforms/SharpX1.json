@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "x1 - RetroArch 64 - x1",
+      "name": "RetroArch (64 bits) - x1",
       "uniqueId": "x1.ra64.x1",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "x1 - RetroArch 32 - x1",
+      "name": "RetroArch (32 bits) - x1",
       "uniqueId": "x1.ra32.x1",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "x1 - RetroArch - x1",
+      "name": "RetroArch - x1",
       "uniqueId": "x1.ra.x1",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",

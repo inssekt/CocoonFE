@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "snesmsu1 - com.explusalpha.Snes9xPlus",
+      "name": "com.explusalpha.Snes9xPlus",
       "uniqueId": "snesmsu1.com.explusalpha.Snes9xPlus",
       "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 64 - snes9x",
+      "name": "RetroArch (64 bits) - snes9x",
       "uniqueId": "snesmsu1.ra64.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 64 - bsnes",
+      "name": "RetroArch (64 bits) - bsnes",
       "uniqueId": "snesmsu1.ra64.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 64 - bsnes_hd_beta",
+      "name": "RetroArch (64 bits) - bsnes_hd_beta",
       "uniqueId": "snesmsu1.ra64.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 64 - mesen-s",
+      "name": "RetroArch (64 bits) - mesen-s",
       "uniqueId": "snesmsu1.ra64.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 32 - snes9x",
+      "name": "RetroArch (32 bits) - snes9x",
       "uniqueId": "snesmsu1.ra32.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 32 - bsnes",
+      "name": "RetroArch (32 bits) - bsnes",
       "uniqueId": "snesmsu1.ra32.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 32 - bsnes_hd_beta",
+      "name": "RetroArch (32 bits) - bsnes_hd_beta",
       "uniqueId": "snesmsu1.ra32.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch 32 - mesen-s",
+      "name": "RetroArch (32 bits) - mesen-s",
       "uniqueId": "snesmsu1.ra32.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch - snes9x",
+      "name": "RetroArch - snes9x",
       "uniqueId": "snesmsu1.ra.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch - bsnes",
+      "name": "RetroArch - bsnes",
       "uniqueId": "snesmsu1.ra.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -137,7 +137,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch - bsnes_hd_beta",
+      "name": "RetroArch - bsnes_hd_beta",
       "uniqueId": "snesmsu1.ra.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
@@ -147,7 +147,7 @@
       "extra": ""
     },
     {
-      "name": "snesmsu1 - RetroArch - mesen-s",
+      "name": "RetroArch - mesen-s",
       "uniqueId": "snesmsu1.ra.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",

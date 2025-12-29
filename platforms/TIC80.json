@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "tic80 - RetroArch 64 - tic80",
+      "name": "RetroArch (64 bits) - tic80",
       "uniqueId": "tic80.ra64.tic80",
       "description": "Supported extensions: tic.",
       "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",
@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "tic80 - RetroArch 32 - tic80",
+      "name": "RetroArch (32 bits) - tic80",
       "uniqueId": "tic80.ra32.tic80",
       "description": "Supported extensions: tic.",
       "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "tic80 - RetroArch - tic80",
+      "name": "RetroArch - tic80",
       "uniqueId": "tic80.ra.tic80",
       "description": "Supported extensions: tic.",
       "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",

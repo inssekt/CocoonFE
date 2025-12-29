@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "satellaview - com.explusalpha.Snes9xPlus",
+      "name": "com.explusalpha.Snes9xPlus",
       "uniqueId": "satellaview.com.explusalpha.Snes9xPlus",
       "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - snes9x",
+      "name": "RetroArch (64 bits) - snes9x",
       "uniqueId": "satellaview.ra64.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - mednafen_supafaust",
+      "name": "RetroArch (64 bits) - mednafen_supafaust",
       "uniqueId": "satellaview.ra64.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - mednafen_snes",
+      "name": "RetroArch (64 bits) - mednafen_snes",
       "uniqueId": "satellaview.ra64.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - snes9x2002",
+      "name": "RetroArch (64 bits) - snes9x2002",
       "uniqueId": "satellaview.ra64.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - snes9x2005_plus",
+      "name": "RetroArch (64 bits) - snes9x2005_plus",
       "uniqueId": "satellaview.ra64.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - snes9x2005",
+      "name": "RetroArch (64 bits) - snes9x2005",
       "uniqueId": "satellaview.ra64.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -91,7 +91,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - snes9x2010",
+      "name": "RetroArch (64 bits) - snes9x2010",
       "uniqueId": "satellaview.ra64.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -101,7 +101,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - bsnes",
+      "name": "RetroArch (64 bits) - bsnes",
       "uniqueId": "satellaview.ra64.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|gb|gbc|sfc|smc|zip|7z)$",
@@ -111,7 +111,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 64 - mesen-s",
+      "name": "RetroArch (64 bits) - mesen-s",
       "uniqueId": "satellaview.ra64.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|sfc|smc|fig|swc|zip|7z)$",
@@ -121,7 +121,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - snes9x",
+      "name": "RetroArch (32 bits) - snes9x",
       "uniqueId": "satellaview.ra32.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -131,7 +131,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - mednafen_supafaust",
+      "name": "RetroArch (32 bits) - mednafen_supafaust",
       "uniqueId": "satellaview.ra32.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -141,7 +141,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - mednafen_snes",
+      "name": "RetroArch (32 bits) - mednafen_snes",
       "uniqueId": "satellaview.ra32.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
@@ -151,7 +151,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - snes9x2002",
+      "name": "RetroArch (32 bits) - snes9x2002",
       "uniqueId": "satellaview.ra32.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -161,7 +161,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - snes9x2005_plus",
+      "name": "RetroArch (32 bits) - snes9x2005_plus",
       "uniqueId": "satellaview.ra32.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -171,7 +171,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - snes9x2005",
+      "name": "RetroArch (32 bits) - snes9x2005",
       "uniqueId": "satellaview.ra32.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -181,7 +181,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - snes9x2010",
+      "name": "RetroArch (32 bits) - snes9x2010",
       "uniqueId": "satellaview.ra32.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -191,7 +191,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - bsnes",
+      "name": "RetroArch (32 bits) - bsnes",
       "uniqueId": "satellaview.ra32.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|gb|gbc|sfc|smc|zip|7z)$",
@@ -201,7 +201,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch 32 - mesen-s",
+      "name": "RetroArch (32 bits) - mesen-s",
       "uniqueId": "satellaview.ra32.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|sfc|smc|fig|swc|zip|7z)$",
@@ -211,7 +211,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - snes9x",
+      "name": "RetroArch - snes9x",
       "uniqueId": "satellaview.ra.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
@@ -221,7 +221,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - mednafen_supafaust",
+      "name": "RetroArch - mednafen_supafaust",
       "uniqueId": "satellaview.ra.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -231,7 +231,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - mednafen_snes",
+      "name": "RetroArch - mednafen_snes",
       "uniqueId": "satellaview.ra.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
@@ -241,7 +241,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - snes9x2002",
+      "name": "RetroArch - snes9x2002",
       "uniqueId": "satellaview.ra.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -251,7 +251,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - snes9x2005_plus",
+      "name": "RetroArch - snes9x2005_plus",
       "uniqueId": "satellaview.ra.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -261,7 +261,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - snes9x2005",
+      "name": "RetroArch - snes9x2005",
       "uniqueId": "satellaview.ra.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -271,7 +271,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - snes9x2010",
+      "name": "RetroArch - snes9x2010",
       "uniqueId": "satellaview.ra.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
@@ -281,7 +281,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - bsnes",
+      "name": "RetroArch - bsnes",
       "uniqueId": "satellaview.ra.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|gb|gbc|sfc|smc|zip|7z)$",
@@ -291,7 +291,7 @@
       "extra": ""
     },
     {
-      "name": "satellaview - RetroArch - mesen-s",
+      "name": "RetroArch - mesen-s",
       "uniqueId": "satellaview.ra.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|sfc|smc|fig|swc|zip|7z)$",

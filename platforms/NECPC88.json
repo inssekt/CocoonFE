@@ -24,7 +24,7 @@
   },
   "playerList": [
     {
-      "name": "pc88 - Retroarch 64 - quasi88",
+      "name": "Retroarch 64 - quasi88",
       "uniqueId": "pc88.ra64.quasi88",
       "description": "Supported extensions: d88, m3u, u88.",
       "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",
@@ -34,7 +34,7 @@
       "extra": ""
     },
     {
-      "name": "pc88 - Retroarch 32 - quasi88",
+      "name": "Retroarch 32 - quasi88",
       "uniqueId": "pc88.ra32.quasi88",
       "description": "Supported extensions: d88, m3u, u88.",
       "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",
@@ -44,7 +44,7 @@
       "extra": ""
     },
     {
-      "name": "pc88 - Retroarch - quasi88",
+      "name": "Retroarch - quasi88",
       "uniqueId": "pc88.ra.quasi88",
       "description": "Supported extensions: d88, m3u, u88.",
       "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",

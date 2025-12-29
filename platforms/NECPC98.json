@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "pc98 - Retroarch 64 - np2kai",
+      "name": "Retroarch 64 - np2kai",
       "uniqueId": "pc98.ra64.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "pc98 - Retroarch 64 - nekop2",
+      "name": "Retroarch 64 - nekop2",
       "uniqueId": "pc98.ra64.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:cue|2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "pc98 - Retroarch 32 - np2kai",
+      "name": "Retroarch 32 - np2kai",
       "uniqueId": "pc98.ra32.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "pc98 - Retroarch 32 - nekop2",
+      "name": "Retroarch 32 - nekop2",
       "uniqueId": "pc98.ra32.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "pc98 - Retroarch - np2kai",
+      "name": "Retroarch - np2kai",
       "uniqueId": "pc98.ra.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "pc98 - Retroarch - nekop2",
+      "name": "Retroarch - nekop2",
       "uniqueId": "pc98.ra.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",

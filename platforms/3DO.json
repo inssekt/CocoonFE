@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "3do - RetroArch 64 - opera",
+      "name": "RetroArch (64 bits) - opera",
       "uniqueId": "3do.ra64.opera",
       "description": "Supported extensions: bin, chd, cue, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue|iso)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "3do - RetroArch 32 - opera",
+      "name": "RetroArch (32 bits) - opera",
       "uniqueId": "3do.ra32.opera",
       "description": "Supported extensions: bin, chd, cue, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue|iso)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "3do - RetroArch - opera",
+      "name": "RetroArch - opera",
       "uniqueId": "3do.ra.opera",
       "description": "Supported extensions: bin, chd, cue, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue|iso)$",

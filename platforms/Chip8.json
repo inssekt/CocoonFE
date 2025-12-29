@@ -19,7 +19,7 @@
   },
   "playerList": [
     {
-      "name": "chip8 - RetroArch 64 - jaxe",
+      "name": "RetroArch (64 bits) - jaxe",
       "uniqueId": "chip8.ra64.jaxe",
       "description": "Supported extensions: bin, ch8, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ch8|zip)$",
@@ -29,7 +29,7 @@
       "extra": ""
     },
     {
-      "name": "chip8 - RetroArch 32 - jaxe",
+      "name": "RetroArch (32 bits) - jaxe",
       "uniqueId": "chip8.ra32.jaxe",
       "description": "Supported extensions: bin, ch8, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ch8|zip)$",
@@ -39,7 +39,7 @@
       "extra": ""
     },
     {
-      "name": "chip8 - RetroArch - jaxe",
+      "name": "RetroArch - jaxe",
       "uniqueId": "chip8.ra.jaxe",
       "description": "Supported extensions: bin, ch8, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ch8|zip)$",

@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "gba - Pizza Boy GBA Basic",
+      "name": "Pizza Boy GBA Basic",
       "uniqueId": "gba.it.dbtecno.pizzaboygba",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "gba - Pizza Boy A Pro",
+      "name": "Pizza Boy A Pro",
       "uniqueId": "gba.it.dbtecno.pizzaboygbapro",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "gba - SkyEmu",
+      "name": "SkyEmu",
       "uniqueId": "gba.com.sky.SkyEmu",
       "description": "Supported extensions: gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "gba - com.explusalpha.GbaEmu",
+      "name": "com.explusalpha.GbaEmu",
       "uniqueId": "gba.com.explusalpha.GbaEmu",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "gba - com.fastemulator.gbafree",
+      "name": "com.fastemulator.gbafree",
       "uniqueId": "gba.com.fastemulator.gbafree",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "gba - com.fastemulator.gba",
+      "name": "com.fastemulator.gba",
       "uniqueId": "gba.com.fastemulator.gba",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "gba - Linkboy",
+      "name": "Linkboy",
       "uniqueId": "gba.com.pixelrespawn.linkboy",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - vba_next",
+      "name": "RetroArch (64 bits) - vba_next",
       "uniqueId": "gba.ra64.vba_next",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - vbam",
+      "name": "RetroArch (64 bits) - vbam",
       "uniqueId": "gba.ra64.vbam",
       "description": "Supported extensions: cgb, dmg, gb, gba, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gba|gbc|sgb|zip|7z)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - mgba",
+      "name": "RetroArch (64 bits) - mgba",
       "uniqueId": "gba.ra64.mgba",
       "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc|zip|7z)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - mednafen_gba",
+      "name": "RetroArch (64 bits) - mednafen_gba",
       "uniqueId": "gba.ra64.mednafen_gba",
       "description": "Supported extensions: agb, bin, gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|gba|zip|7z)$",
@@ -137,7 +137,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - meteor",
+      "name": "RetroArch (64 bits) - meteor",
       "uniqueId": "gba.ra64.meteor",
       "description": "Supported extensions: gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
@@ -147,7 +147,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 64 - gpsp",
+      "name": "RetroArch (64 bits) - gpsp",
       "uniqueId": "gba.ra64.gpsp",
       "description": "Supported extensions: bin, gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
@@ -157,7 +157,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - vba_next",
+      "name": "RetroArch (32 bits) - vba_next",
       "uniqueId": "gba.ra32.vba_next",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
@@ -167,7 +167,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - vbam",
+      "name": "RetroArch (32 bits) - vbam",
       "uniqueId": "gba.ra32.vbam",
       "description": "Supported extensions: cgb, dmg, gb, gba, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gba|gbc|sgb|zip|7z)$",
@@ -177,7 +177,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - mgba",
+      "name": "RetroArch (32 bits) - mgba",
       "uniqueId": "gba.ra32.mgba",
       "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc|zip|7z)$",
@@ -187,7 +187,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - mednafen_gba",
+      "name": "RetroArch (32 bits) - mednafen_gba",
       "uniqueId": "gba.ra32.mednafen_gba",
       "description": "Supported extensions: agb, bin, gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|gba|zip|7z)$",
@@ -197,7 +197,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - meteor",
+      "name": "RetroArch (32 bits) - meteor",
       "uniqueId": "gba.ra32.meteor",
       "description": "Supported extensions: gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
@@ -207,7 +207,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch 32 - gpsp",
+      "name": "RetroArch (32 bits) - gpsp",
       "uniqueId": "gba.ra32.gpsp",
       "description": "Supported extensions: bin, gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
@@ -217,7 +217,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - vba_next",
+      "name": "RetroArch - vba_next",
       "uniqueId": "gba.ra.vba_next",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
@@ -227,7 +227,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - vbam",
+      "name": "RetroArch - vbam",
       "uniqueId": "gba.ra.vbam",
       "description": "Supported extensions: cgb, dmg, gb, gba, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gba|gbc|sgb|zip|7z)$",
@@ -237,7 +237,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - mgba",
+      "name": "RetroArch - mgba",
       "uniqueId": "gba.ra.mgba",
       "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc|zip|7z)$",
@@ -247,7 +247,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - mednafen_gba",
+      "name": "RetroArch - mednafen_gba",
       "uniqueId": "gba.ra.mednafen_gba",
       "description": "Supported extensions: agb, bin, gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|gba|zip|7z)$",
@@ -257,7 +257,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - gpsp",
+      "name": "RetroArch - gpsp",
       "uniqueId": "gba.ra.gpsp",
       "description": "Supported extensions: bin, gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
@@ -267,7 +267,7 @@
       "extra": ""
     },
     {
-      "name": "gba - RetroArch - meteor",
+      "name": "RetroArch - meteor",
       "uniqueId": "gba.ra.meteor",
       "description": "Supported extensions: gba.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",

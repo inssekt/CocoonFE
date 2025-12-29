@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "wasm4 - RetroArch 64 - wasm4",
+      "name": "RetroArch (64 bits) - wasm4",
       "uniqueId": "wasm4.ra64.wasm4",
       "description": "Supported extensions: wasm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:wasm)$",
@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "wasm4 - RetroArch 32 - wasm4",
+      "name": "RetroArch (32 bits) - wasm4",
       "uniqueId": "wasm4.ra32.wasm4",
       "description": "Supported extensions: wasm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:wasm)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "wasm4 - RetroArch - wasm4",
+      "name": "RetroArch - wasm4",
       "uniqueId": "wasm4.ra.wasm4",
       "description": "Supported extensions: wasm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:wasm)$",

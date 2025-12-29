@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "jaguar - IrataJaguar",
+      "name": "IrataJaguar",
       "uniqueId": "jaguar.ru.vastness.altmer.iratajaguar",
       "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "jaguar - RetroArch 64 - Virtual Jaguar",
+      "name": "RetroArch (64 bits) - Virtual Jaguar",
       "uniqueId": "jaguar.ra64.virtualjaguar",
       "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "jaguar - RetroArch 32 - Virtual Jaguar",
+      "name": "RetroArch (32 bits) - Virtual Jaguar",
       "uniqueId": "jaguar.ra32.virtualjaguar",
       "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "jaguar - RetroArch - Virtual Jaguar",
+      "name": "RetroArch - Virtual Jaguar",
       "uniqueId": "jaguar.ra.virtualjaguar",
       "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",

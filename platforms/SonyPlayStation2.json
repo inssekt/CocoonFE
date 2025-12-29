@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "ps2 - Aethersx2",
+      "name": "Aethersx2",
       "uniqueId": "ps2.xyz.aethersx2.android",
       "description": "Supported extensions: iso, chd, gz, mdf.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - Aethersx2 Turnip",
+      "name": "Aethersx2 Turnip",
       "uniqueId": "ps2.xyz.aethersx2.custom",
       "description": "Supported extensions: iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - ARMSX2",
+      "name": "ARMSX2",
       "uniqueId": "ps2.come.nanodata.armsx2",
       "description": "Supported extensions: iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin|ciso|img)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - ARMSX2 (Nightly)",
+      "name": "ARMSX2 (Nightly)",
       "uniqueId": "ps2.com.nanodata.armsx2.debug",
       "description": "Supported extensions: iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin|ciso|img)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - RetroArch 64 - play",
+      "name": "RetroArch (64 bits) - play",
       "uniqueId": "ps2.ra64.play",
       "description": "Supported extensions: bin, cso, elf, iso, isz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cso|elf|iso|isz)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - RetroArch 32 - play",
+      "name": "RetroArch (32 bits) - play",
       "uniqueId": "ps2.ra32.play",
       "description": "Supported extensions: bin, cso, elf, iso, isz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cso|elf|iso|isz)$",
@@ -85,7 +85,7 @@
       "extra": ""
     },
     {
-      "name": "ps2 - RetroArch - play",
+      "name": "RetroArch - play",
       "uniqueId": "ps2.ra.play",
       "description": "Supported extensions: bin, cso, elf, iso, isz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cso|elf|iso|isz)$",

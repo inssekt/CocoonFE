@@ -19,7 +19,7 @@
   },
   "playerList": [
     {
-      "name": "palm - RetroArch 64 - mu",
+      "name": "RetroArch (64 bits) - mu",
       "uniqueId": "palm.ra64.mu",
       "description": "Supported extensions: img, pdb, pqa, prc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:img|pdb|pqa|prc)$",
@@ -29,7 +29,7 @@
       "extra": ""
     },
     {
-      "name": "palm - RetroArch 32 - mu",
+      "name": "RetroArch (32 bits) - mu",
       "uniqueId": "palm.ra32.mu",
       "description": "Supported extensions: img, pdb, pqa, prc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:img|pdb|pqa|prc)$",
@@ -39,7 +39,7 @@
       "extra": ""
     },
     {
-      "name": "palm - RetroArch - mu",
+      "name": "RetroArch - mu",
       "uniqueId": "palm.ra.mu",
       "description": "Supported extensions: img, pdb, pqa, prc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:img|pdb|pqa|prc)$",

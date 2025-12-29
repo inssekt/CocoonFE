@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "artemis",
+      "name": "Artemis",
       "uniqueId": "moonlight.com.limelight.noir",
       "description": "Supported extensions: art",
       "acceptedFilenameRegex": "^(.*)\\.(?:art)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "moonlight",
+      "name": "Moonlight",
       "uniqueId": "moonlight.com.limelight",
       "description": "Supported extensions: moonlight",
       "acceptedFilenameRegex": "^(.*)\\.(?:moonlight)$",

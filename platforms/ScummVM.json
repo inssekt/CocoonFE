@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "scummvm - scummvm",
+      "name": "scummvm",
       "uniqueId": "scummvm.org.scummvm.scummvm",
       "description": "Supported extensions: dpt",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "scummvm - scummvm debug build",
+      "name": "scummvm debug build",
       "uniqueId": "scummvm.org.scummvm.scummvm.debug",
       "description": "Supported extensions: dpt",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "scummvm - RetroArch 64 - scummvm",
+      "name": "RetroArch (64 bits) - scummvm",
       "uniqueId": "scummvm.ra64.scummvm",
       "description": "Supported extensions: sh, svm, scummvm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "scummvm - RetroArch 32 - scummvm",
+      "name": "RetroArch (32 bits) - scummvm",
       "uniqueId": "scummvm.ra32.scummvm",
       "description": "Supported extensions: sh, svm, scummvm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "scummvm - RetroArch - scummvm",
+      "name": "RetroArch - scummvm",
       "uniqueId": "scummvm.ra.scummvm",
       "description": "Supported extensions: sh, svm, scummvm.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",

@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "nxengine - RetroArch 64 - nxengine",
+      "name": "RetroArch (64 bits) - nxengine",
       "uniqueId": "cavestory.ra64.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch 64 - drs",
+      "name": "RetroArch (64 bits) - drs",
       "uniqueId": "cavestory.ra64.drs",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch 32 - nxengine",
+      "name": "RetroArch (32 bits) - nxengine",
       "uniqueId": "cavestory.ra32.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch 32 - drs",
+      "name": "RetroArch (32 bits) - nxengine",
       "uniqueId": "cavestory.ra32.drs",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch - nxengine",
+      "name": "RetroArch - nxengine",
       "uniqueId": "cavestory.ra.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch - drs",
+      "name": "RetroArch - drs",
       "uniqueId": "cavestory.ra.drs",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",

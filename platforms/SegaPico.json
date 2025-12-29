@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "pico - RetroArch 64 - picodrive",
+      "name": "RetroArch (64 bits) - picodrive",
       "uniqueId": "pico.ra64.picodrive",
       "description": "Supported extensions: md, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "pico - RetroArch 32 - picodrive",
+      "name": "RetroArch (32 bits) - picodrive",
       "uniqueId": "pico.ra32.picodrive",
       "description": "Supported extensions: md, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "pico - RetroArch - picodrive",
+      "name": "RetroArch - picodrive",
       "uniqueId": "pico.ra.picodrive",
       "description": "Supported extensions: md, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",

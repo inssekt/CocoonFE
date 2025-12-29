@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "pokemini - RetroArch 64 - pokemini",
+      "name": "RetroArch (64 bits) - pokemini",
       "uniqueId": "pokemini.ra64.pokemini",
       "description": "Supported extensions: min.",
       "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "pokemini - RetroArch 32 - pokemini",
+      "name": "RetroArch (32 bits) - pokemini",
       "uniqueId": "pokemini.ra32.pokemini",
       "description": "Supported extensions: min.",
       "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "pokemini - RetroArch - pokemini",
+      "name": "RetroArch - pokemini",
       "uniqueId": "pokemini.ra.pokemini",
       "description": "Supported extensions: min.",
       "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",

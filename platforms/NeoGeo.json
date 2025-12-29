@@ -31,7 +31,7 @@
   },
   "playerList": [
     {
-      "name": "neogeo - NEO.EMU",
+      "name": "NEO.EMU",
       "uniqueId": "neogeo.com.explusalpha.NeoEmu",
       "description": "Supported extensions: zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 64 - fbneo",
+      "name": "RetroArch (64 bits) - fbneo",
       "uniqueId": "neogeo.ra64.fbneo",
       "description": "Supported extensions: zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 64 - fbalpha 2012",
+      "name": "RetroArch (64 bits) - fbalpha 2012",
       "uniqueId": "neogeo.ra64.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 64 - geolith",
+      "name": "RetroArch (64 bits) - geolith",
       "uniqueId": "neogeo.ra64.geolith",
       "description": "Supported extensions: neo.",
       "acceptedFilenameRegex": "^(.*)\\.(?:neo)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 32 - fbneo",
+      "name": "RetroArch (32 bits) - fbneo",
       "uniqueId": "neogeo.ra32.fbneo",
       "description": "Supported extensions: zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 32 - fbalpha 2012",
+      "name": "RetroArch (32 bits) - fbalpha 2012",
       "uniqueId": "neogeo.ra32.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",
@@ -91,7 +91,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch 32 - geolith",
+      "name": "RetroArch (32 bits) - geolith",
       "uniqueId": "neogeo.ra32.geolith",
       "description": "Supported extensions: neo.",
       "acceptedFilenameRegex": "^(.*)\\.(?:neo)$",
@@ -101,7 +101,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch - fbneo",
+      "name": "RetroArch - fbneo",
       "uniqueId": "neogeo.ra.fbneo",
       "description": "Supported extensions: zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
@@ -111,7 +111,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch - fbalpha 2012",
+      "name": "RetroArch - fbalpha 2012",
       "uniqueId": "neogeo.ra.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",
@@ -121,7 +121,7 @@
       "extra": ""
     },
     {
-      "name": "neogeo - RetroArch - geolith",
+      "name": "RetroArch - geolith",
       "uniqueId": "neogeo.ra.geolith",
       "description": "Supported extensions: neo.",
       "acceptedFilenameRegex": "^(.*)\\.(?:neo)$",

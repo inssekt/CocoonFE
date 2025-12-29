@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "cpc - RetroArch 64 - crocods",
+      "name": "RetroArch (64 bits) - crocods",
       "uniqueId": "cpc.ra64.crocods",
       "description": "Supported extensions: dsk, kcr, sna.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "cpc - RetroArch 64 - cap32",
+      "name": "RetroArch (64 bits) - cap32",
       "uniqueId": "cpc.ra64.cap32",
       "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "cpc - RetroArch 32 - crocods",
+      "name": "RetroArch (32 bits) - crocods",
       "uniqueId": "cpc.ra32.crocods",
       "description": "Supported extensions: dsk, kcr, sna.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "cpc - RetroArch 32 - cap32",
+      "name": "RetroArch (32 bits) - cap32",
       "uniqueId": "cpc.ra32.cap32",
       "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "cpc - RetroArch - crocods",
+      "name": "RetroArch - crocods",
       "uniqueId": "cpc.ra.crocods",
       "description": "Supported extensions: dsk, kcr, sna.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "cpc - RetroArch - cap32",
+      "name": "RetroArch - cap32",
       "uniqueId": "cpc.ra.cap32",
       "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",

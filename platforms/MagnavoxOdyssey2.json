@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "odyssey2 - RetroArch 64 - o2em",
+      "name": "RetroArch (64 bits) - o2em",
       "uniqueId": "odyssey2.ra64.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "odyssey2 - RetroArch 32 - o2em",
+      "name": "RetroArch (32 bits) - o2em",
       "uniqueId": "odyssey2.ra32.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "odyssey2 - RetroArch - o2em",
+      "name": "RetroArch - o2em",
       "uniqueId": "odyssey2.ra.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",

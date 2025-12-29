@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "lowresnx - RetroArch 64 - lowresnx",
+      "name": "RetroArch (64 bits) - lowresnx",
       "uniqueId": "lowresnx.ra64.lowresnx",
       "description": "Supported extensions: nx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nx|zip)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "lowresnx - RetroArch 32 - lowresnx",
+      "name": "RetroArch (32 bits) - lowresnx",
       "uniqueId": "lowresnx.ra32.lowresnx",
       "description": "Supported extensions: nx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nx|zip)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "lowresnx - RetroArch - lowresnx",
+      "name": "RetroArch - lowresnx",
       "uniqueId": "lowresnx.ra.lowresnx",
       "description": "Supported extensions: nx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nx|zip)$",

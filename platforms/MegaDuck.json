@@ -24,7 +24,7 @@
   },
   "playerList": [
     {
-      "name": "megaduck - RetroArch 64 - sameduck",
+      "name": "RetroArch (64 bits) - sameduck",
       "uniqueId": "megaduck.ra64.sameduck",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",
@@ -34,7 +34,7 @@
       "extra": ""
     },
     {
-      "name": "megaduck - RetroArch 32 - sameduck",
+      "name": "RetroArch (32 bits) - sameduck",
       "uniqueId": "megaduck.ra32.sameduck",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",
@@ -44,7 +44,7 @@
       "extra": ""
     },
     {
-      "name": "megaduck - RetroArch - sameduck",
+      "name": "RetroArch - sameduck",
       "uniqueId": "megaduck.ra.sameduck",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",

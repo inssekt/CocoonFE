@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "intellivision - RetroArch 64 - freeintv",
+      "name": "RetroArch (64 bits) - freeintv",
       "uniqueId": "intellivision.ra64.freeintv",
       "description": "Supported extensions: bin, int, rom, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|int|rom|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "intellivision - RetroArch 32 - freeintv",
+      "name": "RetroArch (32 bits) - freeintv",
       "uniqueId": "intellivision.ra32.freeintv",
       "description": "Supported extensions: bin, int, rom, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|int|rom|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "intellivision - RetroArch - freeintv",
+      "name": "RetroArch - freeintv",
       "uniqueId": "intellivision.ra.freeintv",
       "description": "Supported extensions: bin, int, rom, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|int|rom|zip|7z)$",

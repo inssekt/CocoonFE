@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "atarist - RetroArch 64 - hatari",
+      "name": "RetroArch (64 bits) - hatari",
       "uniqueId": "atarist.ra64.hatari",
       "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "atarist - RetroArch 32 - hatari",
+      "name": "RetroArch (32 bits) - hatari",
       "uniqueId": "atarist.ra32.hatari",
       "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "atarist - RetroArch - hatari",
+      "name": "RetroArch - hatari",
       "uniqueId": "atarist.ra.hatari",
       "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",

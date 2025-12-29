@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "master - com.explusalpha.MdEmu",
+      "name": "com.explusalpha.MdEmu",
       "uniqueId": "master.com.explusalpha.MdEmu",
       "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "master - Pizza Boy SC Pro",
+      "name": "Pizza Boy SC Pro",
       "uniqueId": "master.it.dbtecno.pizzaboyscpro",
       "description": "Supported extensions: sms, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|zip)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 64 - genesis_plus_gx",
+      "name": "RetroArch (64 bits) - genesis_plus_gx",
       "uniqueId": "master.ra64.genesis_plus_gx",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 64 - genesis_plus_gx_wide",
+      "name": "RetroArch (64 bits) - genesis_plus_gx_wide",
       "uniqueId": "master.ra64.genesis_plus_gx_wide",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 64 - smsplus",
+      "name": "RetroArch (64 bits) - smsplus",
       "uniqueId": "master.ra64.smsplus",
       "description": "Supported extensions: bin, col, gg, rom, sg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|col|gg|rom|sg|sms|zip|7z)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 64 - picodrive",
+      "name": "RetroArch (64 bits) - picodrive",
       "uniqueId": "master.ra64.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 64 - gearsystem",
+      "name": "RetroArch (64 bits) - gearsystem",
       "uniqueId": "master.ra64.gearsystem",
       "description": "Supported extensions: sms, gg, sg, bin, rom, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 32 - genesis_plus_gx",
+      "name": "RetroArch (32 bits) - genesis_plus_gx",
       "uniqueId": "master.ra32.genesis_plus_gx",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 32 - genesis_plus_gx_wide",
+      "name": "RetroArch (32 bits) - genesis_plus_gx_wide",
       "uniqueId": "master.ra32.genesis_plus_gx_wide",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 32 - smsplus",
+      "name": "RetroArch (32 bits) - smsplus",
       "uniqueId": "master.ra32.smsplus",
       "description": "Supported extensions: bin, col, gg, rom, sg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|col|gg|rom|sg|sms|zip|7z)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 32 - picodrive",
+      "name": "RetroArch (32 bits) - picodrive",
       "uniqueId": "master.ra32.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
@@ -137,7 +137,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch 32 - gearsystem",
+      "name": "RetroArch (32 bits) - gearsystem",
       "uniqueId": "master.ra32.gearsystem",
       "description": "Supported extensions: sms, gg, sg, bin, rom, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
@@ -147,7 +147,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch - genesis_plus_gx",
+      "name": "RetroArch - genesis_plus_gx",
       "uniqueId": "master.ra.genesis_plus_gx",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -157,7 +157,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch - genesis_plus_gx_wide",
+      "name": "RetroArch - genesis_plus_gx_wide",
       "uniqueId": "master.ra.genesis_plus_gx_wide",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
@@ -167,7 +167,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch - smsplus",
+      "name": "RetroArch - smsplus",
       "uniqueId": "master.ra.smsplus",
       "description": "Supported extensions: bin, col, gg, rom, sg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|col|gg|rom|sg|sms|zip|7z)$",
@@ -177,7 +177,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch - picodrive",
+      "name": "RetroArch - picodrive",
       "uniqueId": "master.ra.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
@@ -187,7 +187,7 @@
       "extra": ""
     },
     {
-      "name": "master - RetroArch - gearsystem",
+      "name": "RetroArch - gearsystem",
       "uniqueId": "master.ra.gearsystem",
       "description": "Supported extensions: sms, gg, sg, bin, rom, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",

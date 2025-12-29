@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "x68000 - RetroArch 64 - px68k",
+      "name": "RetroArch (64 bits) - px68k",
       "uniqueId": "x68000.ra64.px68k",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "x68000 - RetroArch 32 - px68k",
+      "name": "RetroArch (32 bits) - px68k",
       "uniqueId": "x68000.ra32.px68k",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "x68000 - RetroArch - px68k",
+      "name": "RetroArch - px68k",
       "uniqueId": "x68000.ra.px68k",
       "description": "Supported extensions: 2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:2hd|88d|cmd|d88|dim|dup|hdf|hdm|img|m3u|xdf|zip|7z)$",

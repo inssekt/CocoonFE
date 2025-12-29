@@ -1,27 +1,27 @@
 {
-    "databaseVersion": 14,
-    "revisionNumber": 2,
-    "platform": {
-      "name": "Arcadia 2001",
-      "uniqueId": "arcadia",
-      "shortname": "arcadia",
-      "description": null,
-      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-      "scraperSourceList": [],
-      "boxArtAspectRatioId": 0,
-      "useCustomBoxArtAspectRatio": false,
-      "customBoxArtAspectRatio": null,
-      "screenAspectRatioId": 0,
-      "useCustomScreenAspectRatio": false,
-      "customScreenAspectRatio": null,
-      "retroAchievementsConsoleIdList": [
-        73
-      ],
-      "extra": ""
-    },
-    "playerList": [
+  "databaseVersion": 14,
+  "revisionNumber": 2,
+  "platform": {
+    "name": "Arcadia 2001",
+    "uniqueId": "arcadia",
+    "shortname": "arcadia",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      73
+    ],
+    "extra": ""
+  },
+  "playerList": [
     {
-      "name": "arcadia - DroidArcadia",
+      "name": "DroidArcadia",
       "uniqueId": "arcadia.com.amigan.droidarcadia",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "arcadia - RetroArch 64 - mess",
+      "name": "RetroArch (64 bits) - mess",
       "uniqueId": "arcadia.ra64.mess",
       "description": "Supported extensions: cmd.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "arcadia - RetroArch - mess",
+      "name": "RetroArch - mess",
       "uniqueId": "arcadia.ra.mess",
       "description": "Supported extensions: cmd.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",

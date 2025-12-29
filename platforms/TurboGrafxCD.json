@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "tgcd - com.PceEmu",
+      "name": "com.PceEmu",
       "uniqueId": "tgcd.com.PceEmu",
       "description": "Support extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch 64 - mednafen_pce_fast",
+      "name": "RetroArch (64 bits) - mednafen_pce_fast",
       "uniqueId": "tgcd.ra64.mednafen_pce_fast",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|toc)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch 64 - mednafen_pce",
+      "name": "RetroArch (64 bits) - mednafen_pce",
       "uniqueId": "tgcd.ra64.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch 32 - mednafen_pce_fast",
+      "name": "RetroArch (32 bits) - mednafen_pce_fast",
       "uniqueId": "tgcd.ra32.mednafen_pce_fast",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|toc)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch 32 - mednafen_pce",
+      "name": "RetroArch (32 bits) - mednafen_pce",
       "uniqueId": "tgcd.ra32.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch - mednafen_pce_fast",
+      "name": "RetroArch - mednafen_pce_fast",
       "uniqueId": "tgcd.ra.mednafen_pce_fast",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|toc)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "tgcd - RetroArch - mednafen_pce",
+      "name": "RetroArch - mednafen_pce",
       "uniqueId": "tgcd.ra.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",

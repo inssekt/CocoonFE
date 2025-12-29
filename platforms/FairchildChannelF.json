@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "channelf - RetroArch 64 - freechaf",
+      "name": "RetroArch (64 bits) - freechaf",
       "uniqueId": "channelf.ra64.freechaf",
       "description": "Supported extensions: chf, bin, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chf|bin|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "channelf - RetroArch 32 - freechaf",
+      "name": "RetroArch (32 bits) - freechaf",
       "uniqueId": "channelf.ra32.freechaf",
       "description": "Supported extensions: chf, bin, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chf|bin|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "channelf - RetroArch - freechaf",
+      "name": "RetroArch - freechaf",
       "uniqueId": "channelf.ra.freechaf",
       "description": "Supported extensions: chf, bin, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chf|bin|zip)$",
