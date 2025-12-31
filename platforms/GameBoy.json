@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "gb - Pizza Boy C Basic",
+      "name": "Pizza Boy C Basic",
       "uniqueId": "gb.it.dbtecno.pizzaboy",
       "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "gb - Pizza Boy C Pro",
+      "name": "Pizza Boy C Pro",
       "uniqueId": "gb.it.dbtecno.pizzaboypro",
       "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "gb - SkyEmu",
+      "name": "SkyEmu",
       "uniqueId": "gb.com.sky.SkyEmu",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "gb - com.explusalpha.GbcEmu",
+      "name": "com.explusalpha.GbcEmu",
       "uniqueId": "gb.com.explusalpha.GbcEmu",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "gb - com.fastemulator.gbcfree",
+      "name": "com.fastemulator.gbcfree",
       "uniqueId": "gb.com.fastemulator.gbcfree",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "gb - com.fastemulator.gbc",
+      "name": "com.fastemulator.gbc",
       "uniqueId": "gb.com.fastemulator.gbc",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "gb - Linkboy",
+      "name": "Linkboy",
       "uniqueId": "gb.com.pixelrespawn.linkboy",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - gambatte",
+      "name": "RetroArch (64 bits) - gambatte",
       "uniqueId": "gb.ra64.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - gearboy",
+      "name": "RetroArch (64 bits) - gearboy",
       "uniqueId": "gb.ra64.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - sameboy",
+      "name": "RetroArch (64 bits) - sameboy",
       "uniqueId": "gb.ra64.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - tgbdual",
+      "name": "RetroArch (64 bits) - tgbdual",
       "uniqueId": "gb.ra64.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
@@ -137,7 +137,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - doublecherrygb",
+      "name": "RetroArch (64 bits) - doublecherrygb",
       "uniqueId": "gb.ra64.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
@@ -147,7 +147,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 64 - mesen-s",
+      "name": "RetroArch (64 bits) - mesen-s",
       "uniqueId": "gb.ra64.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
@@ -157,7 +157,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - gambatte",
+      "name": "RetroArch (32 bits) - gambatte",
       "uniqueId": "gb.ra32.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
@@ -167,7 +167,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - gearboy",
+      "name": "RetroArch (32 bits) - gearboy",
       "uniqueId": "gb.ra32.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
@@ -177,7 +177,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - sameboy",
+      "name": "RetroArch (32 bits) - sameboy",
       "uniqueId": "gb.ra32.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
@@ -187,7 +187,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - tgbdual",
+      "name": "RetroArch (32 bits) - tgbdual",
       "uniqueId": "gb.ra32.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
@@ -197,7 +197,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - doublecherrygb",
+      "name": "RetroArch (32 bits) - doublecherrygb",
       "uniqueId": "gb.ra32.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
@@ -207,7 +207,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch 32 - mesen-s",
+      "name": "RetroArch (32 bits) - mesen-s",
       "uniqueId": "gb.ra32.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
@@ -217,7 +217,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - gambatte",
+      "name": "RetroArch - gambatte",
       "uniqueId": "gb.ra.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
@@ -227,7 +227,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - gearboy",
+      "name": "RetroArch - gearboy",
       "uniqueId": "gb.ra.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
@@ -237,7 +237,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - sameboy",
+      "name": "RetroArch - sameboy",
       "uniqueId": "gb.ra.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
@@ -247,7 +247,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - tgbdual",
+      "name": "RetroArch - tgbdual",
       "uniqueId": "gb.ra.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
@@ -257,7 +257,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - doublecherrygb",
+      "name": "RetroArch - doublecherrygb",
       "uniqueId": "gb.ra.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
@@ -267,7 +267,7 @@
       "extra": ""
     },
     {
-      "name": "gb - RetroArch - mesen-s",
+      "name": "RetroArch - mesen-s",
       "uniqueId": "gb.ra.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",

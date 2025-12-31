@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "ws - com.explusalpha.SwanEmu",
+      "name": "com.explusalpha.SwanEmu",
       "uniqueId": "ws.com.explusalpha.SwanEmu",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "ws - Retroarch 64 - Beetle Cygne",
+      "name": "Retroarch 64 - Beetle Cygne",
       "uniqueId": "ws.ra64.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "ws - Retroarch 32 - Beetle Cygne",
+      "name": "Retroarch 32 - Beetle Cygne",
       "uniqueId": "ws.ra32.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "ws - Retroarch - Beetle Cygne",
+      "name": "Retroarch - Beetle Cygne",
       "uniqueId": "ws.ra.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",

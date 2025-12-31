@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "virtualboy - vvs",
+      "name": "vvs",
       "uniqueId": "virtualboy.com.simongellis.vvb",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:vb|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "virtualboy - RetroArch 64 - mednafen_vb",
+      "name": "RetroArch (64 bits) - mednafen_vb",
       "uniqueId": "virtualboy.ra64.mednafen_vb",
       "description": "Supported extensions: bin, vb, vboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "virtualboy - RetroArch 32 - mednafen_vb",
+      "name": "RetroArch (32 bits) - mednafen_vb",
       "uniqueId": "virtualboy.ra32.mednafen_vb",
       "description": "Supported extensions: bin, vb, vboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "virtualboy - RetroArch - mednafen_vb",
+      "name": "RetroArch - mednafen_vb",
       "uniqueId": "virtualboy.ra.mednafen_vb",
       "description": "Supported extensions: bin, vb, vboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",

@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "pico8 - Infinity P8 Player",
+      "name": "Infinity P8 Player",
       "uniqueId": "pico8.me.dt2dev.infinity",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch 64 - fake08",
+      "name": "RetroArch (64 bits) - fake08",
       "uniqueId": "pico8.ra64.fake08",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch 64 - retro8",
+      "name": "RetroArch (64 bits) - retro8",
       "uniqueId": "pico8.ra64.retro8",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch 32 - fake08",
+      "name": "RetroArch (32 bits) - fake08",
       "uniqueId": "pico8.ra32.fake08",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch 32 - retro8",
+      "name": "RetroArch (32 bits) - retro8",
       "uniqueId": "pico8.ra32.retro8",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch - fake08",
+      "name": "RetroArch - fake08",
       "uniqueId": "pico8.ra.fake08",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "pico8 - RetroArch - retro8",
+      "name": "RetroArch - retro8",
       "uniqueId": "pico8.ra.retro8",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",

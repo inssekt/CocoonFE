@@ -20,12 +20,15 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsConsoleIdList": [19, 20],
+    "retroAchievementsConsoleIdList": [
+      19,
+      20
+    ],
     "extra": ""
   },
   "playerList": [
     {
-      "name": "wiiware - Dolphin handheld",
+      "name": "Dolphin handheld",
       "uniqueId": "wiiware.org.dolphinemu.handheld",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -35,7 +38,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin org.mm.jr fork",
+      "name": "Dolphin org.mm.jr fork",
       "uniqueId": "wiiware.org.mm.jr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -45,7 +48,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin org.mm.j fork",
+      "name": "Dolphin org.mm.j fork",
       "uniqueId": "wiiware.org.mm.j",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -55,7 +58,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin mmjr",
+      "name": "Dolphin mmjr",
       "uniqueId": "wiiware.org.dolphinemu.mmjr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -65,7 +68,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - org.dolphinemu.dolphinemu",
+      "name": "org.dolphinemu.dolphinemu",
       "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -75,7 +78,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin mmjr3",
+      "name": "Dolphin mmjr3",
       "uniqueId": "wiiware.org.dolphinemu.mmjr3",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -85,7 +88,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin Ishiiruka",
+      "name": "Dolphin Ishiiruka",
       "uniqueId": "wiiware.org.dolphin.ishiirukadark",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
@@ -95,7 +98,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin (Debug Build)",
+      "name": "Dolphin (Debug Build)",
       "uniqueId": "wiiware.org.dolphinemu.dolphinemu.debug",
       "description": "Supported extensions: wad.",
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
@@ -105,7 +108,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - RetroArch 64 - dolphin",
+      "name": "RetroArch (64 bits) - dolphin",
       "uniqueId": "wiiware.ra64.dolphin",
       "description": "Supported extensions: wad",
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
@@ -115,7 +118,7 @@
       "extra": ""
     },
     {
-      "name": "wiiware - RetroArch - dolphin",
+      "name": "RetroArch - dolphin",
       "uniqueId": "wiiware.ra.dolphin",
       "description": "Supported extensions: wad",
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",

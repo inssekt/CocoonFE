@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "xcloud - XBPlay - Remote Play",
+      "name": "XBPlay - Remote Play",
       "uniqueId": "xbplay.com.studio08.xbgamestream",
       "description": "XBPlay Remote Play",
       "acceptedFilenameRegex": "^(.*)\\.(?:xcloud)$",

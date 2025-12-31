@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "coleco - RetroArch 64 - bluemsx",
+      "name": "RetroArch (64 bits) - bluemsx",
       "uniqueId": "coleco.ra64.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "coleco - RetroArch 64 - gearcoleco",
+      "name": "RetroArch (64 bits) - gearcoleco",
       "uniqueId": "coleco.ra64.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "coleco - RetroArch 32 - bluemsx",
+      "name": "RetroArch (32 bits) - bluemsx",
       "uniqueId": "coleco.ra32.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "coleco - RetroArch 32 - gearcoleco",
+      "name": "RetroArch (32 bits) - gearcoleco",
       "uniqueId": "coleco.ra32.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "coleco - RetroArch - bluemsx",
+      "name": "RetroArch - bluemsx",
       "uniqueId": "coleco.ra.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "coleco - RetroArch - gearcoleco",
+      "name": "RetroArch - gearcoleco",
       "uniqueId": "coleco.ra.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",

@@ -28,7 +28,7 @@
   },
   "playerList": [
     {
-      "name": "wiiu - CEMU",
+      "name": "CEMU",
       "uniqueId": "wiiu.info.cemu.Cemu",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wua|wux|rpx)$",

@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "uzebox - RetroArch 64 - uzem",
+      "name": "RetroArch (64 bits) - uzem",
       "uniqueId": "uzebox.ra64.uzem",
       "description": "Supported extensions: uze.",
       "acceptedFilenameRegex": "^(.*)\\.(?:uze|zip|7z)$",
@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "uzebox - RetroArch 32 - uzem",
+      "name": "RetroArch (32 bits) - uzem",
       "uniqueId": "uzebox.ra32.uzem",
       "description": "Supported extensions: uze.",
       "acceptedFilenameRegex": "^(.*)\\.(?:uze|zip|7z)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "uzebox - RetroArch - uzem",
+      "name": "RetroArch - uzem",
       "uniqueId": "uzebox.ra.uzem",
       "description": "Supported extensions: uze.",
       "acceptedFilenameRegex": "^(.*)\\.(?:uze|zip|7z)$",

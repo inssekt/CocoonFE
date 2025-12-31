@@ -31,7 +31,7 @@
   },
   "playerList": [
     {
-      "name": "amiga - RetroArch 64 - puae",
+      "name": "RetroArch (64 bits) - puae",
       "uniqueId": "amiga.ra64.puae",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "amiga - RetroArch 64 - puae2021",
+      "name": "RetroArch (64 bits) - puae2021",
       "uniqueId": "amiga.ra64.puae2021",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "amiga - RetroArch 32 - puae",
+      "name": "RetroArch (32 bits) - puae",
       "uniqueId": "amiga.ra32.puae",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "amiga - RetroArch 32 - puae2021",
+      "name": "RetroArch (32 bits) - puae2021",
       "uniqueId": "amiga.ra32.puae2021",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "amiga - RetroArch - puae",
+      "name": "RetroArch - puae",
       "uniqueId": "amiga.ra.puae",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "amiga - RetroArch - puae2021",
+      "name": "RetroArch - puae2021",
       "uniqueId": "amiga.ra.puae2021",
       "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",

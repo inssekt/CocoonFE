@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "quake - RetroArch 64 - tyrquake",
+      "name": "RetroArch (64 bits) - tyrquake",
       "uniqueId": "quake.ra64.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "quake - RetroArch 32 - tyrquake",
+      "name": "RetroArch (32 bits) - tyrquake",
       "uniqueId": "quake.ra32.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "quake - RetroArch - tyrquake",
+      "name": "RetroArch - tyrquake",
       "uniqueId": "quake.ra.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",

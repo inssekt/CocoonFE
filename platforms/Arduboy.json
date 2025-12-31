@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "arduboy - RetroArch 64 - arduous",
+      "name": "RetroArch (64 bits) - arduous",
       "uniqueId": "arduboy.ra64.arduous",
       "description": "Supported extensions: hex.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "arduboy - RetroArch 64 - ardens",
+      "name": "RetroArch (64 bits) - ardens",
       "uniqueId": "arduboy.ra64.ardens",
       "description": "Supported extensions: hex, arduboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex|arduboy)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "arduboy - RetroArch 32 - arduous",
+      "name": "RetroArch (32 bits) - arduous",
       "uniqueId": "arduboy.ra32.arduous",
       "description": "Supported extensions: hex.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "arduboy - RetroArch 32 - ardens",
+      "name": "RetroArch (32 bits) - ardens",
       "uniqueId": "arduboy.ra32.ardens",
       "description": "Supported extensions: hex, arduboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex|arduboy)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "arduboy - RetroArch - arduous",
+      "name": "RetroArch - arduous",
       "uniqueId": "arduboy.ra.arduous",
       "description": "Supported extensions: hex.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "arduboy - RetroArch - ardens",
+      "name": "RetroArch - ardens",
       "uniqueId": "arduboy.ra.ardens",
       "description": "Supported extensions: hex, arduboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:hex|arduboy)$",

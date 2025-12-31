@@ -31,7 +31,7 @@
   },
   "playerList": [
     {
-      "name": "neogeocd - RetroArch 64 - neocd",
+      "name": "RetroArch (64 bits) - neocd",
       "uniqueId": "neogeocd.ra64.neocd",
       "description": "Supported extensions: chd, cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "neogeocd - RetroArch 64 - fbneo",
+      "name": "RetroArch (64 bits) - fbneo",
       "uniqueId": "neogeocd.ra64.fbneo",
       "description": "Supported extensions: cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cue)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "neogeocd - RetroArch 32 - neocd",
+      "name": "RetroArch (32 bits) - neocd",
       "uniqueId": "neogeocd.ra32.neocd",
       "description": "Supported extensions: chd, cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "neogeocd - RetroArch 32 - fbneo",
+      "name": "RetroArch (32 bits) - fbneo",
       "uniqueId": "neogeocd.ra32.fbneo",
       "description": "Supported extensions: cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cue)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "neogeocd - RetroArch - neocd",
+      "name": "RetroArch - neocd",
       "uniqueId": "neogeocd.ra.neocd",
       "description": "Supported extensions: chd, cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "neogeocd - RetroArch - fbneo",
+      "name": "RetroArch - fbneo",
       "uniqueId": "neogeocd.ra.fbneo",
       "description": "Supported extensions: cue.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cue)$",

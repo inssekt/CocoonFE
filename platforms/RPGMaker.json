@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "rpgmaker - RetroArch 64 - easyrpg",
+      "name": "RetroArch (64 bits) - easyrpg",
       "uniqueId": "rpgmaker.ra64.easyrpg",
       "description": "Supported extensions: easyrpg, ldb, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "rpgmaker - RetroArch 32 - easyrpg",
+      "name": "RetroArch (32 bits) - easyrpg",
       "uniqueId": "rpgmaker.ra32.easyrpg",
       "description": "Supported extensions: easyrpg, ldb, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "rpgmaker - RetroArch - easyrpg",
+      "name": "RetroArch - easyrpg",
       "uniqueId": "rpgmaker.ra.easyrpg",
       "description": "Supported extensions: easyrpg, ldb, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",

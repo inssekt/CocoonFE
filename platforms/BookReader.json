@@ -19,7 +19,7 @@
   },
   "playerList": [
     {
-      "name": "ebook - Librera Reader",
+      "name": "Librera Reader",
       "uniqueId": "ebook.com.foobnix.pdf.reader",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
@@ -29,7 +29,7 @@
       "extra": ""
     },
     {
-      "name": "ebook - Librera Reader Pro",
+      "name": "Librera Reader Pro",
       "uniqueId": "ebook.com.foobnix.pro.pdf.reader",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
@@ -39,7 +39,7 @@
       "extra": ""
     },
     {
-      "name": "ebook - ReadEra",
+      "name": "ReadEra",
       "uniqueId": "ebook.org.readera",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
@@ -49,7 +49,7 @@
       "extra": ""
     },
     {
-      "name": "ebook - Book Reader",
+      "name": "Book Reader",
       "uniqueId": "ebook.com.github.axet.bookreader",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
@@ -59,7 +59,7 @@
       "extra": ""
     },
     {
-      "name": "ebook - KOReader",
+      "name": "KOReader",
       "uniqueId": "ebook.org.koreader.launcher",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",

@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "sega32x - RetroArch 64 - picodrive",
+      "name": "RetroArch (64 bits) - picodrive",
       "uniqueId": "sega32x.ra64.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "sega32x - RetroArch 32 - picodrive",
+      "name": "RetroArch (32 bits) - picodrive",
       "uniqueId": "sega32x.ra32.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "sega32x - RetroArch - picodrive",
+      "name": "RetroArch - picodrive",
       "uniqueId": "sega32x.ra.picodrive",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",

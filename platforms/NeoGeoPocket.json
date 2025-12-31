@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "ngp - NGP.EMU",
+      "name": "NGP.EMU",
       "uniqueId": "ngp.com.explusalpha.NgpEmu",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch 64 - Beetle NeoPop",
+      "name": "RetroArch (64 bits) - Beetle NeoPop",
       "uniqueId": "ngp.ra64.mednafen_ngp",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch 64 - RACE",
+      "name": "RetroArch (64 bits) - RACE",
       "uniqueId": "ngp.ra64.race",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch 32 - Beetle NeoPop",
+      "name": "RetroArch (32 bits) - Beetle NeoPop",
       "uniqueId": "ngp.ra32.mednafen_ngp",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch 32 - RACE",
+      "name": "RetroArch (32 bits) - RACE",
       "uniqueId": "ngp.ra32.race",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch - Beetle NeoPop",
+      "name": "RetroArch - Beetle NeoPop",
       "uniqueId": "ngp.ra.mednafen_ngp",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "ngp - RetroArch - RACE",
+      "name": "RetroArch - RACE",
       "uniqueId": "ngp.ra.race",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",

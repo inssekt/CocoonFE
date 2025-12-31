@@ -19,7 +19,7 @@
   },
   "playerList": [
     {
-      "name": "videos - VLC for Android",
+      "name": "VLC for Android",
       "uniqueId": "videos.org.videolan.vlc",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -29,7 +29,7 @@
       "extra": ""
     },
     {
-      "name": "videos - mpv-android",
+      "name": "mpv-android",
       "uniqueId": "videos.is.xyz.mpv",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -39,7 +39,7 @@
       "extra": ""
     },
     {
-      "name": "videos - MXPlayer (Ad-sipported)",
+      "name": "MXPlayer (Ad-sipported)",
       "uniqueId": "videos.com.mxtech.videoplayer.ad",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -49,7 +49,7 @@
       "extra": ""
     },
     {
-      "name": "videos - MXPlayer Pro",
+      "name": "MXPlayer Pro",
       "uniqueId": "videos.com.mxtech.videoplayer.pro",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -59,7 +59,7 @@
       "extra": ""
     },
     {
-      "name": "videos - RetroArch 64 - ffmpeg",
+      "name": "RetroArch (64 bits) - ffmpeg",
       "uniqueId": "videos.ra64.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -69,7 +69,7 @@
       "extra": ""
     },
     {
-      "name": "videos - RetroArch 32 - ffmpeg",
+      "name": "RetroArch (32 bits) - ffmpeg",
       "uniqueId": "videos.ra32.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
@@ -79,7 +79,7 @@
       "extra": ""
     },
     {
-      "name": "videos - RetroArch - ffmpeg",
+      "name": "RetroArch - ffmpeg",
       "uniqueId": "videos.ra.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",

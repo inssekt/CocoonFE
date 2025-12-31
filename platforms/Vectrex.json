@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "vectrex - RetroArch 64 - vecx",
+      "name": "RetroArch (64 bits) - vecx",
       "uniqueId": "vectrex.ra64.vecx",
       "description": "Supported extensions: bin, vec, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vec|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "vectrex - RetroArch 32 - vecx",
+      "name": "RetroArch (32 bits) - vecx",
       "uniqueId": "vectrex.ra32.vecx",
       "description": "Supported extensions: bin, vec, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vec|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "vectrex - RetroArch - vecx",
+      "name": "RetroArch - vecx",
       "uniqueId": "vectrex.ra.vecx",
       "description": "Supported extensions: bin, vec, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vec|zip|7z)$",

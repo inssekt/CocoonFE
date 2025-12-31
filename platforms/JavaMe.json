@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "j2me - ru.playsoftware.j2meloader",
+      "name": "ru.playsoftware.j2meloader",
       "uniqueId": "j2me.ru.playsoftware.j2meloader",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "j2me - jl-mod",
+      "name": "jl-mod",
       "uniqueId": "j2me.ru.woesss.j2meloader",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
@@ -42,7 +42,7 @@
       "extra": ""
     },
     {
-      "name": "j2me - RetroArch 64 - squirreljme",
+      "name": "RetroArch (64 bits) - squirreljme",
       "uniqueId": "j2me.ra64.squirreljme",
       "description": "Supported extensions: jad, jam, jar, kjx, sqc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:jad|jam|jar|kjx|sqc)$",
@@ -52,7 +52,7 @@
       "extra": ""
     },
     {
-      "name": "j2me - RetroArch 32 - squirreljme",
+      "name": "RetroArch (32 bits) - squirreljme",
       "uniqueId": "j2me.ra32.squirreljme",
       "description": "Supported extensions: jad, jam, jar, kjx, sqc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:jad|jam|jar|kjx|sqc)$",
@@ -62,7 +62,7 @@
       "extra": ""
     },
     {
-      "name": "j2me - RetroArch - squirreljme",
+      "name": "RetroArch - squirreljme",
       "uniqueId": "j2me.ra.squirreljme",
       "description": "Supported extensions: jad, jam, jar, kjx, sqc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:jad|jam|jar|kjx|sqc)$",

@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "psp - PPSSPP",
+      "name": "PPSSPP",
       "uniqueId": "psp.org.ppsspp.ppsspp",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "psp - PPSSPP Gold",
+      "name": "PPSSPP Gold",
       "uniqueId": "psp.org.ppsspp.ppssppgold",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "psp - PPSSPP Legacy",
+      "name": "PPSSPP Legacy",
       "uniqueId": "psp.org.ppsspp.ppsspplegacy",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "psp - RetroArch 64 - ppsspp",
+      "name": "RetroArch (64 bits) - ppsspp",
       "uniqueId": "psp.ra64.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "psp - RetroArch 32 - ppsspp",
+      "name": "RetroArch (32 bits) - ppsspp",
       "uniqueId": "psp.ra32.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "psp - RetroArch - ppsspp",
+      "name": "RetroArch - ppsspp",
       "uniqueId": "psp.ra.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",

@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "dreamcast - io.recompiled.redream",
+      "name": "io.recompiled.redream",
       "uniqueId": "dreamcast.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.reicast.emulator",
+      "name": "com.reicast.emulator",
       "uniqueId": "dreamcast.com.reicast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.flycast.emulator",
+      "name": "com.flycast.emulator",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.flycast.emulator (dev build)",
+      "name": "com.flycast.emulator (dev build)",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - RetroArch 64 - flycast",
+      "name": "RetroArch (64 bits) - flycast",
       "uniqueId": "dreamcast.ra64.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - RetroArch 32 - flycast",
+      "name": "RetroArch (32 bits) - flycast",
       "uniqueId": "dreamcast.ra32.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
@@ -85,7 +85,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - RetroArch - flycast",
+      "name": "RetroArch - flycast",
       "uniqueId": "dreamcast.ra.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",

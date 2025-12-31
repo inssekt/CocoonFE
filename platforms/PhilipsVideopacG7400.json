@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "g7400 - RetroArch 64 - o2em",
+      "name": "RetroArch (64 bits) - o2em",
       "uniqueId": "g7400.ra64.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",
@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "g7400 - RetroArch 32 - o2em",
+      "name": "RetroArch (32 bits) - o2em",
       "uniqueId": "g7400.ra32.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "g7400 - RetroArch - o2em",
+      "name": "RetroArch - o2em",
       "uniqueId": "g7400.ra.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip|7z)$",

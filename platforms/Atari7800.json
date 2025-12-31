@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "atari7800 - RetroArch 64 - prosystem",
+      "name": "RetroArch (64 bits) - prosystem",
       "uniqueId": "atari7800.ra64.prosystem",
       "description": "Supported extensions: a78, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "atari7800 - RetroArch 32 - prosystem",
+      "name": "RetroArch (32 bits) - prosystem",
       "uniqueId": "atari7800.ra32.prosystem",
       "description": "Supported extensions: a78, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "atari7800 - RetroArch - prosystem",
+      "name": "RetroArch - prosystem",
       "uniqueId": "atari7800.ra.prosystem",
       "description": "Supported extensions: a78, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",

@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "atari2600 - com.explusalpha.A2600Emu",
+      "name": "com.explusalpha.A2600Emu",
       "uniqueId": "atari2600.com.explusalpha.A2600Emu",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - com.androidemu.atari",
+      "name": "com.androidemu.atari",
       "uniqueId": "atari2600.com.androidemu.atari",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 64 - stella",
+      "name": "RetroArch (64 bits) - stella",
       "uniqueId": "atari2600.ra64.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 64 - stella2014",
+      "name": "RetroArch (64 bits) - stella2014",
       "uniqueId": "atari2600.ra64.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 64 - stella2023",
+      "name": "RetroArch (64 bits) - stella2023",
       "uniqueId": "atari2600.ra64.stella2023",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 32 - stella",
+      "name": "RetroArch (32 bits) - stella",
       "uniqueId": "atari2600.ra32.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 32 - stella2014",
+      "name": "RetroArch (32 bits) - stella2014",
       "uniqueId": "atari2600.ra32.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch 32 - stella2023",
+      "name": "RetroArch (32 bits) - stella2023",
       "uniqueId": "atari2600.ra32.stella2023",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch - stella",
+      "name": "RetroArch - stella",
       "uniqueId": "atari2600.ra.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch - stella2014",
+      "name": "RetroArch - stella2014",
       "uniqueId": "atari2600.ra.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "atari2600 - RetroArch - stella2023",
+      "name": "RetroArch - stella2023",
       "uniqueId": "atari2600.ra.stella2023",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",

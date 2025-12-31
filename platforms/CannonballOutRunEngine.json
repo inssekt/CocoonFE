@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "cannonball - RetroArch 64 - cannonball",
+      "name": "RetroArch (64 bits) - cannonball",
       "uniqueId": "cannonball.ra64.cannonball",
       "description": "Supported extensions: game, 88.",
       "acceptedFilenameRegex": "^(.*)\\.(?:game|88)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "cannonball - RetroArch 32 - cannonball",
+      "name": "RetroArch (32 bits) - cannonball",
       "uniqueId": "cannonball.ra32.cannonball",
       "description": "Supported extensions: game, 88.",
       "acceptedFilenameRegex": "^(.*)\\.(?:game|88)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "cannonball - RetroArch - cannonball",
+      "name": "RetroArch - cannonball",
       "uniqueId": "cannonball.ra.cannonball",
       "description": "Supported extensions: game, 88.",
       "acceptedFilenameRegex": "^(.*)\\.(?:game|88)$",

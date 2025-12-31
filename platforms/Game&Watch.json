@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "gw - RetroArch 64 - gw",
+      "name": "RetroArch (64 bits) - gw",
       "uniqueId": "gw.ra64.gw",
       "description": "Supported extensions: mgw.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mgw|zip|7z)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "gw - RetroArch 64 - mess",
+      "name": "RetroArch (64 bits) - mess",
       "uniqueId": "gw.ra64.mamemess",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "gw - RetroArch 32 - gw",
+      "name": "RetroArch (32 bits) - gw",
       "uniqueId": "gw.ra32.gw",
       "description": "Supported extensions: mgw.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mgw|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "gw - RetroArch - gw",
+      "name": "RetroArch - gw",
       "uniqueId": "gw.ra.gw",
       "description": "Supported extensions: mgw.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mgw|zip|7z)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "gw - RetroArch - mess",
+      "name": "RetroArch - mess",
       "uniqueId": "gw.ra.mamemess",
       "description": "Supported extensions: zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",

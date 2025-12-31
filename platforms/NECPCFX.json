@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "pcfx - Retroarch 64 - beetle pcfx",
+      "name": "Retroarch 64 - beetle pcfx",
       "uniqueId": "pcfx.ra64.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "pcfx - Retroarch 32 - beetle pcfx",
+      "name": "Retroarch 32 - beetle pcfx",
       "uniqueId": "pcfx.ra32.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "pcfx - Retroarch - beetle pcfx",
+      "name": "Retroarch - beetle pcfx",
       "uniqueId": "pcfx.ra.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",

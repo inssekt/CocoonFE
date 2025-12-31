@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "sg1000 - RetroArch 64 - gearsystem",
+      "name": "RetroArch (64 bits) - gearsystem",
       "uniqueId": "sg1000.ra64.gearsystem",
       "description": "Supported extensions: bin, gg, rom, sg, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "sg1000 - RetroArch 64 - bluemsx",
+      "name": "RetroArch (64 bits) - bluemsx",
       "uniqueId": "sg1000.ra64.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "sg1000 - RetroArch 32 - gearsystem",
+      "name": "RetroArch (32 bits) - gearsystem",
       "uniqueId": "sg1000.ra32.gearsystem",
       "description": "Supported extensions: bin, gg, rom, sg, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "sg1000 - RetroArch 32 - bluemsx",
+      "name": "RetroArch (32 bits) - bluemsx",
       "uniqueId": "sg1000.ra32.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "sg1000 - RetroArch - gearsystem",
+      "name": "RetroArch - gearsystem",
       "uniqueId": "sg1000.ra.gearsystem",
       "description": "Supported extensions: bin, gg, rom, sg, sms, 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "sg1000 - RetroArch - bluemsx",
+      "name": "RetroArch - bluemsx",
       "uniqueId": "sg1000.ra.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",

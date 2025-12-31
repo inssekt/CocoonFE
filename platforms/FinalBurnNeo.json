@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "fbneo - RetroArch 64 - fbneo",
+      "name": "RetroArch (64 bits) - fbneo",
       "uniqueId": "fbneo.ra64.fbneo",
       "description": "Supported extensions: 7z, ccd, cue, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|ccd|cue|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "fbneo - RetroArch 64 - fbalpha 2012",
+      "name": "RetroArch (64 bits) - fbalpha 2012",
       "uniqueId": "fbneo.ra64.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "fbneo - RetroArch 32 - fbneo",
+      "name": "RetroArch (32 bits) - fbneo",
       "uniqueId": "fbneo.ra32.fbneo",
       "description": "Supported extensions: 7z, ccd, cue, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|ccd|cue|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "fbneo - RetroArch 32 - fbalpha 2012",
+      "name": "RetroArch (32 bits) - fbalpha 2012",
       "uniqueId": "fbneo.ra32.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "fbneo - RetroArch - fbneo",
+      "name": "RetroArch - fbneo",
       "uniqueId": "fbneo.ra.fbneo",
       "description": "Supported extensions: 7z, ccd, cue, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|ccd|cue|zip)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "fbneo - RetroArch - fbalpha 2012",
+      "name": "RetroArch - fbalpha 2012",
       "uniqueId": "fbneo.ra.fbalpha2012",
       "description": "Supported extensions: iso, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zip|7z)$",

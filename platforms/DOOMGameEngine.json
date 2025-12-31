@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "doom - RetroArch 64 - prboom",
+      "name": "RetroArch (64 bits) - prboom",
       "uniqueId": "doom.ra64.prboom",
       "description": "Supported extensions: iwad, pwad, wad, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iwad|pwad|wad|zip)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "doom - RetroArch 32 - prboom",
+      "name": "RetroArch (32 bits) - prboom",
       "uniqueId": "doom.ra32.prboom",
       "description": "Supported extensions: iwad, pwad, wad, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iwad|pwad|wad|zip)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "doom - RetroArch - prboom",
+      "name": "RetroArch - prboom",
       "uniqueId": "doom.ra.prboom",
       "description": "Supported extensions: iwad, pwad, wad, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iwad|pwad|wad|zip)$",

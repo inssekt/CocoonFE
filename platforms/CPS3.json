@@ -26,7 +26,7 @@
   },
   "playerList": [
     {
-      "name": "cps3 - NEO.EMU",
+      "name": "NEO.EMU",
       "uniqueId": "cps3.com.explusalpha.neoemu",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
@@ -36,7 +36,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 64 - fbneo",
+      "name": "RetroArch (64 bits) - fbneo",
       "uniqueId": "cps3.ra64.fbneo",
       "description": "Supported extensions: 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|zip)$",
@@ -46,7 +46,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 64 - fbalpha2012",
+      "name": "RetroArch (64 bits) - fbalpha2012",
       "uniqueId": "cps3.ra64.fbalpha2012",
       "description": "Supported extensions: 7z, iso, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|iso|zip)$",
@@ -56,7 +56,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 64 - fbalpha2012_cps3",
+      "name": "RetroArch (64 bits) - fbalpha2012_cps3",
       "uniqueId": "cps3.ra64.fbalpha2012_cps3",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
@@ -66,7 +66,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 32 - fbneo",
+      "name": "RetroArch (32 bits) - fbneo",
       "uniqueId": "cps3.ra32.fbneo",
       "description": "Supported extensions: 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|zip)$",
@@ -76,7 +76,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 32 - fbalpha2012",
+      "name": "RetroArch (32 bits) - fbalpha2012",
       "uniqueId": "cps3.ra32.fbalpha2012",
       "description": "Supported extensions: 7z, iso, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|iso|zip)$",
@@ -86,7 +86,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch 32 - fbalpha2012_cps3",
+      "name": "RetroArch (32 bits) - fbalpha2012_cps3",
       "uniqueId": "cps3.ra32.fbalpha2012_cps3",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
@@ -96,7 +96,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch - fbneo",
+      "name": "RetroArch - fbneo",
       "uniqueId": "cps3.ra.fbneo",
       "description": "Supported extensions: 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|zip)$",
@@ -106,7 +106,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch - fbalpha2012",
+      "name": "RetroArch - fbalpha2012",
       "uniqueId": "cps3.ra.fbalpha2012",
       "description": "Supported extensions: 7z, iso, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|iso|zip)$",
@@ -116,7 +116,7 @@
       "extra": ""
     },
     {
-      "name": "cps3 - RetroArch - fbalpha2012_cps3",
+      "name": "RetroArch - fbalpha2012_cps3",
       "uniqueId": "cps3.ra.fbalpha2012_cps3",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",

@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "windows - Winlator CMod",
+      "name": "Winlator CMod",
       "uniqueId": "windows.winlator.cmod",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "windows - Winlator CMod Proot",
+      "name": "Winlator CMod Proot",
       "uniqueId": "windows.winlator.cmodproot",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
@@ -42,7 +42,7 @@
       "extra": ""
     },
     {
-      "name": "windows - Winlator Cmod (Old)",
+      "name": "Winlator Cmod (Old)",
       "uniqueId": "windows.winlator.cmod.old",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
@@ -52,7 +52,7 @@
       "extra": ""
     },
     {
-      "name": "windows - MiceWine",
+      "name": "MiceWine",
       "uniqueId": "windows.micewine.emu",
       "description": "Supported extensions: lnk",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
@@ -62,7 +62,7 @@
       "extra": ""
     },
     {
-      "name": "windows - GameHub Lite (Local Games)",
+      "name": "GameHub Lite (Local Games)",
       "uniqueId": "windows.gamehub.lite.local",
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
@@ -72,7 +72,7 @@
       "extra": ""
     },
     {
-      "name": "windows - GameHub Lite (Local Games - Antutu)",
+      "name": "GameHub Lite (Local Games - Antutu)",
       "uniqueId": "windows.gamehub.lite.local.antutu",
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
@@ -82,7 +82,7 @@
       "extra": ""
     },
     {
-      "name": "windows - GameHub Lite (Local Games - PUBG)",
+      "name": "GameHub Lite (Local Games - PUBG)",
       "uniqueId": "windows.gamehub.lite.local.pubg",
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
@@ -92,7 +92,7 @@
       "extra": ""
     },
     {
-      "name": "windows - GameHub Lite (Local Games - Ludashi)",
+      "name": "GameHub Lite (Local Games - Ludashi)",
       "uniqueId": "windows.gamehub.lite.ludashi",
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",

@@ -28,7 +28,7 @@
   },
   "playerList": [
     {
-      "name": "msx - com.explusalpha.MsxEmu",
+      "name": "com.explusalpha.MsxEmu",
       "uniqueId": "msx.com.explusalpha.MsxEmu",
       "description": "Supported extensions: cas, col, dsk, fdi, m3u, mx1, mx2, ri, rom, sc, sg.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|fdi|m3u|mx1|mx2|ri|rom|sc|sg)$",
@@ -38,7 +38,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch 64 - fmsx",
+      "name": "RetroArch (64 bits) - fmsx",
       "uniqueId": "msx.ra64.fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
@@ -48,7 +48,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch 64 - bluemsx",
+      "name": "RetroArch (64 bits) - bluemsx",
       "uniqueId": "msx.ra64.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -58,7 +58,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch 32 - fmsx",
+      "name": "RetroArch (32 bits) - fmsx",
       "uniqueId": "msx.ra32.fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
@@ -68,7 +68,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch 32 - bluemsx",
+      "name": "RetroArch (32 bits) - bluemsx",
       "uniqueId": "msx.ra32.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
@@ -78,7 +78,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch - fmsx",
+      "name": "RetroArch - fmsx",
       "uniqueId": "msx.ra.fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
@@ -88,7 +88,7 @@
       "extra": ""
     },
     {
-      "name": "msx - RetroArch - bluemsx",
+      "name": "RetroArch - bluemsx",
       "uniqueId": "msx.ra.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",

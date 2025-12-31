@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "c64 - com.explusalpha.C64Emu",
+      "name": "com.explusalpha.C64Emu",
       "uniqueId": "c64.com.explusalpha.C64Emu",
       "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, lnx, p00, prg, t64, tap, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|lnx|p00|prg|t64|tap|x64|x6z|zip)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 64 - frodo",
+      "name": "RetroArch (64 bits) - frodo",
       "uniqueId": "c64.ra64.frodo",
       "description": "Supported extensions: d64, lnx, p00, t64, x64, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:d64|lnx|p00|t64|x64|zip)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 64 - x64sdl",
+      "name": "RetroArch (64 bits) - x64sdl",
       "uniqueId": "c64.ra64.x64sdl",
       "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|p00|prg|t64|tap|x64|x6z|zip)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 64 - vice_x64",
+      "name": "RetroArch (64 bits) - vice_x64",
       "uniqueId": "c64.ra64.vice_x64",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 64 - vice_x64sc",
+      "name": "RetroArch (64 bits) - vice_x64sc",
       "uniqueId": "c64.ra64.vice_x64sc",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 32 - frodo",
+      "name": "RetroArch (32 bits) - frodo",
       "uniqueId": "c64.ra32.frodo",
       "description": "Supported extensions: d64, lnx, p00, t64, x64, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:d64|lnx|p00|t64|x64|zip)$",
@@ -87,7 +87,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 32 - x64sdl",
+      "name": "RetroArch (32 bits) - x64sdl",
       "uniqueId": "c64.ra32.x64sdl",
       "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|p00|prg|t64|tap|x64|x6z|zip)$",
@@ -97,7 +97,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 32 - vice_x64",
+      "name": "RetroArch (32 bits) - vice_x64",
       "uniqueId": "c64.ra32.vice_x64",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
@@ -107,7 +107,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch 32 - vice_x64sc",
+      "name": "RetroArch (32 bits) - vice_x64sc",
       "uniqueId": "c64.ra32.vice_x64sc",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
@@ -117,7 +117,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch - frodo",
+      "name": "RetroArch - frodo",
       "uniqueId": "c64.ra.frodo",
       "description": "Supported extensions: d64, lnx, p00, t64, x64, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:d64|lnx|p00|t64|x64|zip)$",
@@ -127,7 +127,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch - x64sdl",
+      "name": "RetroArch - x64sdl",
       "uniqueId": "c64.ra.x64sdl",
       "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|p00|prg|t64|tap|x64|x6z|zip)$",
@@ -137,7 +137,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch - vice_x64",
+      "name": "RetroArch - vice_x64",
       "uniqueId": "c64.ra.vice_x64",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
@@ -147,7 +147,7 @@
       "extra": ""
     },
     {
-      "name": "c64 - RetroArch - vice_x64sc",
+      "name": "RetroArch - vice_x64sc",
       "uniqueId": "c64.ra.vice_x64sc",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",

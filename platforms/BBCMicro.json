@@ -22,7 +22,7 @@
   },
   "playerList": [
     {
-      "name": "bbcmicro - RetroArch 64 - b2",
+      "name": "RetroArch (64 bits) - b2",
       "uniqueId": "bbcmicro.ra64.b2",
       "description": "Supported extensions: ssd, dsd.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "bbcmicro - RetroArch 32 - b2",
+      "name": "RetroArch (32 bits) - b2",
       "uniqueId": "bbcmicro.ra32.b2",
       "description": "Supported extensions: ssd, dsd.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",
@@ -42,7 +42,7 @@
       "extra": ""
     },
     {
-      "name": "bbcmicro - RetroArch - b2",
+      "name": "RetroArch - b2",
       "uniqueId": "bbcmicro.ra.b2",
       "description": "Supported extensions: ssd, dsd.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",

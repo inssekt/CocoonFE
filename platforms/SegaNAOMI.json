@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "naomi - com.flycast.emulator",
+      "name": "com.flycast.emulator",
       "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "naomi - com.flycast.emulator (dev build)",
+      "name": "com.flycast.emulator (dev build)",
       "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "naomi - RetroArch 64 - flycast",
+      "name": "RetroArch (64 bits) - flycast",
       "uniqueId": "naomi.ra64.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "naomi - RetroArch 32 - flycast",
+      "name": "RetroArch (32 bits) - flycast",
       "uniqueId": "naomi.ra32.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "naomi - RetroArch - flycast",
+      "name": "RetroArch - flycast",
       "uniqueId": "naomi.ra.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",

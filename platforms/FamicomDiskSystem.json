@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "fds - com.explusalpha.NesEmu",
+      "name": "com.explusalpha.NesEmu",
       "uniqueId": "fds.com.explusalpha.NesEmu",
       "description": "Support extensions: bin, fds, nes, nsf, qd, rom, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|fds|nes|nsf|qd|rom|unf|unif)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "fds - com.androidemu.nes",
+      "name": "com.androidemu.nes",
       "uniqueId": "fds.com.androidemu.nes",
       "description": "Support extensions: bin, fds, nes, nsf, qd, rom, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|fds|nes|nsf|qd|rom|unf|unif)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 64 - nestopia",
+      "name": "RetroArch (64 bits) - nestopia",
       "uniqueId": "fds.ra64.nestopia",
       "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 64 - fceumm",
+      "name": "RetroArch (64 bits) - fceumm",
       "uniqueId": "fds.ra64.fceumm",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -65,7 +65,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 64 - mesen",
+      "name": "RetroArch (64 bits) - mesen",
       "uniqueId": "fds.ra64.mesen",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -75,7 +75,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 32 - nestopia",
+      "name": "RetroArch (32 bits) - nestopia",
       "uniqueId": "fds.ra32.nestopia",
       "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -85,7 +85,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 32 - fceumm",
+      "name": "RetroArch (32 bits) - fceumm",
       "uniqueId": "fds.ra32.fceumm",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -95,7 +95,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch 32 - mesen",
+      "name": "RetroArch (32 bits) - mesen",
       "uniqueId": "fds.ra32.mesen",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -105,7 +105,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch - nestopia",
+      "name": "RetroArch - nestopia",
       "uniqueId": "fds.ra.nestopia",
       "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -115,7 +115,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch - fceumm",
+      "name": "RetroArch - fceumm",
       "uniqueId": "fds.ra.fceumm",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
@@ -125,7 +125,7 @@
       "extra": ""
     },
     {
-      "name": "fds - RetroArch - mesen",
+      "name": "RetroArch - mesen",
       "uniqueId": "fds.ra.mesen",
       "description": "Supported extensions: fds, nes, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",

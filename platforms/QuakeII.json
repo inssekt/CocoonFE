@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "quake2 - RetroArch 64 - vitaquake2",
+      "name": "RetroArch (64 bits) - vitaquake2",
       "uniqueId": "quake2.ra64.vitaquake2",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 64 - vitaquake2 rogue",
+      "name": "RetroArch (64 bits) - vitaquake2 rogue",
       "uniqueId": "quake2.ra64.vitaquake2-rogue_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 64 - vitaquake2 xatrix",
+      "name": "RetroArch (64 bits) - vitaquake2 xatrix",
       "uniqueId": "quake2.ra64.vitaquake2-xatrix_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 64 - vitaquake2 zaero",
+      "name": "RetroArch (64 bits) - vitaquake2 zaero",
       "uniqueId": "quake2.ra64.vitaquake2-zaero_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 32 - vitaquake2",
+      "name": "RetroArch (32 bits) - vitaquake2",
       "uniqueId": "quake2.ra32.vitaquake2",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 32 - vitaquake2 rogue",
+      "name": "RetroArch (32 bits) - vitaquake2 rogue",
       "uniqueId": "quake2.ra32.vitaquake2-rogue_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 32 - vitaquake2 xatrix",
+      "name": "RetroArch (32 bits) - vitaquake2 xatrix",
       "uniqueId": "quake2.ra32.vitaquake2-xatrix_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -91,7 +91,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch 32 - vitaquake2 zaero",
+      "name": "RetroArch (32 bits) - vitaquake2 zaero",
       "uniqueId": "quake2.ra32.vitaquake2-zaero_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -101,7 +101,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch - vitaquake2",
+      "name": "RetroArch - vitaquake2",
       "uniqueId": "quake2.ra.vitaquake2",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -111,7 +111,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch - vitaquake2 rogue",
+      "name": "RetroArch - vitaquake2 rogue",
       "uniqueId": "quake2.ra.vitaquake2-rogue_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -121,7 +121,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch - vitaquake2 xatrix",
+      "name": "RetroArch - vitaquake2 xatrix",
       "uniqueId": "quake2.ra.vitaquake2-xatrix_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
@@ -131,7 +131,7 @@
       "extra": ""
     },
     {
-      "name": "quake2 - RetroArch - vitaquake2 zaero",
+      "name": "RetroArch - vitaquake2 zaero",
       "uniqueId": "quake2.ra.vitaquake2-zaero_libretro",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",

@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "supergrafx - com.PceEmu",
+      "name": "com.PceEmu",
       "uniqueId": "supergrafx.com.PceEmu",
       "description": "Support extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
@@ -31,7 +31,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch 64 - mednafen_pce",
+      "name": "RetroArch (64 bits) - mednafen_pce",
       "uniqueId": "supergrafx.ra64.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
@@ -41,7 +41,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch 64 - mednafen_supergrafx",
+      "name": "RetroArch (64 bits) - mednafen_supergrafx",
       "uniqueId": "supergrafx.ra64.mednafen_supergrafx",
       "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch 32 - mednafen_pce",
+      "name": "RetroArch (32 bits) - mednafen_pce",
       "uniqueId": "supergrafx.ra32.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
@@ -61,7 +61,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch 32 - mednafen_supergrafx",
+      "name": "RetroArch (32 bits) - mednafen_supergrafx",
       "uniqueId": "supergrafx.ra32.mednafen_supergrafx",
       "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
@@ -71,7 +71,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch - mednafen_pce",
+      "name": "RetroArch - mednafen_pce",
       "uniqueId": "supergrafx.ra.mednafen_pce",
       "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
@@ -81,7 +81,7 @@
       "extra": ""
     },
     {
-      "name": "supergrafx - RetroArch - mednafen_supergrafx",
+      "name": "RetroArch - mednafen_supergrafx",
       "uniqueId": "supergrafx.ra.mednafen_supergrafx",
       "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
