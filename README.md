@@ -22,7 +22,7 @@
 
 ### Multi-Platform Game Library
 - **Universal Emulator Support**: Works with any Android emulator (RetroArch, Dolphin, PPSSPP, and more)
-- **100+ Platform Support**: Nintendo (NES, SNES, N64, GameCube, Wii, Switch), PlayStation (1-5), Sega (Genesis, Saturn, Dreamcast), Xbox, Arcade, and more
+- **100+ Platform Support**: Nintendo (NES, SNES, N64, GameCube, Wii, Switch), PlayStation (1-4), Sega (Genesis, Saturn, Dreamcast), Xbox, Arcade, and more
 - **Smart Organization**: Automatically categorizes games by platform with intelligent folder detection
 
 ### Beautiful UI & Visuals
