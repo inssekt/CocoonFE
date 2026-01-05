@@ -29,7 +29,7 @@
   "playerList": [
     {
       "name": "Dolphin Emulator",
-      "uniqueId": "wii.org.dolphinemu.dolphinemu",
+      "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz|m3u)$",
       "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Dolphin (Handheld)",
-      "uniqueId": "wii.org.dolphinemu.handheld",
+      "uniqueId": "wiiware.org.dolphinemu.handheld",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Dolphin (org.mm.jr Fork)",
-      "uniqueId": "wii.org.mm.jr",
+      "uniqueId": "wiiware.org.mm.jr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Dolphin (org.mm.j Fork)",
-      "uniqueId": "wii.org.mm.j",
+      "uniqueId": "wiiware.org.mm.j",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Dolphin MMJR",
-      "uniqueId": "wii.org.dolphinemu.mmjr",
+      "uniqueId": "wiiware.org.dolphinemu.mmjr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Dolphin MMJR3",
-      "uniqueId": "wii.org.dolphinemu.mmjr3",
+      "uniqueId": "wiiware.org.dolphinemu.mmjr3",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
@@ -89,7 +89,7 @@
     },
     {
       "name": "Dolphin Ishiiruka",
-      "uniqueId": "wii.org.dolphin.ishiirukadark",
+      "uniqueId": "wiiware.org.dolphin.ishiirukadark",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
@@ -99,7 +99,7 @@
     },
     {
       "name": "Dolphin (Debug Build)",
-      "uniqueId": "wii.org.dolphinemu.dolphinemu.debug",
+      "uniqueId": "wiiware.org.dolphinemu.dolphinemu.debug",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz|m3u)$",
       "amStartArguments": "-n org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
@@ -109,7 +109,7 @@
     },
     {
       "name": "RetroArch (64 bits) - dolphin",
-      "uniqueId": "wii.ra64.dolphin",
+      "uniqueId": "wiiware.ra64.dolphin",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n --activity-new-task\n --activity-clear-top",
@@ -119,7 +119,7 @@
     },
     {
       "name": "RetroArch - dolphin",
-      "uniqueId": "wii.ra.dolphin",
+      "uniqueId": "wiiware.ra.dolphin",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n --activity-new-task\n --activity-clear-top",
