@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.flycast.emulator",
+      "name": "Flycast",
       "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "com.flycast.emulator (dev build)",
+      "name": "Flycast (Dev Build)",
       "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",

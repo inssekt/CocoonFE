@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "com.explusalpha.MdEmu",
+      "name": "MD.emu",
       "uniqueId": "segacd.com.explusalpha.MdEmu",
       "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",

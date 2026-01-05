@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "com.explusalpha.GbaEmu",
+      "name": "GBA.emu",
       "uniqueId": "gba.com.explusalpha.GbaEmu",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "com.fastemulator.gbafree",
+      "name": "My Boy! Free",
       "uniqueId": "gba.com.fastemulator.gbafree",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "com.fastemulator.gba",
+      "name": "My Boy!",
       "uniqueId": "gba.com.fastemulator.gba",
       "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",

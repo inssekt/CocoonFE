@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "com.explusalpha.SwanEmu",
+      "name": "Swan.emu",
       "uniqueId": "ws.com.explusalpha.SwanEmu",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",

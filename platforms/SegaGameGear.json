@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.androidemu.gg",
+      "name": "Gearoid",
       "uniqueId": "gamegear.com.androidemu.gg",
       "description": "Supported extensions: bin, bms, col, gg, rom, sg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|bms|col|gg|rom|sg|sms)$",

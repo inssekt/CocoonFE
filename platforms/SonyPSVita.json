@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "vita3k",
+      "name": "Vita3k",
       "description": "Supported extensions: dpt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.vita3k.emulator/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
@@ -32,7 +32,7 @@
       "extra": ""
     },
     {
-      "name": "vita3k zx",
+      "name": "Vita3k ZX",
       "description": "Supported extensions: dpt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",

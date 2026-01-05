@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "Aethersx2",
+      "name": "AetherSX2",
       "uniqueId": "ps2.xyz.aethersx2.android",
       "description": "Supported extensions: iso, chd, gz, mdf.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "Aethersx2 Turnip",
+      "name": "AetherSX2 Turnip",
       "uniqueId": "ps2.xyz.aethersx2.custom",
       "description": "Supported extensions: iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin)$",

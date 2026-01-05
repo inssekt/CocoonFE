@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.seleuco.mame4droid",
+      "name": "MAME4droid",
       "uniqueId": "mame.com.seleuco.mame4droid",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "com.seleuco.mame4droid 2024",
+      "name": "MAME4droid 2024",
       "uniqueId": "mame.com.seleuco.mame4d2024",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",

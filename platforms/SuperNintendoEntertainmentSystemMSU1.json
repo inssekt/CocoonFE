@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.explusalpha.Snes9xPlus",
+      "name": "Snes9x EX",
       "uniqueId": "snesmsu1.com.explusalpha.Snes9xPlus",
       "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",

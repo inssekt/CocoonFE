@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.explusalpha.MdEmu",
+      "name": "MD.emu",
       "uniqueId": "genesis.com.explusalpha.MdEmu",
       "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "com.androidemu.gens",
+      "name": "Gensoid",
       "uniqueId": "genesis.com.androidemu.gens",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms)$",

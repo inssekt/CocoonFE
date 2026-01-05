@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "org.mupen64plusae.v3.fzurita",
+      "name": "Mupen64Plus",
       "uniqueId": "n64.org.mupen64plusae.v3.fzurita",
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "org.mupen64plusae.v3.alpha",
+      "name": "Mupen64Plus (Alpha)",
       "uniqueId": "n64.org.mupen64plusae.v3.alpha",
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
@@ -47,7 +47,7 @@
       "extra": ""
     },
     {
-      "name": "org.mupen64plusae.v3.fzurita.pro",
+      "name": "Mupen64Plus FZ Edition",
       "uniqueId": "n64.org.mupen64plusae.v3.fzurita.pro",
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "paulscode.android.mupen64plusae",
+      "name": "Mupen64Plus-AE",
       "uniqueId": "n64.paulscode.android.mupen64plusae",
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",

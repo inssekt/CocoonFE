@@ -27,7 +27,7 @@
   },
   "playerList": [
     {
-      "name": "com.explusalpha.NesEmu",
+      "name": "NES.emu",
       "uniqueId": "nes.com.explusalpha.NesEmu",
       "description": "Support extensions: bin, fds, nes, nsf, qd, rom, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|fds|nes|nsf|qd|rom|unf|unif)$",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "com.androidemu.nes",
+      "name": "Nesoid",
       "uniqueId": "nes.com.androidemu.nes",
       "description": "Support extensions: bin, fds, nes, nsf, qd, rom, unf, unif.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|fds|nes|nsf|qd|rom|unf|unif)$",
