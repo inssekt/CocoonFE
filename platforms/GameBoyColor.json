@@ -57,7 +57,7 @@
       "extra": ""
     },
     {
-      "name": "com.explusalpha.GbcEmu",
+      "name": "GBC.emu",
       "uniqueId": "gbc.com.explusalpha.GbcEmu",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -67,7 +67,7 @@
       "extra": ""
     },
     {
-      "name": "com.fastemulator.gbcfree",
+      "name": "My OldBoy! Free",
       "uniqueId": "gbc.com.fastemulator.gbcfree",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -77,7 +77,7 @@
       "extra": ""
     },
     {
-      "name": "com.fastemulator.gbc",
+      "name": "My OldBoy!",
       "uniqueId": "gbc.com.fastemulator.gbc",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",

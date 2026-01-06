@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "io.recompiled.redream",
+      "name": "Redream",
       "uniqueId": "dreamcast.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "com.reicast.emulator",
+      "name": "Reicast",
       "uniqueId": "dreamcast.com.reicast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "com.flycast.emulator",
+      "name": "Flycast",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -55,7 +55,7 @@
       "extra": ""
     },
     {
-      "name": "com.flycast.emulator (dev build)",
+      "name": "Flycast (Dev Build)",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
