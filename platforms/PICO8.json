@@ -21,6 +21,16 @@
   },
   "playerList": [
     {
+      "name": "Pico8 Wrapper (NaviVani's Fork)",
+      "uniqueId": "pico8.io.wip.pico8",
+      "description": "Supported extensions: png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:png)$",
+      "amStartArguments": "-n io.wip.pico8/com.godot.game.GodotApp\n -a android.intent.action.VIEW\n -e GAME {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "Infinity P8 Player",
       "uniqueId": "pico8.me.dt2dev.infinity",
       "description": "Supported extensions: p8, png.",
