@@ -63,6 +63,10 @@
 ---
 
 ## Installation
+[<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png"
+     alt="Get it on Obtainium"
+     height="55"
+     style="border: 13px solid transparent;">](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/{%22id%22%3A%22rip.moth.cocoon%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Finssekt%2FCocoonFE%22%2C%22author%22%3A%22inssekt%22%2C%22name%22%3A%22CocoonFE%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22{\%22includePrereleases\%22%3Atrue%2C\%22fallbackToOlderReleases\%22%3Atrue%2C\%22filterReleaseTitlesByRegEx\%22%3A\%22\%22%2C\%22filterReleaseNotesByRegEx\%22%3A\%22\%22%2C\%22verifyLatestTag\%22%3Afalse%2C\%22sortMethodChoice\%22%3A\%22date\%22%2C\%22useLatestAssetDateAsReleaseDate\%22%3Afalse%2C\%22releaseTitleAsVersion\%22%3Afalse%2C\%22trackOnly\%22%3Afalse%2C\%22versionExtractionRegEx\%22%3A\%22\%22%2C\%22matchGroupToUse\%22%3A\%22\%22%2C\%22versionDetection\%22%3Atrue%2C\%22releaseDateAsVersion\%22%3Afalse%2C\%22useVersionCodeAsOSVersion\%22%3Afalse%2C\%22apkFilterRegEx\%22%3A\%22\%22%2C\%22invertAPKFilter\%22%3Afalse%2C\%22autoApkFilterByArch\%22%3Atrue%2C\%22appName\%22%3A\%22\%22%2C\%22appAuthor\%22%3A\%22\%22%2C\%22shizukuPretendToBeGooglePlay\%22%3Afalse%2C\%22allowInsecure\%22%3Afalse%2C\%22exemptFromBackgroundUpdates\%22%3Afalse%2C\%22skipUpdateNotifications\%22%3Afalse%2C\%22about\%22%3A\%22\%22%2C\%22refreshBeforeDownload\%22%3Afalse%2C\%22includeZips\%22%3Afalse%2C\%22zippedApkFilterRegEx\%22%3A\%22\%22}%22%2C%22overrideSource%22%3Anull}%0A%0A)
 
 ### Download
 1. Download the latest APK from [Releases](https://github.com/inssekt/CocoonFE/releases)
