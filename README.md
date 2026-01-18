@@ -22,11 +22,11 @@
 
 ### Multi-Platform Game Library
 - **Universal Emulator Support**: Works with any Android emulator (RetroArch, Dolphin, PPSSPP, and more)
-- **100+ Platform Support**: Nintendo (NES, SNES, N64, GameCube, Wii, Switch), PlayStation (1-4), Sega (Genesis, Saturn, Dreamcast), Xbox, Arcade, and more
+- **100+ Platform Support**: Nintendo (NES, SNES, N64, GameCube, Wii, Switch), PlayStation (1-3), Sega (Genesis, Saturn, Dreamcast), Arcade, and more
 - **Smart Organization**: Automatically categorizes games by platform with intelligent folder detection
 
 ### Beautiful UI & Visuals
-- **Rich Artwork**: Automatically fetches icons, logos, and hero images from SteamGridDB
+- **Rich Artwork**: Automatically fetches icons, logos, and hero images from SteamGridDB or ScreenScraper
 - **Smooth Animations**: Fluid transitions and responsive interactions
 - **Adaptive game grid with zoom feature**: just like the 3DS!
 
@@ -85,7 +85,7 @@
    - **SteamGridDB**: Get artwork for your games
      - Visit [steamgriddb.com/profile/preferences/api](https://www.steamgriddb.com/profile/preferences/api)
      - Create an API key
-   - **ScreenScraper.fr**: Get game metadata
+   - **ScreenScraper.fr**: Get game metadata and/or artwork
      - Register at [screenscraper.fr](https://www.screenscraper.fr/)
      - Optional - works with guest API without login
 
@@ -107,7 +107,7 @@ The complete platform list is available in [platforms.json](platforms.json).
 
 ## Support
 
-For bug reports and feature requests, please use [GitHub Issues](https://github.com/inssekt/CocoonFE/issues) or [Join our Discord](https://discord.gg/ytWHjRuKdS).
+For bug reports and feature requests, please use [GitHub Issues](https://github.com/inssekt/CocoonFE/issues) or [Join our Discord](https://discord.gg/cocoon).
 
 ---
 
