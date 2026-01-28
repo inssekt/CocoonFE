@@ -108,6 +108,16 @@
       "extra": ""
     },
     {
+      "name": "Dolphin PrimeHack",
+      "uniqueId": "wii.org.shiiion.primehack",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "RetroArch (64 bits) - dolphin",
       "uniqueId": "wii.ra64.dolphin",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
