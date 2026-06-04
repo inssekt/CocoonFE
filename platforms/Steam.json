@@ -75,7 +75,7 @@
       "name": "GameNative",
       "uniqueId": "steam.app.gamenative",
       "description": "GameNative",
-      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
       "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
