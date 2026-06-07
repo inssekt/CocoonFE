@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "n3ds",
@@ -25,6 +25,26 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "AzaharPlus",
+      "uniqueId": "3ds.azaharplus",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf, zcci, zcxi, cia. Fork of Azahar with extra features and broader file compatibility. Coexists with Azahar (New).",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf|zcci|zcxi|cia)$",
+      "amStartArguments": "-n io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "AzaharPlus (replaces Azahar)",
+      "uniqueId": "3ds.azaharplus.replaces",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf, zcci, zcxi, cia. Fork of Azahar with extra features. Replaces Azahar (uses same package ID as legacy Azahar).",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf|zcci|zcxi|cia)$",
+      "amStartArguments": "-n io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "Azahar",
       "uniqueId": "3ds.azahar",
