@@ -31,6 +31,16 @@
       "extra": ""
     },
     {
+      "name": "Pixl8",
+      "uniqueId": "pico8.be.codedreams.pixl8",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n be.codedreams.pixl8/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "Infinity P8 Player",
       "uniqueId": "pico8.me.dt2dev.infinity",
       "description": "Supported extensions: p8, png.",
