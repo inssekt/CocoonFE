@@ -31,7 +31,7 @@
       "uniqueId": "gba.it.dbtecno.pizzaboygba",
       "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
-      "amStartArguments": "-n it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
