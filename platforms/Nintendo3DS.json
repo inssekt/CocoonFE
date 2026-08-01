@@ -137,7 +137,7 @@
     },
     {
       "name": "Citra (org.citra.citra_emu)",
-      "uniqueId": "3ds.org.citra.citra_emu",
+      "uniqueId": "3ds.org.citra.citra_emu.path",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n",

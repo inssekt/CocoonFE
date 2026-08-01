@@ -57,7 +57,7 @@
     },
     {
       "name": "com.flycast.emulator (dev build)",
-      "uniqueId": "atomiswave.com.flycast.emulator",
+      "uniqueId": "atomiswave.com.flycast.emulator.dev",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",

@@ -38,7 +38,7 @@
     },
     {
       "name": "Duckstation (Legacy)",
-      "uniqueId": "psx.com.github.stenzek.duckstation",
+      "uniqueId": "psx.com.github.stenzek.duckstation.legacy",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
