@@ -15,9 +15,9 @@
 
 ## About
 
-Cocoon is an emulation frontend (similar to EmulationStation & Pegasus) which acts as an application to organise your library and launch games through Emulators. Cocoon is not an emulator, not a device, and does not contain any copyrighted material at all.
+Cocoon is an emulation frontend (similar to EmulationStation & Pegasus) which acts as an application to organise your library and launch games through Emulators. 
 
-Our current scope is strictly for Android.
+While we currently only have an Android release, we are actively working on cross-platform releases such as Linux and Windows.
 
 <p align="center">
   <img src="https://cocoon-shell.com/images/news/3.0/preview1.webp" alt="Cocoon 3 home screen in light mode" width="49%">
