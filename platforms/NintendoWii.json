@@ -136,7 +136,7 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
-    }
+    },
     {
       "name": "DolphinCS",
       "uniqueId": "wii.com.joeyos.dolphinemu",
