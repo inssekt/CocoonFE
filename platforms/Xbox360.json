@@ -46,7 +46,7 @@
       "name": "xbox360 - xendroid",
       "uniqueId": "xbox360.xendroid.composee",
       "description": "",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|zar)$",
       "amStartArguments": "-n xendroid.compose/.EmulatorHostActivity\n -e game_uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
