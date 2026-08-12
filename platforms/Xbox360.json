@@ -52,6 +52,16 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     },
+	{
+      "name": "xbox360 - X360 Mobile (New)",
+      "uniqueId": "xbox360.emu.x360mobile.com",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
+      "amStartArguments": "-n emu.x360mobile.com/.X360MobileGameLaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
     {
       "name": "xbox360 - X360 Mobile",
       "uniqueId": "xbox360.emu.x360.mobile",
