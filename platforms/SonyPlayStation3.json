@@ -38,7 +38,7 @@
       "uniqueId": "ps3.com.armsx3",
       "description": "Supported extensions: bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cso|cue|dump|elf|gz|img|iso|mdf|nrg|zso)$",
-      "amStartArguments": "-n com.armsx3/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --grant-read-uri-permission\n --activity-clear-task\n --activity-clear-top\n",
+      "amStartArguments": "-n com.armsx3/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n -e path {file.path}\n --grant-read-uri-permission\n --activity-clear-task\n --activity-clear-top\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
