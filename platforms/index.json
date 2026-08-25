@@ -279,7 +279,7 @@
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "GameBoyColor.json",
