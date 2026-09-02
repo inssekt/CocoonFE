@@ -102,6 +102,16 @@
       "extra": ""
     },
     {
+      "name": "Eden DS",
+      "uniqueId": "switch.dev.eden.eden_emulator.dualscreen.debug",
+      "description": "Eden DS dual-screen emulator.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xci|nsp)$",
+      "amStartArguments": "-n dev.eden.eden_emulator.dualscreen.debug/org.yuzu.yuzu_emu.activities.EmulationActivity -a android.nfc.action.TECH_DISCOVERED -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "Yuzu",
       "uniqueId": "switch.org.yuzu.yuzu_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
