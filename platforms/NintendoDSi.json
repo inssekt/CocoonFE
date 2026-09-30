@@ -49,7 +49,7 @@
     },
     {
       "name": "seedlessDS",
-      "uniqueId": "com.seedlessds.app",
+      "uniqueId": "ndsi.com.seedlessds.app",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|srl|ids|zip|7z)$",
       "amStartArguments": "-n com.seedlessds.app/com.seedlessds.app.LaunchGame\n-e rom_path {file.path}",
