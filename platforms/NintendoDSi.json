@@ -38,6 +38,16 @@
       "extra": ""
     },
     {
+      "name": "MelonDualDS",
+      "uniqueId": "ndsi.me.magnum.melondualds",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melondualds.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "Drastic",
       "uniqueId": "ndsi.com.dsemu.drastic",
       "description": "Supported extensions: bin, nds, rar, zip, 7z.",
