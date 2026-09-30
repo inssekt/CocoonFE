@@ -33,6 +33,16 @@
       "extra": ""
     },
     {
+      "name": "Vita3k Plus",
+      "uniqueId": "psv.vita3k.plus",
+      "description": "Supported extensions: dpt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n org.vita3kplus.emulator/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "Vita3k ZX",
       "uniqueId": "psv.vita3k.zx",
       "description": "Supported extensions: dpt.",
