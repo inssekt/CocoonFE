@@ -49,14 +49,14 @@
     },
     {
       "name": "seedlessDS",
-      "uniqueId": "com.seedlessds.app",
+      "uniqueId": "nds.com.seedlessds.app",
       "description": null,
-      "acceptedFilenameRegex": "^(.*).(?:nds|srl|ids|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|dsi|srl|ids|zip|7z)$",
       "amStartArguments": "-n com.seedlessds.app/com.seedlessds.app.LaunchGame\n-e rom_path {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
-    },
+    }
     {
       "name": "Drastic",
       "uniqueId": "nds.com.dsemu.drastic",
