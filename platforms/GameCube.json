@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "GameCube",
     "uniqueId": "gc",
@@ -104,6 +104,16 @@
       "amStartArguments": "-n org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Dolphin PrimeHack",
+      "uniqueId": "wii.org.shiiion.primehack",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {
