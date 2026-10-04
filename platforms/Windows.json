@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -46,9 +46,9 @@
           {
             "id": "steam",
             "extensions": [
+              "droiddeck",
               "steam",
-              "steamappid",
-              "droiddeck"
+              "steamappid"
             ],
             "legacyTags": [
               "steamappid"
