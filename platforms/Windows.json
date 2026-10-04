@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -96,43 +96,25 @@
   },
   "playerList": [
     {
-      "name": "Winlator CMod",
-      "uniqueId": "windows.winlator.cmod",
-      "description": "Supported extensions: desktop",
-      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.winlator.cmod/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
+      "name": "GameNative",
+      "uniqueId": "windows.app.gamenative",
+      "description": "Supported extensions: steam, steamappid, pcgame, localappid, localgameid, gog, epic, amazon",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steam|steamappid|pcgame|localappid|localgameid|gog|epic|amazon)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.app_id}\n --es game_source {tags.game_source}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": {
+        "cantResume": true
+      }
     },
     {
-      "name": "Winlator CMod Proot",
-      "uniqueId": "windows.winlator.cmodproot",
-      "description": "Supported extensions: desktop",
-      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "Winlator Cmod (Old)",
-      "uniqueId": "windows.winlator.cmod.old",
-      "description": "Supported extensions: desktop",
-      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.winlator/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "MiceWine",
-      "uniqueId": "windows.micewine.emu",
-      "description": "Supported extensions: lnk",
-      "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
-      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
+      "name": "DroidDeck",
+      "uniqueId": "windows.com.droiddeck.launcher",
+      "description": "Supported extensions: droiddeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:droiddeck)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -p com.droiddeck.launcher",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {
@@ -226,16 +208,44 @@
       "extra": ""
     },
     {
-      "name": "GameNative",
-      "uniqueId": "windows.app.gamenative",
-      "description": "Supported extensions: steam, steamappid, pcgame, localappid, localgameid, gog, epic, amazon",
-      "acceptedFilenameRegex": "^(.*)\\.(?:steam|steamappid|pcgame|localappid|localgameid|gog|epic|amazon)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.app_id}\n --es game_source {tags.game_source}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": {
-        "cantResume": true
-      }
+      "name": "Winlator CMod",
+      "uniqueId": "windows.winlator.cmod",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.winlator.cmod/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Winlator CMod Proot",
+      "uniqueId": "windows.winlator.cmodproot",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Winlator Cmod (Old)",
+      "uniqueId": "windows.winlator.cmod.old",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.winlator/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "MiceWine",
+      "uniqueId": "windows.micewine.emu",
+      "description": "Supported extensions: lnk",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
+      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }
