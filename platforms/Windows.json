@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -46,7 +46,6 @@
           {
             "id": "steam",
             "extensions": [
-              "droiddeck",
               "steam",
               "steamappid"
             ],
@@ -111,8 +110,8 @@
     {
       "name": "DroidDeck",
       "uniqueId": "windows.com.droiddeck.launcher",
-      "description": "Supported extensions: droiddeck",
-      "acceptedFilenameRegex": "^(.*)\\.(?:droiddeck)$",
+      "description": "Supported extensions: steam",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
       "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -p com.droiddeck.launcher",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
