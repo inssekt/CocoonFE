@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -113,6 +113,36 @@
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
       "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.droiddeck.launcher/com.droiddeck.launcher.MainActivity",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "DroidDeck (PUBG)",
+      "uniqueId": "windows.com.droiddeck.launcher.pubg",
+      "description": "Supported extensions: steam",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.tencent.ig/com.droiddeck.launcher.MainActivity",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "DroidDeck (Antutu)",
+      "uniqueId": "windows.com.droiddeck.launcher.antutu",
+      "description": "Supported extensions: steam",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.antutu.benchmark.full/com.droiddeck.launcher.MainActivity",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "DroidDeck (Ludashi)",
+      "uniqueId": "windows.com.droiddeck.launcher.ludashi",
+      "description": "Supported extensions: steam",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.ludashi.benchmark/com.droiddeck.launcher.MainActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
