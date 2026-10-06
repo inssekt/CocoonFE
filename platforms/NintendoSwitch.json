@@ -102,6 +102,16 @@
       "extra": ""
     },
     {
+      "name": "Lemon",
+      "uniqueId": "switch.dev.lemon.lemon_emulator",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp, xcz, nsz.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp|xcz|nsz)$",
+      "amStartArguments": "-n dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "Yuzu",
       "uniqueId": "switch.org.yuzu.yuzu_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
