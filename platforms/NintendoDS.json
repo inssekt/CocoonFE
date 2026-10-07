@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -72,7 +72,7 @@
       "uniqueId": "nds.com.dsemu.drastic.legacy",
       "description": "Uses file path instead of SAF URI. For older Drastic versions or compatibility.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
-      "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.path}\n--activity-clear-task\n--activity-clear-top",
+      "amStartArguments": "-a android.intent.action.VIEW\n-n com.dsemu.drastic/.DraSticActivity\n-d file://{file.path}\n--activity-clear-task\n--activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
