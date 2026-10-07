@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Game Boy Advance",
     "uniqueId": "gba",
@@ -94,6 +94,16 @@
       "amStartArguments": "-n com.pixelrespawn.linkboy/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "PokeDaisy",
+      "uniqueId": "gba.com.pokedaisy.app",
+      "description": "Supported extensions: gba",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {
