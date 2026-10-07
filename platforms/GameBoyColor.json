@@ -59,8 +59,8 @@
     {
       "name": "GBC.emu",
       "uniqueId": "gbc.com.explusalpha.GbcEmu",
-      "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
+      "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb|zip)$",
       "amStartArguments": "-n com.explusalpha.GbcEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
