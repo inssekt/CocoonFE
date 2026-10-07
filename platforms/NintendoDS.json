@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -33,6 +33,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "KH Melon Mix",
+      "uniqueId": "nds.com.nireves333.melonmix",
+      "description": "Android port of KH Melon Mix. Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-a com.nireves333.melonmix.LAUNCH_ROM\n-n com.nireves333.melonmix/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
