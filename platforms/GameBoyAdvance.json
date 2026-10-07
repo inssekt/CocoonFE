@@ -97,6 +97,16 @@
       "extra": ""
     },
     {
+      "name": "PokeDaisy",
+      "uniqueId": "gba.com.pokedaisy.app",
+      "description": "Supported extensions: gba",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "RetroArch (64 bits) - mgba",
       "uniqueId": "gba.ra64.mgba",
       "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
