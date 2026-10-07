@@ -21,15 +21,15 @@
     "extra": ""
   },
   "playerList": [
-    {
-      "name": "Starboard",
-      "uniqueId": "ports.org.force9.starboard",
-      "description": "Supported extensions: port",
-      "acceptedFilenameRegex": "^(.*)\\.(?:port)$",
-      "amStartArguments": "-n org.force9.starboard/.ui.game.GameActivity -e port_file {file.path}",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    }
+	{
+	  "name": "Starboard",
+	  "uniqueId": "ports.org.force9.starboard",
+	  "description": "Supported extensions: port",
+	  "acceptedFilenameRegex": "^(.*)\\.(?:port)$",
+	  "amStartArguments": "-a android.intent.action.VIEW\n -n org.force9.starboard/.ui.game.GameActivity\n --es port_file {file.path}\n --activity-clear-task\n --activity-clear-top",
+	  "killPackageProcesses": true,
+	  "killPackageProcessesWarning": true,
+	  "extra": ""
+	}
   ]
 }
