@@ -59,8 +59,8 @@
     {
       "name": "GBA.emu",
       "uniqueId": "gba.com.explusalpha.GbaEmu",
-      "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
+      "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb|zip)$",
       "amStartArguments": "-n com.explusalpha.GbaEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
