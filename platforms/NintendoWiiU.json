@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 7,
   "platform": {
     "name": "Nintendo Wii U",
     "uniqueId": "wiiu",
@@ -27,16 +27,6 @@
     "extra": ""
   },
   "playerList": [
-    {
-      "name": "CEMU Dualscreen Fork",
-      "uniqueId": "wiiu.info.cemu.Cemu.dualscreen",
-      "description": null,
-      "acceptedFilenameRegex": "^(.*)\\.(?:wua|wux|rpx)$",
-      "amStartArguments": "-n info.cemu.cemu/.emulation.EmulationActivity\n -d {file.uri}\n --activity-clear-task\n  --activity-clear-top\n",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
     {
       "name": "CEMU",
       "uniqueId": "wiiu.info.cemu.Cemu",
