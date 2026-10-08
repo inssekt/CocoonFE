@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Sega Saturn",
     "uniqueId": "saturn",
@@ -47,6 +47,16 @@
       "extra": ""
     },
     {
+      "name": "Saturn.EMU",
+      "uniqueId": "saturn.com.explusalpha.SaturnEmu",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.explusalpha.SaturnEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "YabaSanshiro Pro",
       "uniqueId": "saturn.org.uoyabause.android.pro",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
@@ -67,41 +77,11 @@
       "extra": ""
     },
     {
-      "name": "Saturn.EMU",
-      "uniqueId": "saturn.com.explusalpha.SaturnEmu",
-      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
-      "amStartArguments": "-n com.explusalpha.SaturnEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
       "name": "RetroArch (64 bits) - beetle saturn",
       "uniqueId": "saturn.ra64.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_saturn_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "RetroArch (64 bits) - yabasanshiro",
-      "uniqueId": "saturn.ra64.yabasanshiro",
-      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabasanshiro_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "RetroArch (64 bits) - yabause",
-      "uniqueId": "saturn.ra64.yabause",
-      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabause_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -117,26 +97,6 @@
       "extra": ""
     },
     {
-      "name": "RetroArch (32 bits) - yabasanshiro",
-      "uniqueId": "saturn.ra32.yabasanshiro",
-      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/yabasanshiro_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "RetroArch (32 bits) - yabause",
-      "uniqueId": "saturn.ra32.yabause",
-      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/yabause_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "RetroArch - beetle saturn",
       "uniqueId": "saturn.ra.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
@@ -147,11 +107,51 @@
       "extra": ""
     },
     {
+      "name": "RetroArch (64 bits) - yabasanshiro",
+      "uniqueId": "saturn.ra64.yabasanshiro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabasanshiro_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RetroArch (32 bits) - yabasanshiro",
+      "uniqueId": "saturn.ra32.yabasanshiro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/yabasanshiro_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "RetroArch - yabasanshiro",
       "uniqueId": "saturn.ra.yabasanshiro",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/yabasanshiro_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RetroArch (64 bits) - yabause",
+      "uniqueId": "saturn.ra64.yabause",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/yabause_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RetroArch (32 bits) - yabause",
+      "uniqueId": "saturn.ra32.yabause",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/yabause_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
