@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Dreamcast",
     "uniqueId": "dreamcast",
@@ -25,26 +25,6 @@
   },
   "playerList": [
     {
-      "name": "Redream",
-      "uniqueId": "dreamcast.io.recompiled.redream",
-      "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
-      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "Reicast",
-      "uniqueId": "dreamcast.com.reicast.emulator",
-      "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
-      "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "Flycast",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
@@ -55,11 +35,31 @@
       "extra": ""
     },
     {
+      "name": "Redream",
+      "uniqueId": "dreamcast.io.recompiled.redream",
+      "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
+      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "Flycast (Dev Build)",
       "uniqueId": "dreamcast.com.flycast.emulator.dev",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Reicast",
+      "uniqueId": "dreamcast.com.reicast.emulator",
+      "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
+      "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
