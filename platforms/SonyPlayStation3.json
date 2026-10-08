@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -24,21 +24,21 @@
   },
   "playerList": [
     {
-      "name": "aPS3e",
-      "uniqueId": "ps3.aenu.aps3e",
-      "description": "Supported extensions: iso.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
-      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "ARMSX3",
       "uniqueId": "ps3.com.armsx3",
       "description": "Supported extensions: bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cso|cue|dump|elf|gz|img|iso|mdf|nrg|zso)$",
       "amStartArguments": "-n com.armsx3/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n --eu android.intent.extra.STREAM {file.path}\n --grant-read-uri-permission\n --activity-clear-task\n --activity-clear-top\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "aPS3e",
+      "uniqueId": "ps3.aenu.aps3e",
+      "description": "Supported extensions: iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
