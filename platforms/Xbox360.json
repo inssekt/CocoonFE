@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -22,26 +22,6 @@
     "extra": ""
   },
   "playerList": [
-    {
-      "name": "xbox360 - ax360e",
-      "uniqueId": "xbox360.aenu.ax360e",
-      "description": "",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
-      "amStartArguments": "-n aenu.ax360e/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
-      "name": "xbox360 - ax360e (Free)",
-      "uniqueId": "xbox360.aenu.ax360e.free",
-      "description": "",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
-      "amStartArguments": "-n aenu.ax360e.free/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
 	{
       "name": "xbox360 - xendroid",
       "uniqueId": "xbox360.xendroid.composee",
@@ -68,6 +48,26 @@
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
       "amStartArguments": "-n emu.x360.mobile/.X360MobileGameLaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - ax360e",
+      "uniqueId": "xbox360.aenu.ax360e",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
+      "amStartArguments": "-n aenu.ax360e/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - ax360e (Free)",
+      "uniqueId": "xbox360.aenu.ax360e.free",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
+      "amStartArguments": "-n aenu.ax360e.free/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

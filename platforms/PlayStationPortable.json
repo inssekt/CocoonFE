@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "PlayStation Portable",
     "uniqueId": "psp",
@@ -23,23 +23,23 @@
     ],
     "extra": ""
   },
-  "playerList": [
-    {
-      "name": "PPSSPP",
-      "uniqueId": "psp.org.ppsspp.ppsspp",
-      "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
-      "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
+  "playerList": 
     {
       "name": "PPSSPP Gold",
       "uniqueId": "psp.org.ppsspp.ppssppgold",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "PPSSPP",
+      "uniqueId": "psp.org.ppsspp.ppsspp",
+      "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
+      "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
