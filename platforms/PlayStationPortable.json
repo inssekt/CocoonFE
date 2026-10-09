@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "PlayStation Portable",
     "uniqueId": "psp",
@@ -23,7 +23,7 @@
     ],
     "extra": ""
   },
-  "playerList": 
+  "playerList": [
     {
       "name": "PPSSPP Gold",
       "uniqueId": "psp.org.ppsspp.ppssppgold",
