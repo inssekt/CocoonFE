@@ -108,7 +108,7 @@
     },
     {
       "name": "DolphinCS",
-      "uniqueId": "com.joeyos.dolphinemu",
+      "uniqueId": "gc.com.joeyos.dolphinemu",
       "description": "Supported extensions: iso, gcm, gcz, rvz, wbfs, cdf, iso.gz, wad, elf, dol.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|gcm|gcz|rvz|wbfs|cdf|iso\\.gz|wad|elf|dol)$",
       "amStartArguments": "-n com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
