@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Nintendo 64",
     "uniqueId": "n64",
@@ -62,6 +62,16 @@
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
       "amStartArguments": "-n paulscode.android.mupen64plusae/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Gopher64",
+      "uniqueId": "n64.io.github.gopher64.gopher64",
+      "description": "Supported extensions: n64, v64, z64, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:n64|v64|z64|zip|7z)$",
+      "amStartArguments": "-n io.github.gopher64.gopher64/.N64Activity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
