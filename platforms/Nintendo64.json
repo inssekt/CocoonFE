@@ -71,7 +71,7 @@
       "uniqueId": "n64.io.github.gopher64.gopher64",
       "description": "Supported extensions: n64, v64, z64, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:n64|v64|z64|zip|7z)$",
-      "amStartArguments": "-n io.github.gopher64.gopher64/.N64Activity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-a android.intent.action.VIEW\n  -d {file.uri}\n  -p io.github.gopher64.gopher64",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
