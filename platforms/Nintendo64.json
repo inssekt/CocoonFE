@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Nintendo 64",
     "uniqueId": "n64",
@@ -71,11 +71,11 @@
       "uniqueId": "n64.io.github.gopher64.gopher64",
       "description": "Supported extensions: n64, v64, z64, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:n64|v64|z64|zip|7z)$",
-      "amStartArguments": "-n io.github.gopher64.gopher64/.N64Activity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-a android.intent.action.VIEW\n  -d {file.uri}\n  -p io.github.gopher64.gopher64",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
-    },
+    }
     {
       "name": "RetroArch (64 bits) - mupen64plus_next_gles3",
       "uniqueId": "n64.ra64.mupen64plus_next_gles3",
