@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo 64",
     "uniqueId": "n64",
@@ -71,7 +71,7 @@
       "uniqueId": "n64.io.github.gopher64.gopher64",
       "description": "Supported extensions: n64, v64, z64, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:n64|v64|z64|zip|7z)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n  -d {file.uri}\n  -p io.github.gopher64.gopher64",
+      "amStartArguments": "-n io.github.gopher64.gopher64/.SlintActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
