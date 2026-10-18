@@ -276,6 +276,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "BannerHub",
+      "uniqueId": "windows.banner.hub",
+      "description": "Supported extensions: localgameid.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-n banner.hub/com.xiaoji.egggame.DeepLinkActivity\n  -a banner.hub.LAUNCH_GAME\n  --es localGameId {tags.localgameid}\n  --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }
