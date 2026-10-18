@@ -117,6 +117,16 @@
       "extra": ""
     },
     {
+        "name": "PokeDaisy",
+        "uniqueId": "gbc.com.pokedaisy.app",
+        "description": "Supported extensions: gb, gbc, zip, 7z.",
+        "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+        "amStartArguments": "-n com.pokedaisy.app/.LaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+        "killPackageProcesses": false,
+        "killPackageProcessesWarning": true,
+        "extra": ""
+    },
+    {
       "name": "RetroArch - gambatte",
       "uniqueId": "gbc.ra.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
