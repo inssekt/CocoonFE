@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sony PlayStation",
     "uniqueId": "psx",
@@ -28,6 +28,16 @@
   "playerList": [
     {
       "name": "Duckstation",
+      "uniqueId": "psx.com.github.stenzek.duckstation.legacy",
+      "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
+      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
+      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Duckstation (Old)",
       "uniqueId": "psx.com.github.stenzek.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
@@ -42,16 +52,6 @@
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.nanodata.armsx/com.armsx2.Main\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top\n",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "Duckstation (Legacy)",
-      "uniqueId": "psx.com.github.stenzek.duckstation.legacy",
-      "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
-      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
-      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
