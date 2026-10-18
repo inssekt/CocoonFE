@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Game Boy",
     "uniqueId": "gb",
@@ -95,6 +95,16 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+        "name": "PokeDaisy",
+        "uniqueId": "gb.com.pokedaisy.app",
+        "description": "Supported extensions: gb, gbc, zip, 7z.",
+        "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+        "amStartArguments": "-n com.pokedaisy.app/.LaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+        "killPackageProcesses": false,
+        "killPackageProcessesWarning": true,
+        "extra": ""
     },
     {
       "name": "RetroArch (64 bits) - gambatte",
