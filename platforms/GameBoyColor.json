@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Game Boy Color",
     "uniqueId": "gbc",
