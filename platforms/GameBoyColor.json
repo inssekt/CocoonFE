@@ -315,6 +315,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "GBADuo",
+      "uniqueId": "gbc.com.khumam.gbaduo",
+      "description": "Supported extensions: gb, gbc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
     }
   ]
 }

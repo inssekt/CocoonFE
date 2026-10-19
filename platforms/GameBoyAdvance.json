@@ -285,6 +285,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "GBADuo",
+      "uniqueId": "gba.com.khumam.gbaduo",
+      "description": "Supported extensions: gba, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
     }
   ]
 }
