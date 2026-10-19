@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 16,
+  "revisionNumber": 17,
   "platform": {
     "name": "Game Boy",
     "uniqueId": "gb",
