@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "n3ds",
@@ -158,6 +158,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RetroArch (64 bits) - azahar",
+      "uniqueId": "3ds.ra64.azahar",
+      "description": "Supported extensions: 3ds, 3dsx, cci, csz, app, epk, tmd, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/azahar_libretro.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
