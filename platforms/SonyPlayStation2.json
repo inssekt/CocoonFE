@@ -69,7 +69,7 @@
       "uniqueId": "ps2.come.nanodata.armsx2",
       "description": "Supported extensions: iso, chd, gz, mdf, bin, ciso, img, cso.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin|cso|ciso)$",
-      "amStartArguments": "-n come.nanodata.armsx2/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task \n --activity-clear-top",
+      "amStartArguments": "-n come.nanodata.armsx2/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task \n --activity-clear-top \n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
