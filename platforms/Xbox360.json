@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -37,7 +37,7 @@
 	  "uniqueId": "xbox360.emu.x360mobile.com",
 	  "description": "Supported extensions: iso, xiso, xex, zar, bin, god, xbla.",
 	  "acceptedFilenameRegex": "^(.*)\\.(?:iso|xiso|xex|zar|bin|god|xbla)$",
-	  "amStartArguments": "-n emu.x360mobile.com/emu.x360mobile.com.X360MobileGameLaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+	  "amStartArguments": "-n emu.x360mobile.com/.X360MobileGameLaunchActivity\n-a android.intent.action.VIEW\n-d {file_uri}",
 	  "killPackageProcesses": false,
 	  "killPackageProcessesWarning": true,
 	  "extra": ""
