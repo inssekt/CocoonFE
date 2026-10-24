@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -49,6 +49,26 @@
       "description": "Supported extensions: ps3.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
       "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RPCSX (File Style)",
+      "uniqueId": "ps3.net.rpcsx.file",
+      "description": "Supported extensions: bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cso|cue|dump|elf|gz|img|iso|mdf|nrg|zso)$",
+      "amStartArguments": "-n net.rpcsx/net.rpcsx.MainActivity\n  -a android.intent.action.VIEW\n  --eu android.intent.extra.STREAM {file.path}\n  --grant-read-uri-permission\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "RPCSX (Folder Style)",
+      "uniqueId": "ps3.net.rpcsx.folder",
+      "description": "Supported extensions: ps3folder.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
+      "amStartArguments": "-n net.rpcsx/net.rpcsx.MainActivity\n  -a android.intent.action.VIEW\n  -e game_dir {tags.ps3folder}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

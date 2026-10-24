@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 19,
+  "revisionNumber": 20,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -209,6 +209,16 @@
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n dev.igawa6.edenduo.dev/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "Lemon",
+      "uniqueId": "switch.dev.lemon.lemon_emulator",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp, xcz, nsz.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp|xcz|nsz)$",
+      "amStartArguments": "-n dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
