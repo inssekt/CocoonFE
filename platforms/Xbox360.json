@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -23,7 +23,7 @@
   },
   "playerList": [
 	{
-      "name": "xbox360 - xendroid",
+      "name": "Xendroid",
       "uniqueId": "xbox360.xendroid.composee",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zar)$",
@@ -33,17 +33,17 @@
       "extra": ""
     },
 	{
-      "name": "xbox360 - X360 Mobile (New)",
-      "uniqueId": "xbox360.emu.x360mobile.com",
-      "description": "",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
-      "amStartArguments": "-n emu.x360mobile.com/.X360MobileGameLaunchActivity\n -d {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
+	  "name": "X360 Mobile (New)",
+	  "uniqueId": "xbox360.emu.x360mobile.com",
+	  "description": "Supported extensions: iso, xiso, xex, zar, bin, god, xbla.",
+	  "acceptedFilenameRegex": "^(.*)\\.(?:iso|xiso|xex|zar|bin|god|xbla)$",
+	  "amStartArguments": "-n emu.x360mobile.com/jp.xenia.emulator.FrontendLaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+	  "killPackageProcesses": false,
+	  "killPackageProcessesWarning": true,
+	  "extra": ""
+	}
     {
-      "name": "xbox360 - X360 Mobile",
+      "name": "X360 Mobile",
       "uniqueId": "xbox360.emu.x360.mobile",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
@@ -53,7 +53,7 @@
       "extra": ""
     },
     {
-      "name": "xbox360 - ax360e",
+      "name": "ax360e",
       "uniqueId": "xbox360.aenu.ax360e",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
@@ -63,7 +63,7 @@
       "extra": ""
     },
     {
-      "name": "xbox360 - ax360e (Free)",
+      "name": "ax360e (Free)",
       "uniqueId": "xbox360.aenu.ax360e.free",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
