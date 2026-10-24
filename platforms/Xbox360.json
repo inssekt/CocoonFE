@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -41,7 +41,7 @@
 	  "killPackageProcesses": false,
 	  "killPackageProcessesWarning": true,
 	  "extra": ""
-	}
+	},
     {
       "name": "X360 Mobile",
       "uniqueId": "xbox360.emu.x360.mobile",
