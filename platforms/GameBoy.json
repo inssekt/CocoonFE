@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Game Boy",
     "uniqueId": "gb",
@@ -307,14 +307,24 @@
       "extra": ""
     },
     {
-        "name": "PokeDaisy",
-        "uniqueId": "gb.com.pokedaisy.app",
-        "description": "Supported extensions: gb, gbc, zip, 7z.",
-        "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-        "amStartArguments": "-n com.pokedaisy.app/.LaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
-        "killPackageProcesses": false,
-        "killPackageProcessesWarning": true,
-        "extra": ""
+      "name": "GBADuo",
+      "uniqueId": "gb.com.khumam.gbaduo",
+      "description": "Supported extensions: gb, gbc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "PokeDaisy",
+      "uniqueId": "gb.com.pokedaisy.app",
+      "description": "Supported extensions: gb, gbc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/.LaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }

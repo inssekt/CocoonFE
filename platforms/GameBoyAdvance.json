@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Game Boy Advance",
     "uniqueId": "gba",
@@ -284,6 +284,16 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/meteor_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "GBADuo",
+      "uniqueId": "gba.com.khumam.gbaduo",
+      "description": "Supported extensions: gba, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     }
   ]
