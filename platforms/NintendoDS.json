@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -236,6 +236,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+        "name": "PokeDaisy",
+        "uniqueId": "nds.com.pokedaisy.app",
+        "description": "Supported extensions: nds, zip, 7z.",
+        "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+        "amStartArguments": "-n com.pokedaisy.app/.LaunchActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+        "killPackageProcesses": false,
+        "killPackageProcessesWarning": true,
+        "extra": ""
     }
   ]
 }
