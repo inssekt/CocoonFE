@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Adobe Flash",
     "uniqueId": "adobeflash",
@@ -30,8 +30,18 @@
     },
     {
       "name": "Ruffle",
+      "uniqueId": "flash.rs.ruffle",
+      "description": "Supported extensions: ruf, swf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
+      "amStartArguments": "-n rs.ruffle/rs.ruffle.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Ruffle (Old)",
       "uniqueId": "flash.org.ruffle.android",
-      "description": "Supported extensions: ruf, ruf, swf, swf.",
+      "description": "Supported extensions: ruf, swf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
       "amStartArguments": "-n org.ruffle.android/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
