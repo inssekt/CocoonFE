@@ -33,7 +33,7 @@
       "uniqueId": "flash.rs.ruffle",
       "description": "Supported extensions: ruf, swf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
-      "amStartArguments": "-n rs.ruffle/rs.ruffle.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n rs.ruffle/.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
