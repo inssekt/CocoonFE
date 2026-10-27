@@ -27,6 +27,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "Ruffle",
+      "uniqueId": "flash.org.ruffle.android",
+      "description": "Supported extensions: ruf, ruf, swf, swf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
+      "amStartArguments": "-n org.ruffle.android/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }
