@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Game Boy Advance",
     "uniqueId": "gba",
@@ -292,6 +292,16 @@
       "description": "Supported extensions: gba, zip, 7z",
       "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
       "amStartArguments": "-a android.intent.action.VIEW\n -n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "GBA DS",
+      "uniqueId": "gba.io.github.kyannon.gbads",
+      "description": "Supported extensions: gba, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n io.github.kyannon.gbads/.LauncherActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
