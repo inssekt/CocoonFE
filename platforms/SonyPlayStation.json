@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Sony PlayStation",
     "uniqueId": "psx",
@@ -27,11 +27,11 @@
   },
   "playerList": [
     {
-      "name": "Duckstation",
+      "name": "DuckStation",
       "uniqueId": "psx.com.github.stenzek.duckstation.legacy",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
-      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
-      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
+      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --ez resumeState 0\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
