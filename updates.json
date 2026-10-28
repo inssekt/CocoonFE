@@ -1,4 +1,11 @@
 {
   "schema": 1,
-  "releases": []
+  "releases": [
+    {
+      "version": "3.11",
+      "apk": "https://github.com/inssekt/CocoonFE/releases/download/beta-3.11/cocon-311.apk",
+      "size": 217774019,
+      "sha256": "e460300a902172f7cda8b9f9af8e7b33933ba0baef775e44b7c9ddfd05387378"
+    }
+  ]
 }
