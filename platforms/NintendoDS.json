@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -123,6 +123,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds)$",
       "amStartArguments": "-n com.hydra.noods/.FileBrowser\n -e LaunchPath {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "WatermelonDS Emufii",
+      "uniqueId": "nds.me.magnum.melondualds.emufii",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melondualds.emufii.LAUNCH_ROM\n  -n me.magnum.melondualds.emufii/me.magnum.melonds.ui.emulator.EmulatorActivity\n  -e uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
