@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -32,16 +32,16 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     },
-	{
-	  "name": "Xendroid+",
-	  "uniqueId": "xbox360.xendroid.plus.fork",
+  	{
+  	  "name": "Xendroid+",
+  	  "uniqueId": "xbox360.xendroid.plus.fork",
       "description": "Supported extensions: iso, zar.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zar)$",
-	  "amStartArguments": "-n xendroid.compose.fork/xendroid.compose.EmulatorHostActivity\n -e game_uri {file.uri}"
-	  "killPackageProcesses": false,
-	  "killPackageProcessesWarning": false,
-	  "extra": ""
-	},
+  	  "amStartArguments": "-n xendroid.compose.fork/xendroid.compose.EmulatorHostActivity\n -e game_uri {file.uri}",
+  	  "killPackageProcesses": false,
+  	  "killPackageProcessesWarning": false,
+  	  "extra": ""
+  	},
     {
       "name": "X360 Mobile (New)",
       "uniqueId": "xbox360.emu.x360mobile.com",
