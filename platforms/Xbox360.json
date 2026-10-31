@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -37,7 +37,7 @@
 	  "uniqueId": "xbox360.xendroid.plus.fork",
       "description": "Supported extensions: iso, zar.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|zar)$",
-	  "amStartArguments": "-n xendroid.compose.fork/xendroid.compose.EmulatorHostActivity\n-a xendroid.intent.action.xendroid\n-d {file.uri}\n-f 0x00000001\n-e game_uri {file.uri}"
+	  "amStartArguments": "-n xendroid.compose.fork/xendroid.compose.EmulatorHostActivity\n -e game_uri {file.uri}"
 	  "killPackageProcesses": false,
 	  "killPackageProcessesWarning": false,
 	  "extra": ""
