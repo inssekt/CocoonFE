@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 18,
+  "revisionNumber": 19,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -133,6 +133,16 @@
       "description": "Supported extensions: nds, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melondualds.emufii.LAUNCH_ROM\n  -n me.magnum.melondualds.emufii/me.magnum.melonds.ui.emulator.EmulatorActivity\n  -e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "WideMelon",
+      "uniqueId": "nds.io.github.pruefsumme.widemelon",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-a io.github.pruefsumme.widemelon.LAUNCH_ROM\n  -n io.github.pruefsumme.widemelon/me.magnum.melonds.ui.emulator.EmulatorActivity\n  -e uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
