@@ -112,7 +112,7 @@
       "uniqueId": "windows.com.droiddeck.launcher",
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.droiddeck.launcher/com.droiddeck.launcher.MainActivity",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.droiddeck.launcher/com.droiddeck.launcher.FrontEndActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -122,7 +122,7 @@
       "uniqueId": "windows.com.droiddeck.launcher.pubg",
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.tencent.ig/com.droiddeck.launcher.MainActivity",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.tencent.ig/com.droiddeck.launcher.FrontEndActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -132,7 +132,7 @@
       "uniqueId": "windows.com.droiddeck.launcher.antutu",
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.antutu.benchmark.full/com.droiddeck.launcher.MainActivity",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.antutu.benchmark.full/com.droiddeck.launcher.FrontEndActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -142,7 +142,7 @@
       "uniqueId": "windows.com.droiddeck.launcher.ludashi",
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.ludashi.benchmark/com.droiddeck.launcher.MainActivity",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.ludashi.benchmark/com.droiddeck.launcher.FrontEndActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
