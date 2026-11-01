@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "GameCube",
     "uniqueId": "gc",
@@ -109,8 +109,8 @@
     {
       "name": "DolphinCS",
       "uniqueId": "gc.com.joeyos.dolphinemu",
-      "description": "Supported extensions: iso, gcm, gcz, rvz, wbfs, cdf, iso.gz, wad, elf, dol.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso|gcm|gcz|rvz|wbfs|cdf|iso\\.gz|wad|elf|dol)$",
+      "description": "Supported extensions: iso, gcm, gcz, rvz, wbfs, cdf, iso.gz, wad, elf, dol, ciso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|gcm|gcz|rvz|wbfs|cdf|iso\\.gz|wad|elf|dol|ciso)$",
       "amStartArguments": "-n com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
