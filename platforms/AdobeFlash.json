@@ -23,7 +23,7 @@
       "uniqueId": "flash.io.navivani.swiff",
       "description": "Supported extensions: swiffid",
       "acceptedFilenameRegex": "^(.*)\\.(?:swiffid)$",
-      "amStartArguments": "-n io.navivani.swiff/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
+      "amStartArguments": "-n io.navivani.swiff/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/octet-stream",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

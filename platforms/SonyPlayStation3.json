@@ -38,7 +38,7 @@
       "uniqueId": "ps3.aenu.aps3e",
       "description": "Supported extensions: iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
-      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
+      "amStartArguments": "-n aenu.aps3e/.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -48,7 +48,7 @@
       "uniqueId": "ps3.aenu.aps3e.folder",
       "description": "Supported extensions: ps3.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
-      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
+      "amStartArguments": "-n aenu.aps3e/.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -58,7 +58,7 @@
       "uniqueId": "ps3.net.rpcsx.file",
       "description": "Supported extensions: bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cso|cue|dump|elf|gz|img|iso|mdf|nrg|zso)$",
-      "amStartArguments": "-n net.rpcsx/net.rpcsx.MainActivity\n  -a android.intent.action.VIEW\n  --eu android.intent.extra.STREAM {file.path}\n  --grant-read-uri-permission\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n net.rpcsx/.MainActivity\n  -a android.intent.action.VIEW\n  --eu android.intent.extra.STREAM {file.path}\n  --grant-read-uri-permission\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -68,7 +68,7 @@
       "uniqueId": "ps3.net.rpcsx.folder",
       "description": "Supported extensions: ps3folder.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
-      "amStartArguments": "-n net.rpcsx/net.rpcsx.MainActivity\n  -a android.intent.action.VIEW\n  -e game_dir {tags.ps3folder}",
+      "amStartArguments": "-n net.rpcsx/.MainActivity\n  -a android.intent.action.VIEW\n  -e game_dir {tags.ps3folder}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

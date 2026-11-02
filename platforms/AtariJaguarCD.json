@@ -29,7 +29,7 @@
       "uniqueId": "jaguarcd.ru.vastness.altmer.iratajaguar",
       "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
-      "amStartArguments": "-n ru.vastness.altmer.iratajaguar/ru.vastness.altmer.iratajaguar.MainActivity\n  -e rom {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n ru.vastness.altmer.iratajaguar/.MainActivity\n  -e rom {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

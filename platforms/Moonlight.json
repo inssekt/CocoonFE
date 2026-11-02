@@ -36,7 +36,7 @@
       "uniqueId": "moonlight.com.limelight",
       "description": "Supported extensions: moonlight",
       "acceptedFilenameRegex": "^(.*)\\.(?:moonlight)$",
-      "amStartArguments": "-n com.limelight/com.limelight.ShortcutTrampoline\n --es UUID {tags.moonlight_uuid}\n --es AppId {tags.moonlight_id}",
+      "amStartArguments": "-n com.limelight/.ShortcutTrampoline\n -e UUID {tags.moonlight_uuid}\n -e AppId {tags.moonlight_id}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -100,7 +100,7 @@
       "uniqueId": "windows.app.gamenative",
       "description": "Supported extensions: steam, steamappid, pcgame, localappid, localgameid, gog, epic, amazon",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam|steamappid|pcgame|localappid|localgameid|gog|epic|amazon)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.app_id}\n --es game_source {tags.game_source}",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.app_id}\n -e game_source {tags.game_source}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": {
@@ -112,7 +112,7 @@
       "uniqueId": "windows.com.droiddeck.launcher",
       "description": "Supported extensions: steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steam)$",
-      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.droiddeck.launcher/com.droiddeck.launcher.FrontEndActivity",
+      "amStartArguments": "-a android.intent.action.VIEW\n -d {file.uri}\n -n com.droiddeck.launcher/.FrontEndActivity",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -152,7 +152,7 @@
       "uniqueId": "windows.gamehub.lite.steam",
       "description": "Supported extensions: steamappid, steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e steamAppId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -162,7 +162,7 @@
       "uniqueId": "windows.gamehub.lite.rc.steam",
       "description": "Supported extensions: steamappid, steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
-      "amStartArguments": "-a emuready.gamehub.lite.LAUNCH_GAME\n -n emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a emuready.gamehub.lite.LAUNCH_GAME\n -n emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e steamAppId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -172,7 +172,7 @@
       "uniqueId": "windows.gamehub.lite.steam.antutu",
       "description": "Supported extensions: steamappid, steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e steamAppId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -182,7 +182,7 @@
       "uniqueId": "windows.gamehub.lite.steam.pubg",
       "description": "Supported extensions: steamappid, steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e steamAppId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -192,7 +192,7 @@
       "uniqueId": "windows.gamehub.lite.steam.ludashi",
       "description": "Supported extensions: steamappid, steam",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid|steam)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e steamAppId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -202,7 +202,7 @@
       "uniqueId": "windows.gamehub.lite.local",
       "description": "Supported extensions: localgameid, localappid, pcgame",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid|localappid|pcgame)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e localGameId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -212,7 +212,7 @@
       "uniqueId": "windows.gamehub.lite.local.antutu",
       "description": "Supported extensions: localgameid, localappid, pcgame",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid|localappid|pcgame)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e localGameId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -222,7 +222,7 @@
       "uniqueId": "windows.gamehub.lite.local.pubg",
       "description": "Supported extensions: localgameid, localappid, pcgame",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid|localappid|pcgame)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e localGameId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -232,7 +232,7 @@
       "uniqueId": "windows.gamehub.lite.ludashi",
       "description": "Supported extensions: localgameid, localappid, pcgame",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid|localappid|pcgame)$",
-      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.app_id}\n --ez autoStartGame true",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n -e localGameId {tags.app_id}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -272,7 +272,7 @@
       "uniqueId": "windows.micewine.emu",
       "description": "Supported extensions: lnk",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
-      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "amStartArguments": "-n com.micewine.emu/.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -282,7 +282,7 @@
       "uniqueId": "windows.banner.hub",
       "description": "Supported extensions: localgameid.",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
-      "amStartArguments": "-n banner.hub/com.xiaoji.egggame.DeepLinkActivity\n  -a banner.hub.LAUNCH_GAME\n  --es localGameId {tags.localgameid}\n  --ez autoStartGame true",
+      "amStartArguments": "-n banner.hub/com.xiaoji.egggame.DeepLinkActivity\n  -a banner.hub.LAUNCH_GAME\n  -e localGameId {tags.localgameid}\n  --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

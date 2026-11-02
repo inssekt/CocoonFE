@@ -26,7 +26,7 @@
       "uniqueId": "xbplay.com.studio08.xbgamestream",
       "description": "XBPlay Remote Play",
       "acceptedFilenameRegex": "^(.*)\\.(?:xcloud)$",
-      "amStartArguments": "-a xcloudstart\n -n com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity\n --es titleId {tags.titleId}",
+      "amStartArguments": "-a xcloudstart\n -n com.studio08.xbgamestream/.PWAMainMenuActivity\n -e titleId {tags.titleId}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

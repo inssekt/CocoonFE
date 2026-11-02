@@ -26,7 +26,7 @@
 	  "uniqueId": "ports.org.force9.starboard",
 	  "description": "Supported extensions: port",
 	  "acceptedFilenameRegex": "^(.*)\\.(?:port)$",
-	  "amStartArguments": "-a android.intent.action.VIEW\n -n org.force9.starboard/.ui.game.GameActivity\n --es port_file {file.path}\n --activity-clear-task\n --activity-clear-top",
+	  "amStartArguments": "-a android.intent.action.VIEW\n -n org.force9.starboard/.ui.game.GameActivity\n -e port_file {file.path}\n --activity-clear-task\n --activity-clear-top",
 	  "killPackageProcesses": true,
 	  "killPackageProcessesWarning": true,
 	  "extra": ""

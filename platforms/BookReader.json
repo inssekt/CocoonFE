@@ -43,7 +43,7 @@
       "uniqueId": "ebook.org.readera",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
-      "amStartArguments": "-n org.readera/org.readera.read.ReadActivity\n -d {file.uri}",
+      "amStartArguments": "-n org.readera/.read.ReadActivity\n -d {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

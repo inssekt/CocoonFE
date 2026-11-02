@@ -29,7 +29,7 @@
       "uniqueId": "virtualboy.com.simongellis.vvb",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:vb|zip)$",
-      "amStartArguments": "-n com.simongellis.vvb/com.simongellis.vvb.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "amStartArguments": "-n com.simongellis.vvb/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

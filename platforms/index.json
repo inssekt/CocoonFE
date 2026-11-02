@@ -135,13 +135,6 @@
       "revisionNumber": 2
     },
     {
-      "filename": "CassetteVision.json",
-      "platformName": "Cassette Vision",
-      "platformShortname": "cassette",
-      "platformUniqueId": "cassette",
-      "revisionNumber": 1
-    },
-    {
       "filename": "CaveStoryGameEngine.json",
       "platformName": "Cave Story Game Engine",
       "platformShortname": "cavestory",
@@ -210,20 +203,6 @@
       "platformShortname": "dreamcast",
       "platformUniqueId": "dreamcast",
       "revisionNumber": 7
-    },
-    {
-      "filename": "ElektorTVGamesComputer.json",
-      "platformName": "Elektor TV Games Computer",
-      "platformShortname": "elektor",
-      "platformUniqueId": "elektor",
-      "revisionNumber": 1
-    },
-    {
-      "filename": "FMTowns.json",
-      "platformName": "FM Towns",
-      "platformShortname": "fmtowns",
-      "platformUniqueId": "fmtowns",
-      "revisionNumber": 1
     },
     {
       "filename": "FairchildChannelF.json",
@@ -359,13 +338,6 @@
       "revisionNumber": 4
     },
     {
-      "filename": "NECPC60.json",
-      "platformName": "NEC PC-60",
-      "platformShortname": "pc60",
-      "platformUniqueId": "pc60",
-      "revisionNumber": 4
-    },
-    {
       "filename": "NECPC88.json",
       "platformName": "NEC PC-88",
       "platformShortname": "pc88",
@@ -490,13 +462,6 @@
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
       "revisionNumber": 4
-    },
-    {
-      "filename": "Oric.json",
-      "platformName": "Oric",
-      "platformShortname": "oric",
-      "platformUniqueId": "oric",
-      "revisionNumber": 1
     },
     {
       "filename": "PICO8.json",
@@ -695,13 +660,6 @@
       "revisionNumber": 1
     },
     {
-      "filename": "SuperCassetteVision.json",
-      "platformName": "Super Cassette Vision",
-      "platformShortname": "supercassette",
-      "platformUniqueId": "supercassette",
-      "revisionNumber": 1
-    },
-    {
       "filename": "SuperGrafx.json",
       "platformName": "SuperGrafx",
       "platformShortname": "supergrafx",
@@ -723,25 +681,11 @@
       "revisionNumber": 2
     },
     {
-      "filename": "TI83.json",
-      "platformName": "TI-83",
-      "platformShortname": "ti83",
-      "platformUniqueId": "ti83",
-      "revisionNumber": 1
-    },
-    {
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80",
       "platformUniqueId": "tic80",
       "revisionNumber": 2
-    },
-    {
-      "filename": "ThomsonTO8.json",
-      "platformName": "Thomson TO8",
-      "platformShortname": "to8",
-      "platformUniqueId": "to8",
-      "revisionNumber": 1
     },
     {
       "filename": "TurboGrafx16.json",
@@ -861,13 +805,6 @@
       "platformShortname": "zxspectrum",
       "platformUniqueId": "zxspectrum",
       "revisionNumber": 6
-    },
-    {
-      "filename": "Zeebo.json",
-      "platformName": "Zeebo",
-      "platformShortname": "zeebo",
-      "platformUniqueId": "zeebo",
-      "revisionNumber": 1
     }
   ]
 }

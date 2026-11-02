@@ -23,7 +23,7 @@
       "uniqueId": "com.izzy2lost.x1box",
       "description": "X1-BOX Emulator",
       "acceptedFilenameRegex": "^(.*).(?:iso|xiso|xboe|dotno)$",
-      "amStartArguments": "-n com.izzy2lost.x1box/com.izzy2lost.x1box.LauncherActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""

@@ -67,7 +67,7 @@
       "uniqueId": "xbox360.aenu.ax360e",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
-      "amStartArguments": "-n aenu.ax360e/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
+      "amStartArguments": "-n aenu.ax360e/.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

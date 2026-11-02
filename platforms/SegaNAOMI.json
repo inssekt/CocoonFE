@@ -31,7 +31,7 @@
       "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
-      "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n com.flycast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -41,7 +41,7 @@
       "uniqueId": "naomi.com.flycast.emulator.dev",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
-      "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "amStartArguments": "-n com.flycast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

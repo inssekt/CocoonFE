@@ -25,7 +25,7 @@
       "uniqueId": "scummvm.org.scummvm.scummvm",
       "description": "Supported extensions: dpt",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
-      "amStartArguments": "-n org.scummvm.scummvm/org.scummvm.scummvm.SplashActivity\n -a android.intent.action.MAIN\n -c android.intent.category.LAUNCHER\n -d {tags.scummvm_id}",
+      "amStartArguments": "-n org.scummvm.scummvm/.SplashActivity\n -a android.intent.action.MAIN\n -c android.intent.category.LAUNCHER\n -d {tags.scummvm_id}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
