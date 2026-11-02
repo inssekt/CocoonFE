@@ -19,14 +19,14 @@ players:
     action: main
     game: { extra: org.uoyabause.android.FileNameUri, as: uri }
     files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: YabaSanshiro 2
     app: org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause
     action: view
     game: { extra: org.uoyabause.android.FileNameUri }
     files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: Saturn.EMU
     app: com.explusalpha.SaturnEmu/com.imagine.BaseActivity
@@ -39,14 +39,14 @@ players:
     action: view
     game: { extra: org.uoyabause.android.FileNameEx }
     files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: YabaSanshiro
     app: org.uoyabause.android/.Yabause
     action: view
     game: { extra: org.uoyabause.android.FileNameEx }
     files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - retroarch: mednafen_saturn
   - retroarch: yabasanshiro

@@ -160,28 +160,28 @@ players:
     app: com.winlator.cmod/.XServerDisplayActivity
     game: { extra: shortcut_path }
     files: [desktop]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: Winlator CMod Proot
     id: windows.winlator.cmodproot
     app: com.cmodded.winlator/com.winlator.XServerDisplayActivity
     game: { extra: shortcut_path }
     files: [desktop]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: Winlator Cmod (Old)
     id: windows.winlator.cmod.old
     app: com.winlator/.XServerDisplayActivity
     game: { extra: shortcut_path }
     files: [desktop]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: MiceWine
     id: windows.micewine.emu
     app: com.micewine.emu/.activities.MainActivity
     game: { extra: exePath }
     files: [lnk]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: BannerHub
     app: banner.hub/com.xiaoji.egggame.DeepLinkActivity

@@ -23,7 +23,7 @@ players:
     app: com.fms.mg/com.fms.emulib.MainActivity
     game: uri
     files: [gg, sms]
-    flags: [clear-task, clear-top, no-history]
+    flags: [clear-task, clear-top]
 
   - name: Pizza Boy SC Pro
     app: it.dbtecno.pizzaboyscpro/.MainActivity

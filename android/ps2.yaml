@@ -24,7 +24,7 @@ players:
     app: com.armsx2/.MainActivity
     game: uri
     files: [iso, chd, gz, mdf, bin, ciso, img, cso]
-    flags: [grant-read, clear-task, clear-top]
+    flags: [clear-task, clear-top]
 
   - name: ARMSX2 (Nightly)
     app: com.armsx2.nightly/com.armsx2.MainActivity

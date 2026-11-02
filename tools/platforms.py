@@ -12,9 +12,6 @@ CATEGORIES = {"default": "android.intent.category.DEFAULT", "launcher": "android
 FLAGS = {
     "clear-task": "--activity-clear-task",
     "clear-top": "--activity-clear-top",
-    "no-history": "--activity-no-history",
-    "new-task": "--activity-new-task",
-    "grant-read": "--grant-read-uri-permission",
 }
 TYPED_EXTRAS = {"bool": "--ez", "int": "--ei", "long": "--el", "uri": "--eu", "list": "--esa", "ints": "--eia"}
 ANY_FILE = r"^(?!(?:\._|\.).*).*$"

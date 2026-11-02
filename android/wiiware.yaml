@@ -10,7 +10,7 @@ scrape:
   thegamesdb: [9, 38]
 
 retroarch:
-  dolphin: { flags: [new-task, clear-top] }
+  dolphin: { flags: [clear-top] }
 
 players:
   - name: Dolphin Emulator

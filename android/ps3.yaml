@@ -18,7 +18,7 @@ players:
     files: [bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso]
     extras:
       android.intent.extra.STREAM: { uri: "{file.path}" }
-    flags: [grant-read, clear-task, clear-top]
+    flags: [clear-task, clear-top]
 
   - name: aPS3e
     app: aenu.aps3e/.EmulatorActivity
@@ -41,7 +41,7 @@ players:
     files: [bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso]
     extras:
       android.intent.extra.STREAM: { uri: "{file.path}" }
-    flags: [grant-read, clear-task, clear-top]
+    flags: [clear-task, clear-top]
 
   - name: RPCSX (Folder Style)
     id: ps3.net.rpcsx.folder
