@@ -80,7 +80,7 @@ The [Theme Studio](https://cocoon-shell.com/themes/create/) provides a live dual
 
 The setup wizard walks you through everything you need to get up and running.
 
-See the [Cocoon Wiki](https://cocoon-shell.com/wiki/) for setup guides. The complete platform list is available in [platforms/index.json](platforms/index.json).
+See the [Cocoon Wiki](https://cocoon-shell.com/wiki/) for setup guides. The complete platform list is available in the [android](android/) folder.
 
 ## Resources
 
