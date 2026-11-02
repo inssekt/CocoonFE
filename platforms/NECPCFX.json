@@ -25,30 +25,30 @@
   },
   "playerList": [
     {
-      "name": "Retroarch 64 - beetle pcfx",
+      "name": "RetroArch (64 bits) - beetle pcfx",
       "uniqueId": "pcfx.ra64.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
-      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cue|ccd|toc|chd)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_pcfx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "Retroarch 32 - beetle pcfx",
+      "name": "RetroArch (32 bits) - beetle pcfx",
       "uniqueId": "pcfx.ra32.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
-      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cue|ccd|toc|chd)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_pcfx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "Retroarch - beetle pcfx",
+      "name": "RetroArch - beetle pcfx",
       "uniqueId": "pcfx.ra.mednafen_pcfx",
       "description": "Supported extensions: cue, ccd, toc, chd.",
-      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cue|ccd|toc|chd)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/mednafen_pcfx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,

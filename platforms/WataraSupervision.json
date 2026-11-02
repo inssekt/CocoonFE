@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "Retroarch 64 - Potator",
+      "name": "RetroArch (64 bits) - Potator",
       "uniqueId": "supervision.ra64.potator",
       "description": "Supported extensions: bin, sv, zip, 7z",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|sv|zip|7z)$",
@@ -35,7 +35,7 @@
       "extra": ""
     },
     {
-      "name": "Retroarch 32 - Potator",
+      "name": "RetroArch (32 bits) - Potator",
       "uniqueId": "supervision.ra32.potator",
       "description": "Supported extensions: bin, sv, zip, 7z",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|sv|zip|7z)$",
@@ -45,7 +45,7 @@
       "extra": ""
     },
     {
-      "name": "Retroarch - Potator",
+      "name": "RetroArch - Potator",
       "uniqueId": "supervision.ra.potator",
       "description": "Supported extensions: bin, sv, zip, 7z",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|sv|zip|7z)$",

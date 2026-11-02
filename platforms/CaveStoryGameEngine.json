@@ -51,7 +51,7 @@
       "extra": ""
     },
     {
-      "name": "RetroArch (32 bits) - nxengine",
+      "name": "RetroArch (32 bits) - drs",
       "uniqueId": "cavestory.ra32.drs",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",

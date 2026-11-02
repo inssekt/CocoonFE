@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "Retroarch 64 - Beetle Cygne",
+      "name": "RetroArch (64 bits) - Beetle Cygne",
       "uniqueId": "wsc.ra64.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "Retroarch 32 - Beetle Cygne",
+      "name": "RetroArch (32 bits) - Beetle Cygne",
       "uniqueId": "wsc.ra32.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
@@ -53,7 +53,7 @@
       "extra": ""
     },
     {
-      "name": "Retroarch - Beetle Cygne",
+      "name": "RetroArch - Beetle Cygne",
       "uniqueId": "wsc.ra.mednafen_wswan",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
