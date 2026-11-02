@@ -11,8 +11,3 @@ scrape:
 
 players:
   - retroarch: [np2kai, nekop2]
-    builds: [ra64]
-  - retroarch:
-      - np2kai
-      - nekop2: { files: [2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip] }
-    builds: [ra32, ra]

@@ -118,7 +118,7 @@ cores:
   mu: [img, pdb, pqa, prc]
   mupen64plus_next_gles2: [bin, n64, u1, v64, z64, zip, 7z]
   mupen64plus_next_gles3: [bin, n64, u1, v64, z64, zip, 7z]
-  nekop2: [cue, 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip]
+  nekop2: [2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip]
   neocd: [chd, cue]
   nestopia: [fds, nes, unf, unif, zip, 7z]
   np2kai: [2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, m3u, nhd, tfd, thd, xdf,
