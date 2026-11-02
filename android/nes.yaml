@@ -1,0 +1,31 @@
+name: Nintendo Entertainment System
+
+cocoon:
+  icon: nes
+  folder: coral
+
+scrape:
+  screenscraper: 3
+  igdb: 18
+  launchbox: Nintendo Entertainment System
+  retroachievements: 7
+  libretro: Nintendo - Nintendo Entertainment System
+  thegamesdb: 7
+
+players:
+  - name: NES.emu
+    app: com.explusalpha.NesEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [bin, fds, nes, nsf, qd, rom, unf, unif, zip]
+
+  - name: Nesoid
+    app: com.androidemu.nes/.EmulatorActivity
+    game: path
+    files: [bin, fds, nes, nsf, qd, rom, unf, unif]
+
+  - retroarch: nestopia
+  - retroarch: mesen
+  - retroarch: fceumm
+  - retroarch: bnes
+  - retroarch: quicknes

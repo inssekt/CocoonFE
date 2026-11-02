@@ -1,0 +1,23 @@
+name: NeoGeo Pocket
+
+cocoon:
+  icon: neogeo_pocket
+  folder: stormy
+
+scrape:
+  screenscraper: 25
+  igdb: 119
+  launchbox: SNK Neo Geo Pocket
+  retroachievements: 14
+  libretro: SNK - Neo Geo Pocket
+  thegamesdb: 4922
+
+players:
+  - name: NGP.EMU
+    app: com.explusalpha.NgpEmu/com.imagine.BaseActivity
+    action: none
+    game: path
+    type: application/zip
+    files: [zip, ngp, ngc, 7z]
+
+  - retroarch: [mednafen_ngp, race]

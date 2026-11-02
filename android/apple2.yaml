@@ -1,0 +1,14 @@
+name: Apple II
+was: [appleii]
+idPrefix: appleii
+
+cocoon:
+  icon: pc
+  folder: coral
+
+scrape:
+  retroachievements: 38
+  retroachievementsName: Apple II
+
+players:
+  - retroarch: mamemess

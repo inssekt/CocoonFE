@@ -1,0 +1,14 @@
+name: Quake Game Engine
+
+cocoon:
+  icon: pc
+  folder: slate
+
+scrape:
+  libretro: Quake
+
+retroarch:
+  tyrquake: { launch: basic }
+
+players:
+  - retroarch: tyrquake

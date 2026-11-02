@@ -1,0 +1,16 @@
+name: Vectrex
+
+cocoon:
+  icon: arcade
+  folder: obsidian
+
+scrape:
+  screenscraper: 102
+  igdb: 70
+  launchbox: GCE Vectrex
+  retroachievements: 46
+  libretro: GCE - Vectrex
+  thegamesdb: 4939
+
+players:
+  - retroarch: vecx

@@ -1,0 +1,23 @@
+name: CP System III
+
+cocoon:
+  icon: arcade_3
+  folder: dawn
+
+scrape:
+  screenscraper: 8
+  igdb: 52
+  launchbox: Arcade
+  arcade: arcade
+  retroachievements: 27
+  libretro: [FBNeo - Arcade Games, MAME]
+  arcadeitalia: MAME
+
+players:
+  - name: NEO.EMU
+    app: com.explusalpha.neoemu/com.imagine.BaseActivity
+    action: none
+    game: path
+    files: [zip]
+
+  - retroarch: [fbneo, fbalpha2012, fbalpha2012_cps3]

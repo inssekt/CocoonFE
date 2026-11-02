@@ -1,0 +1,71 @@
+name: Game Boy Color
+
+cocoon:
+  icon: gbc
+  folder: sunflower
+
+scrape:
+  screenscraper: 10
+  igdb: 22
+  launchbox: Nintendo Game Boy Color
+  retroachievements: 6
+  libretro: Nintendo - Game Boy Color
+  thegamesdb: 41
+
+players:
+  - name: Pizza Boy C Pro
+    app: it.dbtecno.pizzaboypro/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [gb, gbc, gbs, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: Pizza Boy C Basic
+    app: it.dbtecno.pizzaboy/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [gb, gbc, gbs, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: Linkboy
+    app: com.pixelrespawn.linkboy/.EmulatorActivity
+    game: uri
+    files: [bin, cgb, dmg, gb, gbc, gbs, rom, sgb]
+
+  - name: SkyEmu
+    app: com.sky.SkyEmu/.EnhancedNativeActivity
+    game: uri
+    files: [gb, gbc, zip]
+    flags: [clear-task, clear-top]
+
+  - name: GBC.emu
+    app: com.explusalpha.GbcEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [bin, cgb, dmg, gb, gbc, gbs, rom, sgb, zip]
+
+  - name: My OldBoy!
+    app: com.fastemulator.gbc/.EmulatorActivity
+    game: uri
+    files: [bin, cgb, dmg, gb, gbc, gbs, rom, sgb]
+
+  - name: My OldBoy! Free
+    app: com.fastemulator.gbcfree/.EmulatorActivity
+    game: path
+    files: [bin, cgb, dmg, gb, gbc, gbs, rom, sgb]
+
+  - retroarch: gambatte
+  - retroarch: mgba
+  - retroarch: gearboy
+  - retroarch: sameboy
+  - retroarch: DoubleCherryGB
+  - retroarch: tgbdual
+  - retroarch: mesen-s
+
+  - name: GBADuo
+    app: com.khumam.gbaduo/.library.LaunchActivity
+    game: uri
+    files: [gb, gbc, zip]
+
+  - name: PokeDaisy
+    app: com.pokedaisy.app/.LaunchActivity
+    game: uri
+    files: [gb, gbc, zip, 7z]

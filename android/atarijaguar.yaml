@@ -1,0 +1,28 @@
+name: Atari Jaguar
+was: [jaguar]
+idPrefix: jaguar
+
+cocoon:
+  icon: atari_jaguar
+  folder: coral
+
+scrape:
+  screenscraper: 27
+  igdb: 62
+  launchbox: Atari Jaguar
+  retroachievements: 17
+  libretro: Atari - Jaguar
+  thegamesdb: 282
+
+players:
+  - name: IrataJaguar
+    app: ru.vastness.altmer.iratajaguar/.MainActivity
+    game: { extra: rom }
+    files: [j64, jag, rom, abs, cof, bin, prg, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - retroarch: virtualjaguar
+    builds: [ra64, ra32]
+  - retroarch: virtualjaguar
+    builds: [ra]
+    extras: { APK: "/data/app/{app}/base.apk" }

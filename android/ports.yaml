@@ -1,0 +1,15 @@
+name: Ports
+
+cocoon:
+  folder: sunflower
+
+scrape:
+  thegamesdb: 1
+
+players:
+  - name: Starboard
+    app: org.force9.starboard/.ui.game.GameActivity
+    action: view
+    game: { extra: port_file }
+    files: [port]
+    flags: [clear-task, clear-top]

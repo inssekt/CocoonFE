@@ -1,0 +1,16 @@
+name: 3DO
+
+cocoon:
+  icon: 3do
+  folder: dawn
+
+scrape:
+  screenscraper: 29
+  igdb: 50
+  launchbox: 3DO Interactive Multiplayer
+  retroachievements: 43
+  libretro: The 3DO Company - 3DO
+  thegamesdb: 25
+
+players:
+  - retroarch: opera

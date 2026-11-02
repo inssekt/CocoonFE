@@ -1,0 +1,13 @@
+name: Magnavox Odyssey 2
+
+cocoon:
+  icon: arcade
+  folder: sunflower
+
+scrape:
+  retroachievements: 23
+  libretro: Magnavox - Odyssey2
+  thegamesdb: 4927
+
+players:
+  - retroarch: o2em

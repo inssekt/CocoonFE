@@ -1,0 +1,29 @@
+name: Arcade (MAME)
+
+cocoon:
+  icon: arcade
+  folder: dawn
+
+scrape:
+  screenscraper: 75
+  igdb: 52
+  launchbox: Arcade
+  arcade: arcade
+  retroachievements: 27
+  libretro: MAME
+  arcadeitalia: MAME
+
+players:
+  - name: MAME4droid
+    app: com.seleuco.mame4droid/.MAME4droid
+    game: uri
+    files: [7z, chd, cmd, zip]
+    flags: [clear-task, clear-top]
+
+  - name: MAME4droid 2024
+    app: com.seleuco.mame4d2024/com.seleuco.mame4droid.MAME4droid
+    game: uri
+    files: [7z, chd, cmd, zip]
+    flags: [clear-task, clear-top]
+
+  - retroarch: [mame2003, mame2003_midway, mame2003_plus, mamearcade, mame2000, mame2010]

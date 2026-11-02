@@ -1,0 +1,23 @@
+name: WonderSwan Color
+was: [wsc]
+idPrefix: wsc
+
+cocoon:
+  icon: wonderswan_color
+  folder: mint
+
+scrape:
+  screenscraper: 46
+  igdb: 123
+  launchbox: Bandai WonderSwan Color
+  libretro: Bandai - WonderSwan Color
+  thegamesdb: 4926
+
+players:
+  - name: Swan.emu
+    app: com.explusalpha.SwanEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [ws, wsc, pc2, 7z, zip]
+
+  - retroarch: mednafen_wswan

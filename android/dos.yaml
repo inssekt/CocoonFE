@@ -1,0 +1,15 @@
+name: DOS
+
+cocoon:
+  icon: pc
+  folder: slate
+
+scrape:
+  screenscraper: 135
+  igdb: 13
+  launchbox: MS-DOS
+  retroachievements: 26
+  libretro: DOS
+
+players:
+  - retroarch: [dosbox_pure, dosbox_svn, dosbox_core]

@@ -1,0 +1,8 @@
+name: Palm OS
+
+cocoon:
+  icon: pc
+  folder: sunflower
+
+players:
+  - retroarch: mu

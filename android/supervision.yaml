@@ -1,0 +1,13 @@
+name: Watara Supervision
+
+cocoon:
+  icon: gb
+  folder: mint
+
+scrape:
+  retroachievements: 63
+  libretro: Watara - Supervision
+  thegamesdb: 4959
+
+players:
+  - retroarch: potator

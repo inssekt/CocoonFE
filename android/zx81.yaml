@@ -1,0 +1,13 @@
+name: ZX 81
+
+cocoon:
+  icon: pc
+  folder: slate
+
+scrape:
+  retroachievements: 31
+  libretro: Sinclair - ZX 81
+  thegamesdb: 5010
+
+players:
+  - retroarch: "81"

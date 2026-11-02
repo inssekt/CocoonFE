@@ -1,0 +1,12 @@
+name: NEC PC-88
+
+cocoon:
+  icon: pc
+  folder: mint
+
+scrape:
+  retroachievements: 47
+  thegamesdb: 4933
+
+players:
+  - retroarch: quasi88

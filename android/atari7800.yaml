@@ -1,0 +1,16 @@
+name: Atari 7800
+
+cocoon:
+  icon: atari_7800
+  folder: dawn
+
+scrape:
+  screenscraper: 41
+  igdb: 60
+  launchbox: Atari 7800
+  retroachievements: 51
+  libretro: Atari - 7800
+  thegamesdb: 27
+
+players:
+  - retroarch: prosystem

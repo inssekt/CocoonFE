@@ -1,0 +1,13 @@
+name: Sharp X68000
+
+cocoon:
+  icon: pc
+  folder: orchid
+
+scrape:
+  retroachievements: 52
+  libretro: Sharp - X68000
+  thegamesdb: 4931
+
+players:
+  - retroarch: px68k

@@ -1,0 +1,23 @@
+name: Super Nintendo Entertainment System - MSU-1
+ignore: [bml]
+
+cocoon:
+  icon: snesmsu_1
+  folder: wisteria
+
+scrape:
+  retroachievements: 3
+  libretro: Nintendo - Super Nintendo Entertainment System
+  thegamesdb: 6
+
+retroarch:
+  mesen-s: { files: [sfc, smc, fig, swc, zip, 7z] }
+
+players:
+  - name: Snes9x EX
+    app: com.explusalpha.Snes9xPlus/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc]
+
+  - retroarch: [snes9x, bsnes, bsnes_hd_beta, mesen-s]

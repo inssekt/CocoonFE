@@ -1,0 +1,22 @@
+name: TurboGrafx-16
+
+cocoon:
+  icon: pcengine
+  folder: coral
+
+scrape:
+  screenscraper: 31
+  igdb: 86
+  launchbox: NEC TurboGrafx-16
+  retroachievements: 8
+  libretro: NEC - PC Engine - TurboGrafx 16
+  thegamesdb: 34
+
+players:
+  - name: com.PceEmu
+    app: com.PceEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [ccd, chd, cue, m3u, pce, sgx, toc]
+
+  - retroarch: [mednafen_pce_fast, mednafen_pce]

@@ -1,0 +1,13 @@
+name: Sharp X1
+
+cocoon:
+  icon: pc
+  folder: dawn
+
+scrape:
+  retroachievements: 64
+  libretro: Sharp - X1
+  thegamesdb: 4977
+
+players:
+  - retroarch: x1

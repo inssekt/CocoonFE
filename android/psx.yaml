@@ -1,0 +1,59 @@
+name: Sony PlayStation
+ignore: [bin]
+
+cocoon:
+  icon: ps
+  folder: stormy
+
+scrape:
+  screenscraper: 57
+  igdb: 7
+  launchbox: Sony Playstation
+  retroachievements: 12
+  libretro: Sony - PlayStation
+  thegamesdb: 10
+
+retroarch:
+  mednafen_psx_hw: { launch: basic }
+  mednafen_psx: { launch: basic }
+
+players:
+  - name: psx - ARMSX1
+    app: com.nanodata.armsx/com.armsx2.Main
+    game: uri
+    files: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+    flags: [clear-task, clear-top]
+
+  - name: ePSXe
+    app: com.epsxe.ePSXe/.ePSXe
+    action: main
+    game: { extra: com.epsxe.ePSXe.isoName }
+    files: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+    flags: [clear-task, clear-top]
+
+  - name: DuckStation
+    id: psx.com.github.stenzek.duckstation.legacy
+    app: com.github.stenzek.duckstation/.EmulationActivity
+    game: { extra: bootPath, as: uri }
+    files: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+    extras:
+      resumeState: { bool: false }
+    flags: [clear-task, clear-top]
+
+  - name: FPse
+    app: com.emulator.fpse/.Main
+    game: path
+    files: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+    flags: [clear-task, clear-top]
+
+  - name: FPse64
+    app: com.emulator.fpse64/.Main
+    game: path
+    files: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+    flags: [clear-task, clear-top]
+
+  - retroarch: swanstation
+  - retroarch: duckstation
+  - retroarch: mednafen_psx_hw
+  - retroarch: mednafen_psx
+  - retroarch: pcsx_rearmed

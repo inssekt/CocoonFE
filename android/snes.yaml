@@ -1,0 +1,50 @@
+name: Super Nintendo Entertainment System
+ignore: [bml]
+
+cocoon:
+  icon: snes
+  folder: wisteria
+
+scrape:
+  screenscraper: 4
+  igdb: 19
+  launchbox: Super Nintendo Entertainment System
+  retroachievements: 3
+  libretro: Nintendo - Super Nintendo Entertainment System
+  thegamesdb: 6
+
+retroarch:
+  mesen-s: { files: [sfc, smc, fig, swc, zip, 7z] }
+
+players:
+  - name: Snes9x EX
+    app: com.explusalpha.Snes9xPlus/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc, zip, 7z]
+
+  - name: SUPER ZSNES
+    app: com.zsnes.superzsnes/com.unity3d.player.UnityPlayerActivity
+    action: main
+    game: uri
+    files: [bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc, zip, 7z]
+
+  - retroarch: snes9x
+  - retroarch: bsnes
+  - retroarch: bsnes_hd_beta
+  - retroarch: snes9x2010
+  - retroarch: mesen-s
+  - retroarch: snes9x2005_plus
+  - retroarch: bsnes2014_accuracy
+  - retroarch: snes9x2005
+  - retroarch: bsnes2014_performance
+  - retroarch: bsnes2014_balanced
+  - retroarch: mednafen_snes
+  - retroarch: bsnes_mercury_accuracy
+  - retroarch: bsnes_cplusplus98
+  - retroarch: higan_sfc
+  - retroarch: snes9x2002
+  - retroarch: bsnes_mercury_performance
+  - retroarch: mednafen_supafaust
+  - retroarch: bsnes_mercury_balanced
+  - retroarch: higan_sfc_balanced

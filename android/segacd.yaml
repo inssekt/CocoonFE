@@ -1,0 +1,26 @@
+name: Sega CD
+ignore: [bin]
+
+cocoon:
+  icon: megacd
+  folder: obsidian
+
+scrape:
+  screenscraper: 20
+  igdb: 78
+  launchbox: Sega CD
+  retroachievements: 9
+  libretro: Sega - Mega-CD - Sega CD
+  thegamesdb: 21
+
+retroarch:
+  genesis_plus_gx: { files: [68k, bin, chd, cue, gen, gg, iso, m3u, md, mdx, sg, smd, sms, zip, 7z] }
+  genesis_plus_gx_wide: { files: [68k, bin, chd, cue, gen, gg, iso, m3u, md, mdx, sg, smd, sms, zip, 7z] }
+
+players:
+  - name: MD.emu
+    app: com.explusalpha.MdEmu/com.imagine.BaseActivity
+    game: uri
+    files: [32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms]
+
+  - retroarch: [genesis_plus_gx, genesis_plus_gx_wide, picodrive]

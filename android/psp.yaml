@@ -1,0 +1,44 @@
+name: PlayStation Portable
+
+cocoon:
+  icon: psp
+  folder: slate
+
+scrape:
+  screenscraper: 61
+  igdb: 38
+  launchbox: Sony PSP
+  retroachievements: 41
+  libretro: Sony - PlayStation Portable
+  thegamesdb: 13
+
+players:
+  - name: PPSSPP Gold
+    app: org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP
+    app: org.ppsspp.ppsspp/.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP Legacy
+    app: org.ppsspp.ppsspplegacy/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP Duo
+    app: org.ppsspp.ppssppduo/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - retroarch: ppsspp

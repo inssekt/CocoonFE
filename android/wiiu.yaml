@@ -1,0 +1,22 @@
+name: Nintendo Wii U
+
+cocoon:
+  icon: wii_u
+  folder: breeze
+
+scrape:
+  screenscraper: 18
+  igdb: 41
+  launchbox: Nintendo Wii U
+  retroachievements: [20, 19]
+  libretro: Nintendo - Wii
+  thegamesdb: [9, 38]
+
+players:
+  - name: CEMU
+    id: wiiu.info.cemu.Cemu
+    app: info.cemu.cemu/.emulation.EmulationActivity
+    action: none
+    game: uri
+    files: [wua, wux, rpx]
+    flags: [clear-task, clear-top]

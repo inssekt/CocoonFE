@@ -1,0 +1,16 @@
+name: Pokemon Mini
+
+cocoon:
+  icon: pokemon_mini
+  folder: sunflower
+
+scrape:
+  screenscraper: 211
+  igdb: 211
+  launchbox: Nintendo Pokemon Mini
+  retroachievements: 24
+  libretro: Nintendo - Pokemon Mini
+  thegamesdb: 4957
+
+players:
+  - retroarch: pokemini

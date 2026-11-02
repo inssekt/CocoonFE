@@ -1,0 +1,16 @@
+name: Sega 32X
+
+cocoon:
+  icon: sega_32x
+  folder: obsidian
+
+scrape:
+  screenscraper: 19
+  igdb: 30
+  launchbox: Sega 32X
+  retroachievements: 10
+  libretro: Sega - 32X
+  thegamesdb: 33
+
+players:
+  - retroarch: picodrive

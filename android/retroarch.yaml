@@ -1,0 +1,189 @@
+builds:
+  ra64: { app: com.retroarch.aarch64, name: RetroArch (64 bits) }
+  ra32: { app: com.retroarch.ra32, name: RetroArch (32 bits) }
+  ra: { app: com.retroarch, name: RetroArch }
+activity: com.retroarch.browser.retroactivity.RetroActivityFuture
+
+launches:
+  standard:
+    extras:
+      ROM: "{file.path}"
+      LIBRETRO: /data/data/{app}/cores/{core}_libretro_android.so
+      CONFIGFILE: /storage/emulated/0/Android/data/{app}/files/retroarch.cfg
+      IME: com.android.inputmethod.latin/.LatinIME
+      DATADIR: /data/data/{app}
+      APK: /data/app/{app}-1/base.apk
+      SDCARD: /storage/emulated/0
+      EXTERNAL: /storage/emulated/0/Android/data/{app}/files
+    flags: [clear-task, clear-top]
+  basic:
+    extras:
+      ROM: "{file.path}"
+      LIBRETRO: /data/data/{app}/cores/{core}_libretro_android.so
+      CONFIGFILE: /storage/emulated/0/Android/data/{app}/files/retroarch.cfg
+    flags: [clear-task, clear-top]
+
+cores:
+  "81": [p, t81, tzx, zip, 7z]
+  a5200: [a52, bin, zip, 7z]
+  ardens: [hex, arduboy]
+  arduous: [hex]
+  atari800: [a52, atr, atx, bin, car, cas, cdm, com, rom, xex, xfd, zip, 7z]
+  b2: [ssd, dsd]
+  bluemsx: [cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z]
+  bnes: [nes, zip, 7z]
+  bsnes: [gb, gbc, sfc, smc, zip, 7z]
+  bsnes2014_accuracy: [bml, sfc, smc, zip, 7z]
+  bsnes2014_balanced: [bml, sfc, smc, zip, 7z]
+  bsnes2014_performance: [bml, sfc, smc, zip, 7z]
+  bsnes_cplusplus98: [sfc, smc, zip, 7z]
+  bsnes_hd_beta: [gb, gbc, sfc, smc, zip, 7z]
+  bsnes_mercury_accuracy: [bml, sfc, smc, zip, 7z]
+  bsnes_mercury_balanced: [bml, sfc, smc, zip, 7z]
+  bsnes_mercury_performance: [bml, sfc, smc, zip, 7z]
+  cannonball: [game, "88"]
+  cap32: [cdt, cpr, dsk, m3u, sna, tap, voc, zip]
+  citra: [3ds, 3dsx, app, axf, cci, cxi, elf]
+  citra2018: [3ds, 3dsx, app, axf, cci, cxi, elf]
+  citra_canary: [3ds, 3dsx, app, axf, cci, cxi, elf]
+  crocods: [dsk, kcr, sna]
+  desmume: [bin, nds, zip, 7z]
+  desmume2015: [bin, nds, zip, 7z]
+  dolphin: { builds: [ra64, ra], files: [ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia] }
+  dosbox_core: [bat, com, conf, cue, exe, iso]
+  dosbox_pure: [bat, com, cue, dosz, exe, ima, img, ins, iso, m3u, m3u8, vhd, zip]
+  dosbox_svn: [bat, com, conf, cue, exe, iso]
+  DoubleCherryGB: { name: doublecherrygb, files: [gb, gbc, dmg, cgb, sgb, zip, 7z] }
+  doukutsu_rs: { name: drs, id: drs, files: [exe] }
+  duckstation: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+  easyrpg: [easyrpg, ldb, zip]
+  fake08: [p8, png]
+  fbalpha: { builds: [ra32], files: [7z, iso, zip] }
+  fbalpha2012: [7z, iso, zip]
+  fbalpha2012_cps1: [zip]
+  fbalpha2012_cps2: [zip]
+  fbalpha2012_cps3: [zip]
+  fbneo: [7z, zip]
+  fceumm: [fds, nes, unf, unif, zip, 7z]
+  ffmpeg: [mp4, avi, mpg, mpeg, mov, mkv, webm, m4a]
+  flycast: [7z, chd, dat, lst, zip]
+  fmsx: [cas, dsk, fdi, m3u, mx1, mx2, rom, zip, 7z]
+  freechaf: [chf, bin, zip]
+  freeintv: [bin, int, rom, zip, 7z]
+  frodo: [d64, lnx, p00, t64, x64, zip]
+  fuse: [dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z]
+  gambatte: [dmg, gb, gbc, zip, 7z]
+  gearboy: [cgb, dmg, gb, gbc, sgb, zip, 7z]
+  gearcoleco: [col, cv, bin, rom, zip]
+  gearsystem: [sms, gg, sg, bin, rom, 7z, zip]
+  genesis_plus_gx: [68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z]
+  genesis_plus_gx_wide: [68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z]
+  geolith: [neo]
+  gpsp: [bin, gba, zip, 7z]
+  gw: [mgw, zip, 7z]
+  handy: [lnx, lyx, o, zip, 7z]
+  hatari: [dim, ipf, m3u, msa, st, stx, zip]
+  higan_sfc: [bml, gb, gbc, rom, sfc, smc, zip, 7z]
+  higan_sfc_balanced: [bml, gb, gbc, rom, sfc, smc, zip, 7z]
+  holani: [lnx, lyx, o, zip, 7z]
+  jaxe: [ch8, zip]
+  lowresnx: [nx, zip]
+  mame2000: [7z, chd, zip]
+  mame2003: [zip]
+  mame2003_midway: [zip]
+  mame2003_plus: [zip]
+  mame2010: [7z, chd, zip]
+  mamearcade: { name: mame, files: [7z, chd, cmd, zip] }
+  mamemess: { name: mess, id: mess, builds: [ra64, ra], files: [cmd] }
+  mednafen_gba: [agb, bin, gba, zip, 7z]
+  mednafen_lynx: [lnx, lyx, o, zip, 7z]
+  mednafen_ngp: { name: Beetle NeoPop, files: [zip, ngp, ngc, 7z] }
+  mednafen_pce: [ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z]
+  mednafen_pce_fast: [ccd, chd, cue, m3u, pce, toc, zip, 7z]
+  mednafen_pcfx: { name: beetle pcfx, files: [cue, ccd, toc, chd] }
+  mednafen_psx: { name: beetle psx, files: [cue, toc, m3u, ccd, exe, pbp, chd] }
+  mednafen_psx_hw: { name: beetle psx hw, files: [cue, toc, m3u, ccd, exe, pbp, chd] }
+  mednafen_saturn: { name: beetle saturn, files: [ccd, chd, cue, m3u, toc] }
+  mednafen_snes: [bs, fig, sfc, smc, st, zip, 7z]
+  mednafen_supafaust: [bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z]
+  mednafen_supergrafx: [ccd, chd, cue, pce, sgx, zip, 7z]
+  mednafen_vb: [bin, vb, vboy, zip, 7z]
+  mednafen_wswan: { name: Beetle Cygne, files: [ws, wsc, pc2, 7z, zip] }
+  melonds: [nds, zip, 7z]
+  melondsds: { name: melonds ds, builds: [ra64, ra], files: [nds, zip, 7z] }
+  mesen: [fds, nes, unf, unif, zip, 7z]
+  mesen-s: [gb, gbc, zip, 7z]
+  meteor: [gba, zip, 7z]
+  mgba: [gb, gbc, zip, 7z]
+  mu: [img, pdb, pqa, prc]
+  mupen64plus_next_gles2: [bin, n64, u1, v64, z64, zip, 7z]
+  mupen64plus_next_gles3: [bin, n64, u1, v64, z64, zip, 7z]
+  nekop2: [cue, 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip]
+  neocd: [chd, cue]
+  nestopia: [fds, nes, unf, unif, zip, 7z]
+  np2kai: [2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, m3u, nhd, tfd, thd, xdf,
+           zip]
+  nxengine: [exe]
+  o2em: [bin, zip, 7z]
+  opera: [chd, cue, iso]
+  parallel_n64: [bin, n64, ndd, u1, v64, z64, 7z]
+  pcsx_rearmed: [bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc]
+  picodrive: [32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip]
+  play: [bin, cso, elf, iso, isz]
+  pokemini: [min, zip, 7z]
+  potator: { name: Potator, files: [bin, sv, zip, 7z] }
+  ppsspp: [cso, chd, elf, iso, pbp, prx]
+  prboom: [iwad, pwad, wad, zip]
+  prosystem: [a78, bin, zip, 7z]
+  puae: [7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9,
+         slave, uae, zip]
+  puae2021: [7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg,
+             rp9, slave, uae, zip]
+  px68k: [2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z]
+  quasi88: [d88, m3u, u88]
+  quicknes: [nes, zip, 7z]
+  race: { name: RACE, files: [zip, ngp, ngc, 7z] }
+  reminiscence: [aba, lev, map, seq]
+  retro8: [p8, png]
+  same_cdi: [cue, chd, iso]
+  sameboy: [gb, gbc, zip, 7z]
+  sameduck: [bin, zip]
+  scummvm: [sh, svm, scummvm]
+  smsplus: [bin, col, gg, rom, sg, sms, zip, 7z]
+  snes9x: [bs, fig, sfc, smc, st, swc, zip, 7z]
+  snes9x2002: [bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z]
+  snes9x2005: [bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z]
+  snes9x2005_plus: [bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z]
+  snes9x2010: [bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z]
+  squirreljme: [jad, jam, jar, kjx, sqc]
+  stella: [a26, bin, zip, 7z]
+  stella2014: [a26, bin, zip, 7z]
+  stella2023: [a26, bin, zip, 7z]
+  swanstation: [bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf]
+  tgbdual: [gb, gbc, sgb, zip, 7z]
+  tic80: [tic]
+  tyrquake: [pak]
+  uzem: [uze, zip, 7z]
+  vba_next: [gba, zip, 7z]
+  vbam: [cgb, dmg, gb, gba, gbc, sgb, zip, 7z]
+  vecx: [bin, vec, zip, 7z]
+  vice_x64: [bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z,
+             gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip]
+  vice_x64sc: [bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z,
+               gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip]
+  vice_xpet: { name: vice xpet, files: [bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip] }
+  vice_xplus4: { name: vice xplus4, files: [bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip] }
+  vice_xvic: [d64, d71, d80, d81, d82, g64, g41, x64, t64, tap, prg, p00, crt, bin, zip, gz, d6z,
+              d7z, d8z, g6z, g4z, x6z, cmd, m3u, vfl, vsf, nib, nbz, d2m, d4m, "20",
+              "40", "60", a0, b0, rom]
+  virtualjaguar: { name: Virtual Jaguar, files: [j64, jag, rom, abs, cof, bin, prg, zip, 7z] }
+  vitaquake2: [pak]
+  vitaquake2-rogue: { name: vitaquake2 rogue, id: vitaquake2-rogue_libretro, files: [pak] }
+  vitaquake2-xatrix: { name: vitaquake2 xatrix, id: vitaquake2-xatrix_libretro, files: [pak] }
+  vitaquake2-zaero: { name: vitaquake2 zaero, id: vitaquake2-zaero_libretro, files: [pak] }
+  wasm4: [wasm]
+  x1: [2hd, 88d, cmd, d88, dim, dup, hdf, hdm, img, m3u, xdf, zip, 7z]
+  x64sdl: [bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64,
+           tap, x64, x6z, zip]
+  yabasanshiro: [bin, ccd, chd, cue, iso, mds, zip]
+  yabause: [bin, ccd, chd, cue, iso, m3u, mds, zip]

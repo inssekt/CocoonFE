@@ -1,0 +1,23 @@
+name: Nintendo Satellaview
+ignore: [bml]
+
+cocoon:
+  icon: snes
+  folder: slate
+
+scrape:
+  libretro: Nintendo - Satellaview
+
+retroarch:
+  bsnes: { files: [bs, gb, gbc, sfc, smc, zip, 7z] }
+  mesen-s: { files: [bs, sfc, smc, fig, swc, zip, 7z] }
+
+players:
+  - name: Snes9x EX
+    app: com.explusalpha.Snes9xPlus/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc]
+
+  - retroarch: [snes9x, mednafen_supafaust, mednafen_snes, snes9x2002, snes9x2005_plus, snes9x2005,
+                snes9x2010, bsnes, mesen-s]

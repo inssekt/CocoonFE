@@ -1,0 +1,23 @@
+name: Microsoft Xbox
+description: Original Xbox Emulation
+
+cocoon:
+  icon: xbox
+  folder: mint
+
+scrape:
+  retroachievementsName: Xbox
+
+players:
+  - name: X1 BOX
+    id: com.izzy2lost.x1box
+    app: com.izzy2lost.x1box/.LauncherActivity
+    action: view
+    game: { extra: AutoStartFile, as: uri }
+    files: [iso, xiso, xboe, dotno]
+
+  - name: xbox - hakuX
+    app: com.rfandango.haku_x/.LauncherActivity
+    action: none
+    game: uri
+    files: [xiso, iso]

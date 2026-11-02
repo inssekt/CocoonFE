@@ -1,0 +1,24 @@
+name: Atari Lynx
+was: [lynx]
+idPrefix: lynx
+
+cocoon:
+  icon: atari_lynx
+  folder: slate
+
+scrape:
+  screenscraper: 28
+  igdb: 61
+  launchbox: Atari Lynx
+  retroachievements: 13
+  libretro: Atari - Lynx
+  thegamesdb: 4924
+
+players:
+  - name: com.explusalpha.LynxEmu
+    app: com.explusalpha.LynxEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [lnx, lyx, o, zip, 7z]
+
+  - retroarch: [mednafen_lynx, handy, holani]

@@ -1,0 +1,78 @@
+name: Nintendo Wii
+
+cocoon:
+  icon: wii
+  folder: breeze
+
+scrape:
+  screenscraper: 16
+  igdb: 5
+  launchbox: Nintendo Wii
+  retroachievements: [19, 20]
+  libretro: Nintendo - Wii
+  thegamesdb: [9, 38]
+
+retroarch:
+  dolphin: { flags: [new-task, clear-top] }
+
+players:
+  - name: Dolphin Emulator
+    app: org.dolphinemu.dolphinemu/.ui.main.MainActivity
+    action: main
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz, m3u]
+
+  - name: Dolphin (Handheld)
+    app: org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin (org.mm.jr Fork)
+    app: org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin (org.mm.j Fork)
+    app: org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin MMJR
+    app: org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin MMJR3
+    app: org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin Ishiiruka
+    app: org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - name: Dolphin (Debug Build)
+    app: org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: main
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz, m3u]
+
+  - name: DolphinCS
+    app: com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    game: uri
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz, m3u]
+
+  - name: Dolphin PrimeHack
+    app: org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity
+    action: view
+    game: { extra: AutoStartFile, as: uri }
+    files: [ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz]
+
+  - retroarch: dolphin

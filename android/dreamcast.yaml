@@ -1,0 +1,41 @@
+name: Dreamcast
+ignore: [bin]
+
+cocoon:
+  icon: dc
+  folder: dawn
+
+scrape:
+  screenscraper: 23
+  igdb: 23
+  launchbox: Sega Dreamcast
+  retroachievements: 40
+  libretro: Sega - Dreamcast
+  thegamesdb: 16
+
+retroarch:
+  flycast: { files: [7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip] }
+
+players:
+  - name: Flycast
+    app: com.flycast.emulator/.MainActivity
+    game: uri
+    files: [7z, bin, cdi, chd, cue, elf, gdi, lst, zip]
+
+  - name: Redream
+    app: io.recompiled.redream/.MainActivity
+    game: uri
+    files: [7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip]
+
+  - name: Flycast (Dev Build)
+    id: dreamcast.com.flycast.emulator.dev
+    app: com.flycast.emulator/.MainActivity
+    game: path
+    files: [7z, bin, cdi, chd, cue, elf, gdi, lst, zip]
+
+  - name: Reicast
+    app: com.reicast.emulator/.MainActivity
+    game: path
+    files: [7z, bin, cdi, chd, cue, elf, gdi, lst, zip]
+
+  - retroarch: flycast

@@ -1,0 +1,21 @@
+name: Java Me
+
+cocoon:
+  icon: j2me
+  folder: slate
+
+scrape:
+  thegamesdb: 5018
+
+players:
+  - name: ru.playsoftware.j2meloader
+    app: ru.playsoftware.j2meloader/.MainActivity
+    game: uri
+    files: [java, jar]
+
+  - name: jl-mod
+    app: ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity
+    game: uri
+    files: [java, jar]
+
+  - retroarch: squirreljme

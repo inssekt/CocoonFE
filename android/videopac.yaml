@@ -1,0 +1,14 @@
+name: Philips Videopac+ G7400
+was: [g7400]
+idPrefix: g7400
+
+cocoon:
+  icon: arcade
+  folder: slate
+
+scrape:
+  libretro: Philips - Videopac+
+  thegamesdb: 4927
+
+players:
+  - retroarch: o2em

@@ -1,0 +1,22 @@
+name: ColecoVision
+was: [coleco]
+idPrefix: coleco
+
+cocoon:
+  icon: arcade
+  folder: dawn
+
+scrape:
+  screenscraper: 48
+  igdb: 68
+  launchbox: ColecoVision
+  retroachievements: 44
+  libretro: Coleco - ColecoVision
+  thegamesdb: 31
+
+retroarch:
+  bluemsx: { launch: basic }
+  gearcoleco: { launch: basic }
+
+players:
+  - retroarch: [bluemsx, gearcoleco]

@@ -1,0 +1,54 @@
+name: Nintendo DSi
+
+cocoon:
+  icon: dsi
+  folder: breeze
+
+scrape:
+  retroachievements: [78, 18]
+  libretro: [Nintendo - Nintendo DS, Nintendo - Nintendo DSi]
+  thegamesdb: 8
+
+players:
+  - name: MelonDS
+    app: me.magnum.melonds/.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: MelonDualDS
+    app: me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melondualds.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: seedlessDS
+    app: com.seedlessds.app/.LaunchGame
+    game: { extra: rom_path }
+    files: [nds, srl, ids, zip, 7z]
+
+  - name: Drastic
+    app: com.dsemu.drastic/.DraSticActivity
+    action: none
+    game: uri
+    files: [bin, nds, rar, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: MelonDS Nightly
+    app: me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.nightly.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: MelonDS Dev (Dual Screen Fork)
+    app: me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.dev.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: NooDS
+    app: com.hydra.noods/.FileBrowser
+    game: { extra: LaunchPath }
+    files: [nds]
+
+  - retroarch: [melonds, melondsds, desmume, desmume2015]

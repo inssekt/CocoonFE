@@ -1,0 +1,17 @@
+name: Sega Pico
+
+cocoon:
+  icon: genesis
+  folder: wisteria
+
+scrape:
+  screenscraper: 234
+  retroachievements: 68
+  libretro: Sega - PICO
+  thegamesdb: 4958
+
+retroarch:
+  picodrive: { files: [md, 7z, zip] }
+
+players:
+  - retroarch: picodrive

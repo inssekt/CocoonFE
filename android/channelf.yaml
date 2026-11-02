@@ -1,0 +1,13 @@
+name: Fairchild Channel F
+
+cocoon:
+  icon: arcade
+  folder: mint
+
+scrape:
+  retroachievements: 57
+  libretro: Fairchild - Channel F
+  thegamesdb: 4928
+
+players:
+  - retroarch: freechaf

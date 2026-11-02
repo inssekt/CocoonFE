@@ -1,0 +1,23 @@
+name: Adobe Flash
+idPrefix: flash
+
+cocoon:
+  icon: flash
+  folder: dawn
+
+players:
+  - name: Swiff
+    app: io.navivani.swiff/.MainActivity
+    game: uri
+    type: application/octet-stream
+    files: [swiffid]
+
+  - name: Ruffle
+    app: rs.ruffle/.PlayerActivity
+    game: uri
+    files: [ruf, RUF, swf, SWF]
+
+  - name: Ruffle (Old)
+    app: org.ruffle.android/.MainActivity
+    game: uri
+    files: [ruf, RUF, swf, SWF]

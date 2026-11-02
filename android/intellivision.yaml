@@ -1,0 +1,16 @@
+name: Intellivision
+
+cocoon:
+  icon: intellivision
+  folder: coral
+
+scrape:
+  screenscraper: 115
+  igdb: 67
+  launchbox: Mattel Intellivision
+  retroachievements: 45
+  libretro: Mattel - Intellivision
+  thegamesdb: 32
+
+players:
+  - retroarch: freeintv

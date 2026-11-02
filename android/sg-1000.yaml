@@ -1,0 +1,18 @@
+name: Sega SG-1000
+was: [sg1000]
+idPrefix: sg1000
+
+cocoon:
+  icon: sg_1000
+  folder: coral
+
+scrape:
+  screenscraper: 109
+  igdb: 84
+  launchbox: Sega SG-1000
+  retroachievements: 33
+  libretro: Sega - SG-1000
+  thegamesdb: 4949
+
+players:
+  - retroarch: [gearsystem, bluemsx]

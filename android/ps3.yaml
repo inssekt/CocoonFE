@@ -1,0 +1,52 @@
+name: Sony PlayStation 3
+
+cocoon:
+  icon: ps2
+  folder: slate
+
+scrape:
+  screenscraper: 59
+  igdb: 9
+  launchbox: Sony Playstation 3
+  libretro: [Sony - PlayStation 3, Sony - PlayStation 3 (PSN)]
+  thegamesdb: 12
+
+players:
+  - name: ARMSX3
+    app: com.armsx3/com.armsx2.MainActivity
+    action: view
+    files: [bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso]
+    extras:
+      android.intent.extra.STREAM: { uri: "{file.path}" }
+    flags: [grant-read, clear-task, clear-top]
+
+  - name: aPS3e
+    app: aenu.aps3e/.EmulatorActivity
+    action: aenu.intent.action.APS3E
+    game: { extra: iso_uri, as: uri }
+    files: [iso]
+
+  - name: aPS3e (Folder Style)
+    id: ps3.aenu.aps3e.folder
+    app: aenu.aps3e/.EmulatorActivity
+    action: aenu.intent.action.APS3E
+    files: [ps3folder]
+    extras:
+      game_dir: "{tags.ps3folder}"
+
+  - name: RPCSX (File Style)
+    id: ps3.net.rpcsx.file
+    app: net.rpcsx/.MainActivity
+    action: view
+    files: [bin, chd, cso, cue, dump, elf, gz, img, iso, mdf, nrg, zso]
+    extras:
+      android.intent.extra.STREAM: { uri: "{file.path}" }
+    flags: [grant-read, clear-task, clear-top]
+
+  - name: RPCSX (Folder Style)
+    id: ps3.net.rpcsx.folder
+    app: net.rpcsx/.MainActivity
+    action: view
+    files: [ps3folder]
+    extras:
+      game_dir: "{tags.ps3folder}"

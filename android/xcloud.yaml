@@ -1,0 +1,17 @@
+name: XBox Game Pass
+idPrefix: xbplay
+
+cocoon:
+  icon: streaming
+  folder: wisteria
+
+scrape:
+  thegamesdb: 4981
+
+players:
+  - name: XBPlay - Remote Play
+    app: com.studio08.xbgamestream/.PWAMainMenuActivity
+    action: xcloudstart
+    files: [xcloud]
+    extras:
+      titleId: "{tags.titleId}"

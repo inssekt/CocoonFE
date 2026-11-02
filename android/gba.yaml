@@ -1,0 +1,79 @@
+name: Game Boy Advance
+
+cocoon:
+  icon: gba
+  folder: wisteria
+
+scrape:
+  screenscraper: 12
+  igdb: 24
+  launchbox: Nintendo Game Boy Advance
+  retroachievements: 5
+  libretro: Nintendo - Game Boy Advance
+  thegamesdb: 5
+
+retroarch:
+  mgba: { files: [gb, gba, gbc, zip, 7z] }
+
+players:
+  - name: Pizza Boy GBA Basic
+    app: it.dbtecno.pizzaboygba/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [bin, gba, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: Pizza Boy A Pro
+    app: it.dbtecno.pizzaboygbapro/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [bin, gba, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: SkyEmu
+    app: com.sky.SkyEmu/.EnhancedNativeActivity
+    game: uri
+    files: [gba, zip]
+    flags: [clear-task, clear-top]
+
+  - name: GBA.emu
+    app: com.explusalpha.GbaEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb, zip]
+
+  - name: My Boy! Free
+    app: com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity
+    game: path
+    files: [agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb]
+
+  - name: My Boy!
+    app: com.fastemulator.gba/.EmulatorActivity
+    game: uri
+    files: [agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb]
+
+  - name: Linkboy
+    app: com.pixelrespawn.linkboy/.EmulatorActivity
+    game: uri
+    files: [gba, zip]
+
+  - retroarch: [mgba, vba_next, vbam, mednafen_gba, meteor, gpsp]
+    builds: [ra64]
+  - retroarch: [vba_next, vbam, mgba, mednafen_gba, meteor, gpsp]
+    builds: [ra32]
+  - retroarch: [vba_next, vbam, mgba, mednafen_gba, gpsp, meteor]
+    builds: [ra]
+
+  - name: GBADuo
+    app: com.khumam.gbaduo/.library.LaunchActivity
+    game: uri
+    files: [gba, zip]
+
+  - name: PokeDaisy
+    app: com.pokedaisy.app/.LaunchActivity
+    game: uri
+    files: [gba, zip, 7z]
+
+  - name: GBA DS
+    app: io.github.kyannon.gbads/.LauncherActivity
+    game: uri
+    files: [gba, zip, 7z]
+    flags: [clear-task, clear-top]

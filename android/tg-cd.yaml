@@ -1,0 +1,27 @@
+name: TurboGrafx-CD
+was: [tgcd]
+idPrefix: tgcd
+
+cocoon:
+  icon: pcengine_cd
+  folder: breeze
+
+scrape:
+  screenscraper: 114
+  igdb: 150
+  launchbox: NEC TurboGrafx-CD
+  retroachievements: 76
+  libretro: NEC - PC Engine CD - TurboGrafx-CD
+  thegamesdb: 4955
+
+retroarch:
+  mednafen_pce_fast: { files: [ccd, chd, cue, m3u, pce, toc] }
+
+players:
+  - name: com.PceEmu
+    app: com.PceEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [ccd, chd, cue, m3u, pce, sgx, toc]
+
+  - retroarch: [mednafen_pce_fast, mednafen_pce]

@@ -1,0 +1,17 @@
+name: Sega Genesis - MSU
+
+cocoon:
+  icon: genesis
+  folder: slate
+
+scrape:
+  retroachievements: 1
+  libretro: Sega - Mega Drive - Genesis
+  thegamesdb: 18
+
+retroarch:
+  genesis_plus_gx: { files: [md, zip, 7z] }
+  genesis_plus_gx_wide: { files: [md, zip, 7z] }
+
+players:
+  - retroarch: [genesis_plus_gx, genesis_plus_gx_wide]

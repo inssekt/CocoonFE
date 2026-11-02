@@ -1,0 +1,21 @@
+name: NeoGeo Pocket Color
+
+cocoon:
+  icon: neogeo_pocket_color
+  folder: mint
+
+scrape:
+  screenscraper: 82
+  igdb: 120
+  launchbox: SNK Neo Geo Pocket Color
+  libretro: SNK - Neo Geo Pocket Color
+  thegamesdb: 4923
+
+players:
+  - name: NGP.EMU
+    app: com.explusalpha.NgpEmu/com.imagine.BaseActivity
+    action: none
+    game: path
+    files: [zip, ngp, ngc, 7z]
+
+  - retroarch: [mednafen_ngp, race]

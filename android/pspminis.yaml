@@ -1,0 +1,40 @@
+name: PlayStation Portable Minis
+
+cocoon:
+  icon: psp
+  folder: slate
+
+scrape:
+  libretro: Sony - PlayStation Portable
+  thegamesdb: 13
+
+players:
+  - name: PPSSPP
+    app: org.ppsspp.ppsspp/.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP Gold
+    app: org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP Legacy
+    app: org.ppsspp.ppsspplegacy/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - name: PPSSPP Duo
+    app: org.ppsspp.ppssppduo/org.ppsspp.ppsspp.PpssppActivity
+    category: default
+    game: uri
+    type: application/octet-stream
+    files: [cso, chd, elf, iso, pbp, prx]
+
+  - retroarch: ppsspp

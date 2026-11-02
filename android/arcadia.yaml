@@ -1,0 +1,18 @@
+name: Arcadia 2001
+
+cocoon:
+  icon: arcade
+  folder: wisteria
+
+scrape:
+  retroachievements: 73
+
+players:
+  - name: DroidArcadia
+    app: com.amigan.droidarcadia/.MainActivity
+    game: uri
+    type: application/zip
+    files: [zip]
+    flags: [clear-task, clear-top]
+
+  - retroarch: mamemess

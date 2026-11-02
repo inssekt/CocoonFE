@@ -1,0 +1,55 @@
+name: Sony PlayStation 2
+
+cocoon:
+  icon: ps2
+  folder: wisteria
+
+scrape:
+  screenscraper: 58
+  igdb: 8
+  launchbox: Sony Playstation 2
+  retroachievements: 21
+  libretro: Sony - PlayStation 2
+  thegamesdb: 11
+
+players:
+  - name: AetherSX2
+    app: xyz.aethersx2.android/.EmulationActivity
+    action: main
+    game: { extra: bootPath, as: uri }
+    files: [iso, chd, gz, mdf, bin, cso, ciso]
+    flags: [clear-task, clear-top]
+
+  - name: ARMSX2 (Refresh)
+    app: com.armsx2/.MainActivity
+    game: uri
+    files: [iso, chd, gz, mdf, bin, ciso, img, cso]
+    flags: [grant-read, clear-task, clear-top]
+
+  - name: ARMSX2 (Nightly)
+    app: com.armsx2.nightly/com.armsx2.MainActivity
+    game: uri
+    files: [iso, chd, gz, mdf, bin, ciso, img, cso]
+    flags: [clear-task, clear-top]
+
+  - name: NetherSX2 Turnip
+    app: xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity
+    action: main
+    game: { extra: bootPath, as: uri }
+    files: [iso, chd, gz, mdf, bin, cso, ciso]
+    flags: [clear-task, clear-top]
+
+  - name: ARMSX2 (Playstore)
+    app: come.nanodata.armsx2/com.armsx2.MainActivity
+    game: uri
+    files: [iso, chd, gz, mdf, bin, cso, ciso]
+    flags: [clear-task, clear-top]
+
+  - name: AetherSX2 Turnip
+    app: xyz.aethersx2.custom/.EmulationActivity
+    action: main
+    game: { extra: bootPath, as: uri }
+    files: [iso, chd, gz, mdf, bin, cso, ciso]
+    flags: [clear-task, clear-top]
+
+  - retroarch: play

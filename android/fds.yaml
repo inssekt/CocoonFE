@@ -1,0 +1,26 @@
+name: Famicom Disk System
+
+cocoon:
+  icon: fds
+  folder: coral
+
+scrape:
+  screenscraper: 106
+  igdb: 99
+  launchbox: Nintendo Famicom Disk System
+  retroachievements: 7
+  libretro: Nintendo - Family Computer Disk System
+  thegamesdb: 4936
+
+players:
+  - name: NES.emu
+    app: com.explusalpha.NesEmu/com.imagine.BaseActivity
+    game: uri
+    files: [bin, fds, nes, nsf, qd, rom, unf, unif]
+
+  - name: Nesoid
+    app: com.androidemu.nes/.EmulatorActivity
+    game: path
+    files: [bin, fds, nes, nsf, qd, rom, unf, unif]
+
+  - retroarch: [nestopia, fceumm, mesen]

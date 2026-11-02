@@ -1,0 +1,21 @@
+name: Moonlight Streaming
+
+cocoon:
+  icon: streaming
+  folder: wisteria
+
+scrape:
+  thegamesdb: 1
+
+players:
+  - name: Artemis
+    app: com.limelight.noir/com.limelight.ShortcutTrampoline
+    game: uri
+    files: [art]
+
+  - name: Moonlight
+    app: com.limelight/.ShortcutTrampoline
+    files: [moonlight]
+    extras:
+      UUID: "{tags.moonlight_uuid}"
+      AppId: "{tags.moonlight_id}"

@@ -1,0 +1,38 @@
+name: Book Reader
+
+cocoon:
+  icon: streaming
+  folder: orchid
+
+players:
+  - name: Librera Reader
+    app: com.foobnix.pdf.reader/com.foobnix.OpenerActivity
+    action: none
+    game: path
+    files: [azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, txt]
+
+  - name: Librera Reader Pro
+    app: com.foobnix.pro.pdf.reader/com.foobnix.OpenerActivity
+    action: none
+    game: path
+    files: [azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, txt]
+
+  - name: ReadEra
+    app: org.readera/.read.ReadActivity
+    action: none
+    game: uri
+    files: [azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, txt]
+
+  - name: Book Reader
+    app: com.github.axet.bookreader/.activities.MainActivity
+    category: default
+    game: uri
+    type: "{file.mime}"
+    files: [azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, txt]
+
+  - name: KOReader
+    app: org.koreader.launcher/.MainActivity
+    category: default
+    game: uri
+    type: "{file.mime}"
+    files: [azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, txt]

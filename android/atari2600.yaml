@@ -1,0 +1,27 @@
+name: Atari 2600
+
+cocoon:
+  icon: atari_2600
+  folder: dawn
+
+scrape:
+  screenscraper: 26
+  igdb: 59
+  launchbox: Atari 2600
+  retroachievements: 25
+  libretro: Atari - 2600
+  thegamesdb: 22
+
+players:
+  - name: com.explusalpha.A2600Emu
+    app: com.explusalpha.A2600Emu/com.imagine.BaseActivity
+    game: path
+    files: [a26, bin]
+
+  - name: com.androidemu.atari
+    app: com.androidemu.atari/.EmulatorActivity
+    game: path
+    files: [a26, bin]
+    flags: [clear-task, clear-top]
+
+  - retroarch: [stella, stella2014, stella2023]

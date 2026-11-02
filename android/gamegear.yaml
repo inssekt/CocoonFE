@@ -1,0 +1,34 @@
+name: Sega Game Gear
+
+cocoon:
+  icon: gamegear
+  folder: obsidian
+
+scrape:
+  screenscraper: 21
+  igdb: 35
+  launchbox: Sega Game Gear
+  retroachievements: 15
+  libretro: Sega - Game Gear
+  thegamesdb: 20
+
+players:
+  - name: Gearoid
+    app: com.androidemu.gg/.EmulatorActivity
+    game: path
+    files: [bin, bms, col, gg, rom, sg, sms]
+    flags: [clear-task, clear-top]
+
+  - name: MasterGear
+    app: com.fms.mg/com.fms.emulib.MainActivity
+    game: uri
+    files: [gg, sms]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: Pizza Boy SC Pro
+    app: it.dbtecno.pizzaboyscpro/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [gg, zip]
+    flags: [clear-task, clear-top]
+
+  - retroarch: [genesis_plus_gx, genesis_plus_gx_wide, smsplus, picodrive, gearsystem]

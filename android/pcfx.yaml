@@ -1,0 +1,16 @@
+name: NEC PC-FX
+
+cocoon:
+  icon: px_fx
+  folder: breeze
+
+scrape:
+  screenscraper: 72
+  igdb: 274
+  launchbox: NEC PC-FX
+  retroachievements: 49
+  libretro: NEC - PC-FX
+  thegamesdb: 4930
+
+players:
+  - retroarch: mednafen_pcfx

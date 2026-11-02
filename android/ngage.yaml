@@ -1,0 +1,16 @@
+name: Nokia N-Gage
+
+cocoon:
+  icon: j2me
+  folder: orchid
+
+scrape:
+  retroachievements: 61
+  thegamesdb: 4938
+
+players:
+  - name: eka2l1
+    app: com.github.eka2l1/.emu.EmulatorActivity
+    game: uri
+    files: [json]
+    flags: [clear-task, clear-top]

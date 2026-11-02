@@ -1,0 +1,12 @@
+name: TIC-80
+
+cocoon:
+  icon: pico_8
+  folder: orchid
+
+scrape:
+  retroachievements: 65
+  libretro: TIC-80
+
+players:
+  - retroarch: tic80

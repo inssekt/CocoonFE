@@ -1,0 +1,33 @@
+name: Sega Naomi
+ignore: [bin, chd]
+
+cocoon:
+  icon: arcade
+  folder: dawn
+
+scrape:
+  screenscraper: 56
+  igdb: 52
+  launchbox: Arcade
+  arcade: arcade
+  retroachievements: 27
+  libretro: Sega - Naomi
+  thegamesdb: 16
+  arcadeitalia: MAME
+
+retroarch:
+  flycast: { files: [7z, lst, zip, dat] }
+
+players:
+  - name: Flycast
+    app: com.flycast.emulator/.MainActivity
+    game: uri
+    files: [7z, lst, zip, dat]
+
+  - name: Flycast (Dev Build)
+    id: naomi.com.flycast.emulator.dev
+    app: com.flycast.emulator/.MainActivity
+    game: path
+    files: [7z, lst, zip, dat]
+
+  - retroarch: flycast

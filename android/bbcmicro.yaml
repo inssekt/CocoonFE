@@ -1,0 +1,11 @@
+name: Acorn Computers BBC Micro
+
+cocoon:
+  icon: pc
+  folder: dawn
+
+scrape:
+  thegamesdb: 5013
+
+players:
+  - retroarch: b2

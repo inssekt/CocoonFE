@@ -1,0 +1,16 @@
+name: Atari ST
+
+cocoon:
+  icon: atari_st
+  folder: slate
+
+scrape:
+  screenscraper: 42
+  igdb: 63
+  launchbox: Atari ST
+  retroachievements: 36
+  libretro: Atari - ST
+  thegamesdb: 4937
+
+players:
+  - retroarch: hatari

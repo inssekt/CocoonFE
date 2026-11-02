@@ -1,0 +1,45 @@
+name: Microsoft - XBox 360
+
+cocoon:
+  icon: xbox
+  folder: mint
+
+scrape:
+  libretro: Microsoft - Xbox 360
+  thegamesdb: 15
+
+players:
+  - name: Xendroid
+    id: xbox360.xendroid.composee
+    app: xendroid.compose/.EmulatorHostActivity
+    game: { extra: game_uri, as: uri }
+    files: [iso, zar]
+
+  - name: Xendroid+
+    id: xbox360.xendroid.plus.fork
+    app: xendroid.compose.fork/xendroid.compose.EmulatorHostActivity
+    game: { extra: game_uri, as: uri }
+    files: [iso, zar]
+
+  - name: X360 Mobile (New)
+    app: emu.x360mobile.com/.MainActivity
+    game: uri
+    files: [iso, xiso, xex, zar, bin, god, xbla]
+
+  - name: X360 Mobile
+    app: emu.x360.mobile/.X360MobileGameLaunchActivity
+    action: none
+    game: uri
+    files: [iso, xex]
+
+  - name: ax360e
+    app: aenu.ax360e/.EmulatorActivity
+    action: aenu.intent.action.AX360E
+    game: { extra: game_uri, as: uri }
+    files: [iso, xbla]
+
+  - name: ax360e (Free)
+    app: aenu.ax360e.free/aenu.ax360e.EmulatorActivity
+    action: aenu.intent.action.AX360E
+    game: { extra: game_uri, as: uri }
+    files: [iso, xbla]

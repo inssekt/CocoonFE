@@ -1,0 +1,14 @@
+name: Philips CD-i
+was: [cdi]
+idPrefix: cdi
+
+cocoon:
+  icon: arcade
+  folder: orchid
+
+scrape:
+  retroachievements: 42
+  thegamesdb: 4917
+
+players:
+  - retroarch: same_cdi

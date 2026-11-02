@@ -1,0 +1,16 @@
+name: Commodore Amiga
+
+cocoon:
+  icon: amiga
+  folder: dawn
+
+scrape:
+  screenscraper: 64
+  igdb: 16
+  launchbox: Commodore Amiga
+  retroachievements: 35
+  libretro: Commodore - Amiga
+  thegamesdb: 4911
+
+players:
+  - retroarch: [puae, puae2021]

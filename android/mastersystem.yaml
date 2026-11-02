@@ -1,0 +1,30 @@
+name: Sega Master System
+was: [master]
+idPrefix: master
+
+cocoon:
+  icon: sg_1000
+  folder: obsidian
+
+scrape:
+  screenscraper: 2
+  igdb: 64
+  launchbox: Sega Master System
+  retroachievements: 11
+  libretro: Sega - Master System - Mark III
+  thegamesdb: 35
+
+players:
+  - name: MD.emu
+    app: com.explusalpha.MdEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms]
+
+  - name: Pizza Boy SC Pro
+    app: it.dbtecno.pizzaboyscpro/.MainActivity
+    game: { extra: rom_uri }
+    files: [sms, zip]
+    flags: [clear-task, clear-top]
+
+  - retroarch: [genesis_plus_gx, genesis_plus_gx_wide, smsplus, picodrive, gearsystem]

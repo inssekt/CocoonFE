@@ -1,0 +1,35 @@
+name: Sega Genesis
+
+cocoon:
+  icon: genesis
+  folder: obsidian
+
+scrape:
+  screenscraper: 1
+  igdb: 29
+  launchbox: [Sega Genesis, Sega Mega Drive]
+  retroachievements: 1
+  libretro: Sega - Mega Drive - Genesis
+  thegamesdb: 18
+
+players:
+  - name: MD.emu
+    app: com.explusalpha.MdEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms]
+
+  - name: Pizza Boy SC Pro
+    app: it.dbtecno.pizzaboyscpro/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [md, zip]
+    flags: [clear-task, clear-top]
+
+  - name: Gensoid
+    app: com.androidemu.gens/.EmulatorActivity
+    game: path
+    files: [32x, 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms]
+
+  - retroarch: genesis_plus_gx
+  - retroarch: genesis_plus_gx_wide
+  - retroarch: picodrive

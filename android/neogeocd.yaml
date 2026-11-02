@@ -1,0 +1,20 @@
+name: Neo Geo CD
+
+cocoon:
+  icon: neogeo_cd
+  folder: sunflower
+
+scrape:
+  screenscraper: 70
+  igdb: 136
+  launchbox: SNK Neo Geo CD
+  retroachievements: 56
+  libretro: [SNK - Neo Geo CD, FBNeo - Arcade Games, MAME]
+  thegamesdb: 4956
+  arcadeitalia: MAME
+
+retroarch:
+  fbneo: { files: [cue] }
+
+players:
+  - retroarch: [neocd, fbneo]

@@ -1,0 +1,67 @@
+name: Publish platforms
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-platforms
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Get the published catalogue
+        run: |
+          mkdir -p published
+          if git fetch origin catalogue:refs/remotes/origin/catalogue; then
+            git show origin/catalogue:android.json > published/android.json
+            git show origin/catalogue:manifest.json > published/manifest.json
+          fi
+
+      - name: Check
+        run: |
+          previous=()
+          if [ -f published/android.json ]; then previous=(--previous published/android.json); fi
+          python3 tools/check.py "${previous[@]}" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Build
+        run: python3 tools/build.py --out dist --previous published
+
+      - name: Publish
+        run: |
+          if cmp -s dist/android.json published/android.json; then
+            echo "Nothing new to publish." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          version=$(python3 -c "import json; print(json.load(open('dist/manifest.json'))['version'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f published/android.json ]; then
+            git worktree add -B catalogue publish origin/catalogue
+          else
+            git worktree add --detach publish
+            git -C publish checkout -q --orphan catalogue
+            git -C publish rm -rfq .
+          fi
+          cp dist/android.json dist/manifest.json publish/
+          git -C publish add android.json manifest.json
+          git -C publish commit -qm "Platforms $version"
+          git -C publish push origin catalogue
+          echo "Published version $version." | tee -a "$GITHUB_STEP_SUMMARY"

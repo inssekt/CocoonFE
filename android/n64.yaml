@@ -1,0 +1,47 @@
+name: Nintendo 64
+
+cocoon:
+  icon: n64
+  folder: wisteria
+
+scrape:
+  screenscraper: 14
+  igdb: 4
+  launchbox: Nintendo 64
+  retroachievements: 2
+  libretro: Nintendo - Nintendo 64
+  thegamesdb: 3
+
+players:
+  - name: Mupen64Plus
+    app: org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity
+    game: uri
+    files: [bin, n64, ndd, u1, v64, z64]
+
+  - name: Mupen64Plus (Alpha)
+    app: org.mupen64plusae.v3.alpha/paulscode.android.mupen64plusae.SplashActivity
+    game: uri
+    files: [bin, n64, ndd, u1, v64, z64, zip, 7z]
+
+  - name: Mupen64Plus FZ Edition
+    app: org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity
+    game: uri
+    files: [bin, n64, ndd, u1, v64, z64, zip, 7z]
+
+  - name: Mupen64Plus-AE
+    app: paulscode.android.mupen64plusae/.MainActivity
+    game: path
+    files: [bin, n64, ndd, u1, v64, z64]
+
+  - name: Gopher64
+    app: io.github.gopher64.gopher64/.SlintActivity
+    game: uri
+    files: [n64, v64, z64, zip, 7z]
+
+  - name: Mupen64Plus (Joey's Fork)
+    id: n64.paulscode.android.mupen64plusae.joeysfork
+    app: org.mupen64plusae.v3.alpha.debug/paulscode.android.mupen64plusae.SplashActivity
+    game: uri
+    files: [bin, n64, ndd, u1, v64, z64, zip, 7z]
+
+  - retroarch: [mupen64plus_next_gles3, mupen64plus_next_gles2, parallel_n64]

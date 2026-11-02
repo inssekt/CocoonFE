@@ -1,0 +1,13 @@
+name: VIC-20
+
+cocoon:
+  icon: comodore64
+  folder: orchid
+
+scrape:
+  retroachievements: 34
+  libretro: Commodore - VIC-20
+  thegamesdb: 4945
+
+players:
+  - retroarch: vice_xvic

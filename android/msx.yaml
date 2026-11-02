@@ -1,0 +1,26 @@
+name: MSX
+
+cocoon:
+  icon: pc
+  folder: breeze
+
+scrape:
+  screenscraper: 113
+  igdb: 27
+  launchbox: Microsoft MSX
+  retroachievements: 29
+  libretro: [Microsoft - MSX, Microsoft - MSX2]
+  thegamesdb: 4929
+
+retroarch:
+  fmsx: { launch: basic }
+  bluemsx: { launch: basic }
+
+players:
+  - name: com.explusalpha.MsxEmu
+    app: com.explusalpha.MsxEmu/com.imagine.BaseActivity
+    game: path
+    type: application/zip
+    files: [cas, col, dsk, fdi, m3u, mx1, mx2, ri, rom, sc, sg]
+
+  - retroarch: [fmsx, bluemsx]

@@ -1,0 +1,21 @@
+name: Virtual Boy
+
+cocoon:
+  icon: virtual_boy
+  folder: coral
+
+scrape:
+  screenscraper: 11
+  igdb: 87
+  launchbox: Nintendo Virtual Boy
+  retroachievements: 28
+  libretro: Nintendo - Virtual Boy
+  thegamesdb: 4918
+
+players:
+  - name: vvs
+    app: com.simongellis.vvb/.MainActivity
+    game: uri
+    files: [vb, zip]
+
+  - retroarch: mednafen_vb

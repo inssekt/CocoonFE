@@ -1,0 +1,29 @@
+name: Neo Geo
+
+cocoon:
+  icon: neogeo
+  folder: sunflower
+
+scrape:
+  screenscraper: 142
+  igdb: 80
+  launchbox: [SNK Neo Geo AES, SNK Neo Geo MVS, Arcade]
+  arcade: arcade
+  retroachievements: 27
+  libretro: [SNK - Neo Geo, FBNeo - Arcade Games, MAME]
+  thegamesdb: 24
+  arcadeitalia: MAME
+
+retroarch:
+  fbneo: { files: [zip, 7z] }
+  fbalpha2012: { name: fbalpha 2012, files: [iso, zip, 7z] }
+
+players:
+  - name: NEO.EMU
+    app: com.explusalpha.NeoEmu/com.imagine.BaseActivity
+    action: none
+    game: path
+    type: application/zip
+    files: [zip, 7z]
+
+  - retroarch: [fbneo, fbalpha2012, geolith]

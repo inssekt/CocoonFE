@@ -1,0 +1,12 @@
+name: Uzebox
+
+cocoon:
+  icon: arduboy
+  folder: mint
+
+scrape:
+  retroachievements: 80
+  libretro: Uzebox
+
+players:
+  - retroarch: uzem

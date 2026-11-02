@@ -1,0 +1,22 @@
+name: Arcade (FinalBurn Neo)
+
+cocoon:
+  icon: arcade
+  folder: dawn
+
+scrape:
+  screenscraper: 75
+  igdb: 52
+  launchbox: Arcade
+  arcade: arcade
+  retroachievements: 27
+  libretro: FBNeo - Arcade Games
+  arcadeitalia: MAME
+
+retroarch:
+  fbneo: { files: [7z, ccd, cue, zip] }
+  fbalpha2012: { name: fbalpha 2012, files: [iso, zip, 7z] }
+
+players:
+  - retroarch: fbneo
+  - retroarch: fbalpha2012

@@ -1,0 +1,131 @@
+name: Nintendo Switch
+
+cocoon:
+  icon: switch
+  folder: coral
+
+scrape:
+  screenscraper: 225
+  igdb: 130
+  launchbox: Nintendo Switch
+  thegamesdb: 4971
+
+players:
+  - name: Eden
+    app: dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Eden Nightly
+    app: dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Citron
+    app: org.citron.citron_emu/.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Eden (Optimized)
+    id: switch.dev.eden.eden_emulator_legacy
+    app: com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Eden Duo
+    app: dev.igawa6.edenduo/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Eden Nightly (Optimized)
+    id: switch.com.mihoyo.yuanshen.nightly
+    app: com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Eden (Legacy)
+    app: dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Eden Nightly (Legacy)
+    app: dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+    resumes: no
+
+  - name: Kenji-NX
+    app: org.kenjinx.android/.MainActivity
+    action: org.kenjinx.android.LAUNCH_GAME
+    game: { extra: bootPath, as: uri }
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Yuzu (Early Access)
+    app: org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Yuzu
+    app: org.yuzu.yuzu_emu/.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Suyu
+    app: dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Sudachi (Mainline)
+    app: org.sudachi.sudachi_emu/.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Skyline
+    app: skyline.emu/emu.skyline.EmulationActivity
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Strato (Official)
+    app: org.stratoemu.strato/.EmulationActivity
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Benji-SC
+    app: org.benjisc.android/org.kenjinx.android.MainActivity
+    action: org.kenjinx.android.LAUNCH_GAME
+    game: { extra: bootPath, as: uri }
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Sudachi (Early Access)
+    app: org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Eden Duo Dev
+    app: dev.igawa6.edenduo.dev/org.yuzu.yuzu_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp]
+
+  - name: Lemon
+    app: dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity
+    action: android.nfc.action.TECH_DISCOVERED
+    game: uri
+    files: [nro, nso, nca, xci, nsp, xcz, nsz]

@@ -1,0 +1,12 @@
+name: WASM-4
+
+cocoon:
+  icon: pico_8
+  folder: coral
+
+scrape:
+  retroachievements: 72
+  libretro: WASM-4
+
+players:
+  - retroarch: wasm4

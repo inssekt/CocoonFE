@@ -1,0 +1,39 @@
+name: Atomiswave
+ignore: [bin]
+
+cocoon:
+  icon: arcade
+  folder: dawn
+
+scrape:
+  screenscraper: 53
+  igdb: 52
+  launchbox: Arcade
+  arcade: arcade
+  libretro: [Atomiswave, Sega - Dreamcast]
+  thegamesdb: 16
+  arcadeitalia: MAME
+
+players:
+  - name: io.recompiled.redream
+    app: io.recompiled.redream/.MainActivity
+    game: uri
+    files: [7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip]
+
+  - name: com.reicast.emulator
+    app: com.reicast.emulator/.MainActivity
+    game: path
+    files: [7z, chd, dat, lst, zip]
+
+  - name: com.flycast.emulator
+    app: com.flycast.emulator/.MainActivity
+    game: uri
+    files: [7z, chd, dat, lst, zip]
+
+  - name: com.flycast.emulator (dev build)
+    id: atomiswave.com.flycast.emulator.dev
+    app: com.flycast.emulator/.MainActivity
+    game: path
+    files: [7z, chd, dat, lst, zip]
+
+  - retroarch: flycast

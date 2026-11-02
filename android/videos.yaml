@@ -1,0 +1,32 @@
+name: Video Player
+
+cocoon:
+  icon: streaming
+  folder: coral
+
+players:
+  - name: VLC for Android
+    app: org.videolan.vlc/.gui.video.VideoPlayerActivity
+    game: path
+    files: [mp4, avi, mpg, mpeg, mov, mkv, webm, m4a]
+    flags: [clear-task, clear-top]
+
+  - name: mpv-android
+    app: is.xyz.mpv/.MPVActivity
+    game: uri
+    files: [mp4, avi, mpg, mpeg, mov, mkv, webm, m4a]
+    flags: [clear-task, clear-top]
+
+  - name: MXPlayer (Ad-sipported)
+    app: com.mxtech.videoplayer.ad/.ActivityScreen
+    game: path
+    files: [mp4, avi, mpg, mpeg, mov, mkv, webm, m4a]
+    flags: [clear-task, clear-top]
+
+  - name: MXPlayer Pro
+    app: com.mxtech.videoplayer.pro/.ActivityScreen
+    game: path
+    files: [mp4, avi, mpg, mpeg, mov, mkv, webm, m4a]
+    flags: [clear-task, clear-top]
+
+  - retroarch: ffmpeg

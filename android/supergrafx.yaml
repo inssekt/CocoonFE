@@ -1,0 +1,19 @@
+name: SuperGrafx
+
+cocoon:
+  icon: pcengine
+  folder: breeze
+
+scrape:
+  screenscraper: 105
+  igdb: 128
+  launchbox: NEC SuperGrafx
+  libretro: NEC - PC Engine SuperGrafx
+
+players:
+  - name: com.PceEmu
+    app: com.PceEmu/com.imagine.BaseActivity
+    game: uri
+    files: [ccd, chd, cue, m3u, pce, sgx, toc]
+
+  - retroarch: [mednafen_pce, mednafen_supergrafx]

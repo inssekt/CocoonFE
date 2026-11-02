@@ -1,0 +1,14 @@
+name: DOOM Game Engine
+
+cocoon:
+  icon: pc
+  folder: dawn
+
+scrape:
+  libretro: DOOM
+
+retroarch:
+  prboom: { launch: basic }
+
+players:
+  - retroarch: prboom

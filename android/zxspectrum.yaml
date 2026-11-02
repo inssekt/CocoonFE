@@ -1,0 +1,16 @@
+name: ZX Spectrum
+
+cocoon:
+  icon: pc
+  folder: obsidian
+
+scrape:
+  screenscraper: 76
+  igdb: 26
+  launchbox: ZX Spectrum
+  retroachievements: 59
+  libretro: Sinclair - ZX Spectrum
+  thegamesdb: 4913
+
+players:
+  - retroarch: fuse

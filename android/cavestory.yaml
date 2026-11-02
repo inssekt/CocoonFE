@@ -1,0 +1,11 @@
+name: Cave Story Game Engine
+
+cocoon:
+  icon: pc
+  folder: coral
+
+scrape:
+  libretro: Cave Story
+
+players:
+  - retroarch: [nxengine, doukutsu_rs]

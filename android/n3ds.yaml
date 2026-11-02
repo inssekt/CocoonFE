@@ -1,0 +1,126 @@
+name: Nintendo 3DS
+was: [3ds]
+idPrefix: 3ds
+
+cocoon:
+  icon: 3ds
+  folder: coral
+
+scrape:
+  screenscraper: 17
+  igdb: 37
+  launchbox: Nintendo 3DS
+  retroachievements: 62
+  libretro: [Nintendo - Nintendo 3DS, Nintendo - Nintendo 3DS (Digital)]
+  thegamesdb: 4912
+
+retroarch:
+  citra2018: { launch: basic }
+  citra_canary: { launch: basic }
+  citra: { launch: basic }
+
+players:
+  - name: Azahar
+    id: 3ds.azahar
+    app: io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity
+    game: uri
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    flags: [clear-task, clear-top]
+    resumes: no
+
+  - name: Azahar (New)
+    id: 3ds.azaharnew
+    app: org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity
+    game: uri
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    flags: [clear-task, clear-top]
+    resumes: no
+
+  - name: Azahar (Debug)
+    id: 3ds.azahar.debug
+    app: org.azahar_emu.azahar.debug/org.citra.citra_emu.activities.EmulationActivity
+    game: uri
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    flags: [clear-task, clear-top]
+    resumes: no
+
+  - name: Borked 3DS
+    app: io.github.borked3ds.android/.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Citra Nightly
+    app: org.citra.citra_emu/.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Citra Canary
+    app: org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Lemonade Alpha
+    app: org.gamerytb.lemonade.canary/org.citra.citra_emu.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Lime 3DS
+    app: io.github.lime3ds.android/.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Mandarine Neo
+    app: io.github.ptyfyre.mandarine.neo/.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, cci, cxi, m3u]
+    flags: [clear-task, clear-top]
+
+  - name: Mandarine
+    app: io.github.mandarine3ds.mandarine/.activities.EmulationActivity
+    game: uri
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Citra (Antutu)
+    app: com.antutu.ABenchMark/org.citra.emu.ui.EmulationActivity
+    action: view
+    game: { extra: GamePath }
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Citra
+    app: org.citra.emu/.ui.EmulationActivity
+    action: view
+    game: { extra: GamePath }
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: Citra (org.citra.citra_emu)
+    id: 3ds.org.citra.citra_emu.path
+    app: org.citra.citra_emu/.ui.EmulationActivity
+    action: view
+    game: { extra: GamePath }
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    flags: [clear-task, clear-top]
+
+  - name: RetroArch (64 bits) - azahar
+    id: 3ds.ra64.azahar
+    app: com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture
+    game: { extra: ROM }
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    extras:
+      LIBRETRO: /data/data/com.retroarch.aarch64/cores/azahar_libretro.so
+      CONFIGFILE: /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg
+      IME: com.android.inputmethod.latin/.LatinIME
+      DATADIR: /data/data/com.retroarch.aarch64
+      APK: /data/app/com.retroarch.aarch64-1/base.apk
+      SDCARD: /storage/emulated/0
+      EXTERNAL: /storage/emulated/0/Android/data/com.retroarch.aarch64/files
+    flags: [clear-task, clear-top]
+
+  - retroarch: [citra2018, citra_canary, citra]

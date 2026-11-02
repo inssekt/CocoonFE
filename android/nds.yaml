@@ -1,0 +1,94 @@
+name: Nintendo DS
+
+cocoon:
+  icon: nds
+  folder: breeze
+
+scrape:
+  screenscraper: 15
+  igdb: 20
+  launchbox: Nintendo DS
+  retroachievements: [18, 78]
+  libretro: [Nintendo - Nintendo DS, Nintendo - Nintendo DSi]
+  thegamesdb: 8
+
+players:
+  - name: MelonDS
+    app: me.magnum.melonds/.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: KH Melon Mix
+    app: com.nireves333.melonmix/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: com.nireves333.melonmix.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: Pizza Boy Double Slice
+    app: com.pizzaemulators.pbds/.MainActivity
+    game: { extra: rom_uri, as: uri }
+    files: [nds, zip, 7z, rar]
+    flags: [clear-task, clear-top]
+
+  - name: WatermelonDS
+    app: me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melondualds.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: seedlessDS
+    app: com.seedlessds.app/.LaunchGame
+    game: { extra: rom_path }
+    files: [nds, srl, ids, zip, 7z]
+
+  - name: Drastic
+    app: com.dsemu.drastic/.DraSticActivity
+    action: none
+    game: uri
+    files: [bin, nds, rar, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: Drastic Legacy
+    id: nds.com.dsemu.drastic.legacy
+    app: com.dsemu.drastic/.DraSticActivity
+    action: view
+    data: file://{file.path}
+    files: [bin, nds, rar, zip, 7z]
+    flags: [clear-task, clear-top]
+
+  - name: MelonDS Nightly
+    app: me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.nightly.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: MelonDS Dev (Dual Screen Fork)
+    app: me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melonds.dev.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: NooDS
+    app: com.hydra.noods/.FileBrowser
+    game: { extra: LaunchPath }
+    files: [nds]
+
+  - name: WatermelonDS Emufii
+    app: me.magnum.melondualds.emufii/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: me.magnum.melondualds.emufii.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - name: WideMelon
+    app: io.github.pruefsumme.widemelon/me.magnum.melonds.ui.emulator.EmulatorActivity
+    action: io.github.pruefsumme.widemelon.LAUNCH_ROM
+    game: { extra: uri, as: uri }
+    files: [nds, zip, 7z]
+
+  - retroarch: [melonds, melondsds, desmume, desmume2015]
+
+  - name: PokeDaisy
+    app: com.pokedaisy.app/.LaunchActivity
+    game: uri
+    files: [nds, zip, 7z]

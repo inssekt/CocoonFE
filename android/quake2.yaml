@@ -1,0 +1,17 @@
+name: Quake II Game Engine
+
+cocoon:
+  icon: pc
+  folder: mint
+
+scrape:
+  libretro: Quake II
+
+retroarch:
+  vitaquake2: { launch: basic }
+  vitaquake2-rogue: { launch: basic }
+  vitaquake2-xatrix: { launch: basic }
+  vitaquake2-zaero: { launch: basic }
+
+players:
+  - retroarch: [vitaquake2, vitaquake2-rogue, vitaquake2-xatrix, vitaquake2-zaero]

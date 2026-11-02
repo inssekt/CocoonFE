@@ -1,0 +1,22 @@
+name: Game & Watch
+was: [gw]
+idPrefix: gw
+
+cocoon:
+  icon: game_and_watch
+  folder: sunflower
+
+scrape:
+  screenscraper: 52
+  igdb: 307
+  launchbox: Nintendo Game & Watch
+  retroachievements: 60
+  libretro: MAME
+  thegamesdb: 4950
+  arcadeitalia: MAME
+
+retroarch:
+  mamemess: { id: mamemess, files: [zip, 7z] }
+
+players:
+  - retroarch: [gw, mamemess]

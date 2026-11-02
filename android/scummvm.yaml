@@ -1,0 +1,26 @@
+name: ScummVM
+
+cocoon:
+  icon: scummvm
+  folder: slate
+
+scrape:
+  launchbox: ScummVM
+  libretro: ScummVM
+
+players:
+  - name: ScummVM
+    app: org.scummvm.scummvm/.SplashActivity
+    action: main
+    category: launcher
+    data: "{tags.scummvm_id}"
+    files: [dpt]
+
+  - name: ScummVM (Debug Build)
+    app: org.scummvm.scummvm.debug/org.scummvm.scummvm.SplashActivity
+    action: main
+    category: launcher
+    data: "{tags.scummvm_id}"
+    files: [dpt]
+
+  - retroarch: scummvm

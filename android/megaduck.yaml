@@ -1,0 +1,12 @@
+name: Mega Duck
+
+cocoon:
+  icon: megaduck
+  folder: stormy
+
+scrape:
+  retroachievements: 69
+  thegamesdb: 4948
+
+players:
+  - retroarch: sameduck

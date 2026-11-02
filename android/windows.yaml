@@ -1,0 +1,192 @@
+name: Windows
+folders: [pc, steam]
+
+cocoon:
+  icon: windows
+  folder: breeze
+
+scrape:
+  igdb: 6
+  launchbox: Windows
+  thegamesdb: 1
+
+storefronts:
+  defaultPlayerCategories:
+    - id: steam
+      title: Steam default app
+      subtitle: Used for .steam and .steamappid files
+      sourceIds: [steam]
+    - id: local
+      title: Local default app
+      subtitle: Used for .pcgame and legacy local ID files
+      sourceIds: [local]
+  sources:
+    - id: steam
+      extensions: [steam, steamappid]
+      legacyTags: [steamappid]
+      gameSource: STEAM
+      defaultPlayerCategory: steam
+    - id: local
+      extensions: [pcgame, localappid, localgameid]
+      legacyTags: [localappid, localgameid]
+      gameSource: CUSTOM_GAME
+      defaultPlayerCategory: local
+    - id: gog
+      extensions: [gog]
+      gameSource: GOG
+    - id: epic
+      extensions: [epic]
+      gameSource: EPIC
+    - id: amazon
+      extensions: [amazon]
+      gameSource: AMAZON
+
+players:
+  - name: GameNative
+    app: app.gamenative/.MainActivity
+    action: app.gamenative.LAUNCH_GAME
+    files: [steam, steamappid, pcgame, localappid, localgameid, gog, epic, amazon]
+    extras:
+      app_id: { int: "{tags.app_id}" }
+      game_source: "{tags.game_source}"
+    resumes: no
+
+  - name: DroidDeck
+    app: com.droiddeck.launcher/.FrontEndActivity
+    game: uri
+    files: [steam]
+
+  - name: DroidDeck (PUBG)
+    id: windows.com.droiddeck.launcher.pubg
+    app: com.tencent.ig/com.droiddeck.launcher.FrontEndActivity
+    game: uri
+    files: [steam]
+
+  - name: DroidDeck (Antutu)
+    id: windows.com.droiddeck.launcher.antutu
+    app: com.antutu.benchmark.full/com.droiddeck.launcher.FrontEndActivity
+    game: uri
+    files: [steam]
+
+  - name: DroidDeck (Ludashi)
+    id: windows.com.droiddeck.launcher.ludashi
+    app: com.ludashi.benchmark/com.droiddeck.launcher.FrontEndActivity
+    game: uri
+    files: [steam]
+
+  - name: GameHub Lite (Steam)
+    id: windows.gamehub.lite.steam
+    app: gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [steamappid, steam]
+    extras:
+      steamAppId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite RC (Steam)
+    id: windows.gamehub.lite.rc.steam
+    app: emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: emuready.gamehub.lite.LAUNCH_GAME
+    files: [steamappid, steam]
+    extras:
+      steamAppId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Steam - Antutu)
+    id: windows.gamehub.lite.steam.antutu
+    app: com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [steamappid, steam]
+    extras:
+      steamAppId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Steam - PUBG)
+    id: windows.gamehub.lite.steam.pubg
+    app: com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [steamappid, steam]
+    extras:
+      steamAppId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Steam - Ludashi)
+    id: windows.gamehub.lite.steam.ludashi
+    app: com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [steamappid, steam]
+    extras:
+      steamAppId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Local Games)
+    id: windows.gamehub.lite.local
+    app: gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [localgameid, localappid, pcgame]
+    extras:
+      localGameId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Local Games - Antutu)
+    id: windows.gamehub.lite.local.antutu
+    app: com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [localgameid, localappid, pcgame]
+    extras:
+      localGameId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Local Games - PUBG)
+    id: windows.gamehub.lite.local.pubg
+    app: com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [localgameid, localappid, pcgame]
+    extras:
+      localGameId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: GameHub Lite (Local Games - Ludashi)
+    id: windows.gamehub.lite.ludashi
+    app: com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity
+    action: gamehub.lite.LAUNCH_GAME
+    files: [localgameid, localappid, pcgame]
+    extras:
+      localGameId: "{tags.app_id}"
+      autoStartGame: { bool: true }
+
+  - name: Winlator CMod
+    id: windows.winlator.cmod
+    app: com.winlator.cmod/.XServerDisplayActivity
+    game: { extra: shortcut_path }
+    files: [desktop]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: Winlator CMod Proot
+    id: windows.winlator.cmodproot
+    app: com.cmodded.winlator/com.winlator.XServerDisplayActivity
+    game: { extra: shortcut_path }
+    files: [desktop]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: Winlator Cmod (Old)
+    id: windows.winlator.cmod.old
+    app: com.winlator/.XServerDisplayActivity
+    game: { extra: shortcut_path }
+    files: [desktop]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: MiceWine
+    id: windows.micewine.emu
+    app: com.micewine.emu/.activities.MainActivity
+    game: { extra: exePath }
+    files: [lnk]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: BannerHub
+    app: banner.hub/com.xiaoji.egggame.DeepLinkActivity
+    action: banner.hub.LAUNCH_GAME
+    files: [localgameid]
+    extras:
+      localGameId: "{tags.localgameid}"
+      autoStartGame: { bool: true }

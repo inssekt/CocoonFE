@@ -1,0 +1,11 @@
+name: Cannonball OutRun Engine
+
+cocoon:
+  icon: arcade
+  folder: breeze
+
+scrape:
+  libretro: Cannonball
+
+players:
+  - retroarch: cannonball

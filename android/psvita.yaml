@@ -1,0 +1,36 @@
+name: Sony PS Vita
+was: [vita]
+idPrefix: psv
+
+cocoon:
+  icon: psvita
+  folder: slate
+
+scrape:
+  screenscraper: 62
+  igdb: 46
+  launchbox: Sony Playstation Vita
+  libretro: Sony - PlayStation Vita
+  thegamesdb: 39
+
+players:
+  - name: Vita3k
+    id: psv.vita3k
+    app: org.vita3k.emulator/.Emulator
+    files: [dpt]
+    extras:
+      AppStartParameters: { list: ["-r", "{tags.vita_game_id}"] }
+
+  - name: Vita3k Plus
+    id: psv.vita3k.plus
+    app: org.vita3kplus.emulator/org.vita3k.emulator.Emulator
+    files: [dpt]
+    extras:
+      AppStartParameters: { list: ["-r", "{tags.vita_game_id}"] }
+
+  - name: Vita3k ZX
+    id: psv.vita3k.zx
+    app: org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator
+    files: [dpt]
+    extras:
+      AppStartParameters: { list: ["-r", "{tags.vita_game_id}"] }

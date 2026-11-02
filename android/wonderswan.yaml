@@ -1,0 +1,24 @@
+name: WonderSwan
+was: [ws]
+idPrefix: ws
+
+cocoon:
+  icon: wonderswan
+  folder: stormy
+
+scrape:
+  screenscraper: 45
+  igdb: 57
+  launchbox: Bandai WonderSwan
+  retroachievements: 53
+  libretro: Bandai - WonderSwan
+  thegamesdb: 4925
+
+players:
+  - name: Swan.emu
+    app: com.explusalpha.SwanEmu/com.imagine.BaseActivity
+    game: uri
+    type: application/zip
+    files: [ws, wsc, pc2, 7z, zip]
+
+  - retroarch: mednafen_wswan

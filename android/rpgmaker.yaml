@@ -1,0 +1,11 @@
+name: RPG Maker
+
+cocoon:
+  icon: pc
+  folder: mint
+
+scrape:
+  libretro: RPG Maker
+
+players:
+  - retroarch: easyrpg

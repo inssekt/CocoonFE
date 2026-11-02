@@ -1,0 +1,53 @@
+name: Sega Saturn
+ignore: [bin]
+
+cocoon:
+  icon: sega_saturn
+  folder: obsidian
+
+scrape:
+  screenscraper: 22
+  igdb: 32
+  launchbox: Sega Saturn
+  retroachievements: 39
+  libretro: Sega - Saturn
+  thegamesdb: 17
+
+players:
+  - name: YabaSanshiro 2 Pro
+    app: org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause
+    action: main
+    game: { extra: org.uoyabause.android.FileNameUri, as: uri }
+    files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: YabaSanshiro 2
+    app: org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause
+    action: view
+    game: { extra: org.uoyabause.android.FileNameUri }
+    files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: Saturn.EMU
+    app: com.explusalpha.SaturnEmu/com.imagine.BaseActivity
+    action: none
+    game: path
+    files: [ccd, chd, cue, m3u, toc]
+
+  - name: YabaSanshiro Pro
+    app: org.uoyabause.android.pro/org.uoyabause.android.Yabause
+    action: view
+    game: { extra: org.uoyabause.android.FileNameEx }
+    files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
+    flags: [clear-task, clear-top, no-history]
+
+  - name: YabaSanshiro
+    app: org.uoyabause.android/.Yabause
+    action: view
+    game: { extra: org.uoyabause.android.FileNameEx }
+    files: [bin, ccd, chd, cue, iso, m3u, mds, toc, zip]
+    flags: [clear-task, clear-top, no-history]
+
+  - retroarch: mednafen_saturn
+  - retroarch: yabasanshiro
+  - retroarch: yabause

@@ -1,0 +1,11 @@
+name: LowRes NX
+
+cocoon:
+  icon: pico_8
+  folder: orchid
+
+scrape:
+  libretro: LowRes NX
+
+players:
+  - retroarch: lowresnx

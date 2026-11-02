@@ -1,0 +1,38 @@
+name: PICO-8
+
+cocoon:
+  icon: pico_8
+  folder: orchid
+
+scrape:
+  launchbox: PICO-8
+
+retroarch:
+  fake08: { launch: basic }
+  retro8: { launch: basic }
+
+players:
+  - name: PICO-8 Android
+    app: io.wip.pico8/com.godot.game.GodotAppLauncher
+    action: none
+    game: uri
+    files: [p8, png]
+
+  - name: PICO-8 Android (NaviVani's Fork)
+    id: pico8.io.navivani.pico8
+    app: io.wip.pico8/com.godot.game.GodotApp
+    action: view
+    game: { extra: GAME }
+    files: [png]
+
+  - name: Pixl8
+    app: be.codedreams.pixl8/.MainActivity
+    game: uri
+    files: [p8, png]
+
+  - name: Infinity P8 Player
+    app: me.dt2dev.infinity/.SchemeActivity
+    game: uri
+    files: [p8, png]
+
+  - retroarch: [fake08, retro8]

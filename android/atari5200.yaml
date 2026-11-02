@@ -1,0 +1,16 @@
+name: Atari 5200
+
+cocoon:
+  icon: atari_5200
+  folder: dawn
+
+scrape:
+  screenscraper: 40
+  igdb: 66
+  launchbox: Atari 5200
+  retroachievements: 50
+  libretro: Atari - 5200
+  thegamesdb: 26
+
+players:
+  - retroarch: [atari800, a5200]

@@ -1,0 +1,8 @@
+name: CHIP-8
+
+cocoon:
+  icon: pico_8
+  folder: breeze
+
+players:
+  - retroarch: jaxe

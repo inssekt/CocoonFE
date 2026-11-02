@@ -1,0 +1,48 @@
+name: Check platforms
+
+on:
+  pull_request:
+    paths:
+      - "android/**"
+      - "tools/**"
+      - ".github/workflows/check-platforms.yml"
+  push:
+    branches: [main]
+    paths:
+      - "android/**"
+      - "tools/**"
+      - ".github/workflows/check-platforms.yml"
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Get the published catalogue
+        run: |
+          mkdir -p published
+          if git fetch --depth=1 origin catalogue:refs/remotes/origin/catalogue; then
+            git show origin/catalogue:android.json > published/android.json
+          fi
+
+      - name: Check
+        run: |
+          previous=()
+          if [ -f published/android.json ]; then previous=(--previous published/android.json); fi
+          python3 tools/check.py "${previous[@]}" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Build
+        run: python3 tools/build.py --out dist

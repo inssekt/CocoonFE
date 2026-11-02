@@ -1,0 +1,11 @@
+name: Arduboy
+
+cocoon:
+  icon: arduboy
+  folder: breeze
+
+scrape:
+  retroachievements: 71
+
+players:
+  - retroarch: [arduous, ardens]
