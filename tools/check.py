@@ -96,6 +96,9 @@ def main():
             for player in platform["players"]:
                 if player["id"] in owner:
                     found.append(f"{platform['id']}: player ID {player['id']} is also used on {owner[player['id']]}")
+                if player["id"].startswith("custom."):
+                    found.append(f"{platform['id']}: player ID {player['id']} starts with custom., which Cocoon keeps "
+                                 f"for players people add themselves")
                 owner.setdefault(player["id"], platform["id"])
         patterns = {p["acceptedFilenameRegex"] for p in catalogue["platforms"]}
         patterns |= {pl["acceptedFilenameRegex"] for p in catalogue["platforms"] for pl in p["players"]
